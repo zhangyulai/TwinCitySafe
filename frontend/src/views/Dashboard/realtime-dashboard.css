@@ -1,0 +1,560 @@
+.realtime-heading-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.realtime-badge,
+.realtime-connection {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  color:#5d718a;
+  white-space: nowrap;
+}
+.realtime-badge {
+  padding: 7px 10px;
+  border:1px solid #e1e7f0;
+  border-radius:4px;
+  background:#f4f7fc;
+}
+.realtime-badge i,
+.realtime-connection i {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  background:currentColor;
+  border-radius:50%;
+}
+.realtime-badge.connected,
+.realtime-connection.connected {
+  color:#147d64;
+}
+.realtime-badge.disconnected,
+.realtime-connection.disconnected {
+  color:#b45332;
+}
+.realtime-heading {
+  position: relative;
+}
+.weather-current {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 19px 0;
+}
+.weather-current > strong {
+  font-size: 31px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.weather-current small {
+  font-size: 13px;
+  color:#5d718a;
+  margin-left: 5px;
+}
+.weather-current > span {
+  font-size: 12px;
+  color:#5d718a;
+}
+.realtime-values {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.realtime-values > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+}
+.realtime-values span {
+  color:#5d718a;
+}
+.realtime-values strong {
+  font-weight: 400;
+  color:#24364e;
+}
+.realtime-values small {
+  font-size: 10px;
+  color:#5d718a;
+}
+.realtime-water-meter {
+  height: 4px;
+  background:#f4f7fc;
+  border-radius:3px;
+  margin-bottom: 12px;
+}
+.realtime-water-meter > span {
+  display: block;
+  height: 100%;
+  background:#f4f7fc;
+  border-radius:3px;
+  transition: width 0.5s;
+}
+.water-caption {
+  color:#5d718a;
+}
+.device-status-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  color:#5d718a;
+  margin: 17px 0;
+}
+.device-status-line strong {
+  font-size: 12px;
+  font-weight: 500;
+  color:#24364e;
+}
+.device-status-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color:var(--device-color, #3266b3);
+  background:#f4f7fc;
+  padding: 5px 8px;
+  border-radius:3px;
+}
+.device-status-chip i {
+  width: 5px;
+  height: 5px;
+  border-radius:50%;
+  background:currentColor;
+}
+.status-running {
+  --device-color: #67d0a7;
+}
+.status-standby {
+  --device-color: #71b6d5;
+}
+.status-warning {
+  --device-color: #e8ae63;
+}
+.status-offline {
+  --device-color: #91a1af;
+}
+.p03-panel.status-warning {
+  border-color:#e9c89e;
+}
+.p03-panel.status-offline {
+  border-color:#e1e7f0;
+}
+.p03-readings {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.p03-readings > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.p03-readings strong {
+  font-weight: 500;
+  font-size: 23px;
+  color:#24364e;
+}
+.p03-readings small {
+  font-size: 9px;
+  color:#5d718a;
+  margin-left: 4px;
+}
+.p03-readings span {
+  font-size: 10px;
+  color:#5d718a;
+}
+.p03-secondary {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  color:#5d718a;
+  font-size: 10px;
+  border-top:1px solid #e1e7f0;
+  margin: 15px 0 10px;
+  padding-top: 12px;
+}
+.live-system-counts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 18px 0 15px;
+}
+.live-system-counts > div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.live-system-counts strong {
+  font-size: 24px;
+  font-weight: 500;
+  color:#24364e;
+}
+.live-system-counts strong.amber-text {
+  color:#946315;
+}
+.live-system-counts span {
+  font-size: 10px;
+  color:#5d718a;
+}
+.live-summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  padding: 7px 0;
+}
+.live-summary-row > span {
+  color:#5d718a;
+}
+.live-summary-row strong {
+  font-size: 11px;
+  font-weight: 400;
+  color:#24364e;
+}
+.live-summary-row small {
+  font-size: 10px;
+}
+.live-updated {
+  font-size: 10px;
+  color:#5d718a;
+  margin-top: 11px;
+  padding-top: 11px;
+  border-top:1px solid #e1e7f0;
+}
+.realtime-stale {
+  font-size: 10px;
+  color:#b45332;
+  margin-top: 8px;
+  line-height: 1.5;
+}
+.live-pipeline-list {
+  list-style: none;
+  margin: 16px 0 10px;
+  padding: 0;
+  display: grid;
+  gap: 17px;
+}
+.live-pipeline-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.live-pipeline-list li > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+.live-pipeline-list strong {
+  font-size: 10px;
+  font-weight: 500;
+  color:#24364e;
+  letter-spacing: 0.5px;
+}
+.live-pipeline-list small {
+  font-size: 9px;
+  color:#5d718a;
+  white-space: nowrap;
+}
+.live-pipeline-list i {
+  height: 5px;
+  width: 5px;
+  border-radius:50%;
+  background:#edf8f3;
+  margin-left: auto;
+}
+.pipeline-type {
+  font-size: 10px;
+  padding: 5px 4px;
+  border:1px solid #e1e7f0;
+  border-radius:3px;
+  color:#3266b3;
+}
+.pipeline-type.drain {
+  color:#147d64;
+  border-color:#b5dace;
+}
+.pipeline-type.fire {
+  color:#b45332;
+  border-color:#e1e7f0;
+}
+.water-history-panel {
+  min-height: 210px;
+}
+.realtime-water-chart {
+  height: 142px;
+  width: 100%;
+}
+.risk-not-ready {
+  font-size: 10px;
+  color:#5d718a;
+  padding-top: 9px;
+  margin-top: 9px;
+  border-top:1px solid #e1e7f0;
+}
+.simulation-controls-wrap {
+  position: relative;
+}
+.simulation-controls {
+  position: absolute;
+  right: 0;
+  top: 42px;
+  z-index: 30;
+  width: 340px;
+  padding: 18px;
+  background:#f4f7fc;
+  border:1px solid #e1e7f0;
+  border-radius:5px;
+  box-shadow: 0 12px 35px #0008;
+}
+.simulation-controls-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.simulation-controls-heading h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color:#24364e;
+}
+.simulation-controls-heading > span {
+  font-size: 10px;
+  color:#5d718a;
+}
+.simulation-controls-heading > button {
+  margin-left: auto;
+  padding: 0;
+  border:0;
+  background:none;
+  color:#5d718a;
+  font-size: 22px;
+  cursor: pointer;
+}
+.simulation-weather {
+  margin: 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color:#5d718a;
+}
+.simulation-weather > div {
+  display: flex;
+  gap: 6px;
+}
+.simulation-select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color:#5d718a;
+  margin: 12px 0;
+  gap: 10px;
+}
+.simulation-select select {
+  font: inherit;
+  color:#24364e;
+  background:#f4f7fc;
+  border:1px solid #e1e7f0;
+  padding: 7px 8px;
+  min-width: 165px;
+  border-radius:3px;
+}
+.simulation-select select:disabled {
+  opacity: 0.5;
+}
+.simulation-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-top:1px solid #e1e7f0;
+  padding-top: 14px;
+  margin-top: 17px;
+}
+.simulation-buttons > span {
+  font-size: 10px;
+  color:#5d718a;
+  margin-left: auto;
+}
+.simulation-control-note {
+  font-size: 10px;
+  line-height: 1.8;
+  color:#5d718a;
+  margin-top: 13px;
+}
+.simulation-feedback {
+  font-size: 11px;
+  line-height: 1.7;
+  color:#147d64;
+  margin-top: 12px;
+}
+.simulation-feedback.failed {
+  color:#b45332;
+}
+.realtime-dashboard .side-column > .panel {
+  flex: initial;
+}
+.realtime-dashboard .water-history-panel {
+  flex: 1;
+}
+.realtime-dashboard {
+  align-items: stretch;
+}
+.realtime-dashboard .twin-panel {
+  min-height: 660px;
+}
+@media (min-width: 1600px) {
+  .realtime-dashboard .weather-panel {
+    flex: 1;
+  }
+  .realtime-dashboard .p03-panel {
+    flex: 1;
+  }
+}
+@media (max-width: 1180px) {
+  .realtime-connection {
+    font-size: 10px;
+  }
+  .service-group {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 390px;
+  }
+  .realtime-heading-actions {
+    gap: 8px;
+  }
+  .p03-readings strong {
+    font-size: 20px;
+  }
+  .live-pipeline-list small {
+    font-size: 8px;
+  }
+  .simulation-controls {
+    width: 320px;
+  }
+}
+@media (max-width: 860px) {
+  .realtime-heading {
+    align-items: flex-start;
+  }
+  .realtime-heading-actions {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .realtime-dashboard .twin-panel {
+    min-height: 530px;
+  }
+  .simulation-controls {
+    position: fixed;
+    top: 150px;
+    right: 18px;
+    max-width: calc(100vw - 36px);
+  }
+}
+/* Keep the live side panels close to the M1 desktop scene height. */
+.realtime-dashboard .simulation-summary .live-system-counts {
+  margin: 14px 0 10px;
+  gap: 8px;
+}
+.realtime-dashboard .live-summary-row {
+  padding: 5px 0;
+}
+.realtime-dashboard .live-updated {
+  margin-top: 8px;
+  padding-top: 8px;
+}
+.realtime-dashboard .live-pipeline-list {
+  gap: 12px;
+  margin: 13px 0 10px;
+}
+.realtime-dashboard .realtime-water-chart {
+  height: 112px;
+}
+.realtime-dashboard .risk-not-ready {
+  margin-top: 6px;
+  padding-top: 6px;
+}
+
+.dashboard-flood{padding:12px;border:1px solid #e9c89e;border-radius:5px;background:#fff4e7;font-size:12px;line-height:1.8;color:#946315}.dashboard-flood strong{display:block;font-size:24px;color:#946315}.dashboard-flood a{display:block;color:#3266b3}
+
+/* Final overview: the park remains the largest surface at desktop sizes. */
+.final-dashboard{grid-template-columns:minmax(235px, .22fr) minmax(0,.56fr) minmax(270px,.22fr);gap:16px;min-height:640px}
+.final-dashboard .twin-panel{min-height:640px;height:100%}
+.final-dashboard .side-column{gap:14px}
+.final-dashboard .side-column>.panel{flex:initial;padding:18px}
+.dashboard-heading h2{font-size:25px}
+.dashboard-heading p{font-size:12px;color:var(--text-secondary);margin-top:8px}
+.park-operation{border-top:2px solid var(--risk-low)}
+.park-operation.warning{border-top-color:var(--risk-general)}
+.park-operation.incident{border-top-color:var(--risk-high)}
+.park-state{display:flex;align-items:center;gap:11px;margin:20px 0 9px;color:var(--risk-low)}
+.park-state strong{font-size:26px;font-weight:550;letter-spacing:1px}
+.park-state i{width:9px;height:9px;border-radius:50%;background:currentColor;box-shadow:0 0 0 5px #6bc9ac10}
+.park-operation.warning .park-state{color:var(--risk-general)}
+.park-operation.incident .park-state{color:var(--risk-high)}
+.park-operation.loading .park-state{color:var(--text-secondary)}
+.dashboard-counts{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:18px 0 15px;border-bottom:1px solid var(--panel-border);margin-bottom:9px}
+.dashboard-counts>div{display:grid;gap:7px}
+.dashboard-counts strong{font-size:30px;font-weight:550;color:var(--text-primary)}
+.dashboard-counts small{font-size:13px;color:var(--text-muted);font-weight:400;margin-left:5px}
+.dashboard-counts span{font-size:11px;color:var(--text-secondary)}
+.final-dashboard .live-summary-row{align-items:center;line-height:1.7;gap:9px}
+.final-dashboard .live-summary-row a{font-size:11px;color:var(--accent-primary)}
+.final-dashboard .weather-current{margin:16px 0}
+.final-dashboard .realtime-values{gap:12px;margin-bottom:10px}
+.final-dashboard .p03-secondary{margin-bottom:0}
+.final-dashboard .dashboard-flood,.dashboard-leak{border:0;border-radius:0;padding:18px 0 4px;background:transparent;color:var(--text-secondary);line-height:1.8;font-size:12px}
+.final-dashboard .dashboard-flood>strong,.dashboard-leak>strong{display:block;font-size:46px;font-weight:550;line-height:1.35;margin:7px 0}
+.dashboard-flood strong small,.dashboard-leak strong small{font-size:13px;color:var(--text-muted);font-weight:400}
+.dashboard-leak a,.dashboard-flood a{color:var(--accent-primary)}
+.dashboard-calm{padding:22px 0 12px;display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.calm-mark{width:32px;height:32px;display:grid;place-items:center;border:1px solid #b5dace;border-radius:50%;color:var(--risk-low);background:#edf8f3}
+.dashboard-calm strong{font-size:17px;font-weight:500;color:#24364e}
+.dashboard-calm p{font-size:12px;line-height:1.8;color:var(--text-secondary)}
+.dashboard-prediction-note{border-top:1px solid var(--panel-border);padding-top:12px;margin-top:7px;font-size:11px;color:var(--text-muted);line-height:1.8}
+.dashboard-risk-prediction{border-top:1px solid var(--panel-border);padding-top:13px;margin-top:13px;display:grid;gap:7px}
+.dashboard-risk-prediction>span{font-size:11px;color:var(--text-secondary)}
+.dashboard-risk-prediction b{font-size:30px;color:var(--risk-general);font-weight:550}
+.dashboard-risk-prediction>a{font-size:11px;color:var(--accent-primary)}
+.dashboard-risk-prediction>small{font-size:10px;color:var(--text-secondary)}
+.dashboard-alerts ul{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:12px}
+.dashboard-alerts li{border-left:2px solid var(--risk-elevated);padding-left:11px}
+.dashboard-alerts strong{font-size:12px;font-weight:500;color:var(--risk-elevated)}
+.dashboard-alerts p{font-size:11px;line-height:1.65;color:var(--text-secondary);margin-top:5px;overflow-wrap:anywhere}
+.dashboard-empty{padding:18px 0 7px;font-size:12px;color:var(--text-secondary);line-height:1.7}
+.dashboard-empty small{font-size:11px;color:var(--text-muted)}
+.final-dashboard .water-history-panel{min-height:180px;flex:1}
+.final-dashboard .realtime-water-chart{height:128px}
+.dashboard-bottom{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(330px,1fr);gap:16px;margin-top:16px}
+.dashboard-quick{display:flex;gap:25px;align-items:center}
+.dashboard-quick>div:first-child{min-width:180px;max-width:235px}
+.dashboard-quick h3{font-size:17px;font-weight:500;line-height:1.6;margin:8px 0}
+.dashboard-quick p{color:var(--text-secondary);font-size:11px;line-height:1.8}
+.dashboard-quick-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;flex:1;min-width:0}
+.dashboard-quick-actions>a,.dashboard-quick-actions>button{display:flex;flex-direction:column;align-items:flex-start;gap:10px;text-align:left;border:1px solid var(--panel-border);border-radius:6px;padding:14px 12px;background:linear-gradient(145deg,#f4f7fc,#f4f7fc);color:var(--text-primary);min-width:0;cursor:pointer}
+.dashboard-quick-actions>a:hover,.dashboard-quick-actions>button:hover{border-color:#e1e7f0;background:#f4f7fc}
+.dashboard-quick-actions span{font-size:10px;letter-spacing:1px;color:var(--accent-primary)}
+.dashboard-quick-actions strong{font-size:13px;font-weight:500}
+.dashboard-quick-actions small{font-size:10px;color:var(--text-secondary);line-height:1.7}
+.dashboard-archive-row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-top:13px;font-size:12px}
+.dashboard-archive-row>span{color:var(--text-primary);display:grid;gap:3px}
+.dashboard-archive-row small{font-size:10px;color:var(--text-muted)}
+.dashboard-archive-row b{font-size:11px;font-weight:400;color:var(--risk-general)}
+.dashboard-archive-row b.closed{color:var(--risk-low)}
+.dashboard-archive-row b.aborted{color:var(--text-secondary)}
+@media(max-width:1500px){.final-dashboard{grid-template-columns:235px minmax(0,1fr) 265px;gap:12px}.final-dashboard .side-column>.panel{padding:15px}.final-dashboard .twin-panel{min-height:640px}.park-state strong{font-size:23px}.dashboard-bottom{grid-template-columns:minmax(0,1.8fr) minmax(280px,1fr);gap:12px}.dashboard-quick{display:block}.dashboard-quick>div:first-child{max-width:none;display:flex;flex-wrap:wrap;gap:4px 15px;align-items:baseline;margin-bottom:12px}.dashboard-quick .eyebrow{display:none}.dashboard-quick h3{font-size:15px;margin:0}.dashboard-quick-actions{gap:8px}.dashboard-quick-actions>a,.dashboard-quick-actions>button{padding:12px 10px}}
+@media(max-width:1000px){.final-dashboard{grid-template-columns:210px minmax(0,1fr)}.dashboard-right{grid-column:1/-1;display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))}.dashboard-bottom{grid-template-columns:1fr}}
+@media(max-width:700px){.final-dashboard{grid-template-columns:1fr}.final-dashboard>.side-column{grid-row:auto}.final-dashboard>.twin-panel{grid-row:1;min-height:470px}.dashboard-right{display:flex!important}.dashboard-quick-actions{grid-template-columns:1fr}.dashboard-heading{align-items:flex-start}}
+
+.final-dashboard .device-scene-link{display:inline-block;font-size:11px;color:var(--accent-primary);margin-top:10px}
+.final-dashboard .park-state{margin-top:15px}
+.final-dashboard .dashboard-counts{padding:14px 0 12px}
+.final-dashboard .weather-current{margin:12px 0}
+.final-dashboard .weather-current>strong{font-size:28px}
+.final-dashboard .realtime-values{gap:9px}
+.final-dashboard .p03-secondary{padding-top:10px;margin-top:11px}
+.final-dashboard .device-status-line{margin:13px 0}
+.workspace .final-dashboard .device-status-chip{background:linear-gradient(135deg,#073c4a,#08263e);border:1px solid #1a8097;color:#64e9c4;box-shadow:inset 0 0 10px #1dbd9d24}
+@media(min-width:1600px){.final-dashboard .side-column>.panel{padding:16px 18px}.final-dashboard .side-column>.weather-panel,.final-dashboard .side-column>.p03-panel{flex:initial}.dashboard-quick{padding:16px 18px}}

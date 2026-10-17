@@ -1,0 +1,2982 @@
+{
+  "checks": [
+    {
+      "name": "same paused baseline, genuine four-branch rollout, four curves, costs and no mutation",
+      "detail": {
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "compareMs": 187.46377600473352
+      }
+    },
+    {
+      "name": "C/B preview clears previous marks and never closes live entrance"
+    },
+    {
+      "name": "stale execution rejected; offline P02 disables B/C; resources revalidated"
+    },
+    {
+      "name": "confirmed software execution, 60-second startup, actual pump capacity and natural risk decline",
+      "detail": {
+        "beforeRisk": 82.79999999999986,
+        "afterRisk": 47.000000000000014,
+        "waterPeak": 27.600169194651137,
+        "waterNow": 26.666001707404373,
+        "resources": {
+          "geometry": 104,
+          "material": 98,
+          "texture": 10
+        }
+      }
+    },
+    {
+      "name": "same WebSocket carries execution events; actual ML/physical forecasts and Dashboard/Risk update",
+      "detail": {
+        "events": 8,
+        "physical": {
+          "minute": 30,
+          "waterLevel": 22.639105022500157,
+          "waterArea": 1214.4922803108752,
+          "riskScore": 44.10790365256269,
+          "riskLevel": "elevated"
+        },
+        "ml": {
+          "minute": 30,
+          "waterLevel": 17.61448860168457,
+          "riskScore": 31.431106567382812,
+          "riskLevel": "general"
+        }
+      }
+    },
+    {
+      "name": "real C closure retains vehicles, gradual people exposure, visible barrier and 1440 layout",
+      "detail": {
+        "people": 25,
+        "vehicles": 48
+      }
+    },
+    {
+      "name": "all Three/chart canvases disposed and no JS errors"
+    }
+  ],
+  "errors": [],
+  "performance": {
+    "compareMs": 187.46377600473352,
+    "resources": {
+      "geometry": 104,
+      "material": 98,
+      "texture": 10
+    },
+    "fps": 30
+  },
+  "screenshots": [
+    "/tmp/m8-m7/M7-compare.png",
+    "/tmp/m8-m7/M7-preview.png",
+    "/tmp/m8-m7/M7-stabilizing.png",
+    "/tmp/m8-m7/M7-risk-linked.png",
+    "/tmp/m8-m7/M7-entrance-closed.png",
+    "/tmp/m8-m7/M7-1440.png"
+  ],
+  "comparison": {
+    "id": "212c103c-d031-4799-ae78-3f84fb26c1d2",
+    "scenario_id": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+    "session_id": "d9d6ed7f-bdc1-4490-bf45-4531e2facbd9",
+    "compared_at": "2026-10-03T16:53:48.896478+00:00",
+    "baseline_timestamp": "2026-10-03T16:53:48.107213+00:00",
+    "baseline_simulation_time": 1748.2691186650013,
+    "baseline_state_hash": "acb614c7d8780f0be83e2c9dbc074a07830e0b18f3d30c93a301fd52cf3eb4f8",
+    "based_on_revision": 1174,
+    "horizon_minutes": 30,
+    "baseline": {
+      "plan_code": "BASELINE",
+      "plan_name": "维持当前状态（无新增动作）",
+      "baseline_timestamp": "2026-10-03T16:53:48.107213+00:00",
+      "horizon_minutes": 30,
+      "final_water_level": 31.81533523547752,
+      "final_risk_score": 53.58999999999973,
+      "final_risk_level": "elevated",
+      "final_affected_area": 1500,
+      "peak_water_level": 31.81533523547752,
+      "peak_risk_score": 82.8,
+      "time_to_risk_below_60": 5.25,
+      "time_to_risk_below_40": null,
+      "pump_runtime_minutes": {
+        "P01": 0,
+        "P02": 0
+      },
+      "resource_cost_score": 0,
+      "affected_people": 32,
+      "affected_vehicles": 48,
+      "final_pump_capacity": 0.025333333333333336,
+      "timeline": [
+        {
+          "minute": 0,
+          "water_level": 25.003008242737014,
+          "risk_score": 82.79999999999986,
+          "water_area": 1308.4119924351696,
+          "pump_capacity": 0.025333333333333465,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 99.99999999999966
+        },
+        {
+          "minute": 1,
+          "water_level": 26.028727684101856,
+          "risk_score": 82.74058758314209,
+          "water_area": 1348.4660687978687,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 99.70293791571044
+        },
+        {
+          "minute": 2,
+          "water_level": 26.97222138630381,
+          "risk_score": 79.10218249699093,
+          "water_area": 1384.961991072935,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 85.6942230532527
+        },
+        {
+          "minute": 3,
+          "water_level": 27.737995603088162,
+          "risk_score": 73.2282149587763,
+          "water_area": 1414.3491189346494,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 69.70764022696952
+        },
+        {
+          "minute": 4,
+          "water_level": 28.322460836454898,
+          "risk_score": 67.30852512306407,
+          "water_area": 1436.6419930750308,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 53.707730631174904
+        },
+        {
+          "minute": 5,
+          "water_level": 28.725592900556745,
+          "risk_score": 61.38852721293469,
+          "water_area": 1451.9513639438912,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 37.70773124031365
+        },
+        {
+          "minute": 6,
+          "water_level": 28.94767219106591,
+          "risk_score": 55.52960449731341,
+          "water_area": 1460.3620968626124,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 22.004793328707542
+        },
+        {
+          "minute": 7,
+          "water_level": 29.07064388741208,
+          "risk_score": 53.636344730120236,
+          "water_area": 1465.0124192956273,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.01350819119295
+        },
+        {
+          "minute": 8,
+          "water_level": 29.190001735842554,
+          "risk_score": 53.59031226833516,
+          "water_area": 1469.5213787861094,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.00009101747631
+        },
+        {
+          "minute": 9,
+          "water_level": 29.309335234357313,
+          "risk_score": 53.590002104047514,
+          "water_area": 1474.0248128818796,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.00000061327093
+        },
+        {
+          "minute": 10,
+          "water_level": 29.42866856880363,
+          "risk_score": 53.590000014176894,
+          "water_area": 1478.5236591596406,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000004132186
+        },
+        {
+          "minute": 11,
+          "water_level": 29.548001902144456,
+          "risk_score": 53.59000000009552,
+          "water_area": 1483.0179469840696,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000027843
+        },
+        {
+          "minute": 12,
+          "water_level": 29.667335235477836,
+          "risk_score": 53.59000000000061,
+          "water_area": 1487.507699397247,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.00000000000019
+        },
+        {
+          "minute": 13,
+          "water_level": 29.78666856881115,
+          "risk_score": 53.58999999999973,
+          "water_area": 1491.9929391920525,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 14,
+          "water_level": 29.906001902144467,
+          "risk_score": 53.58999999999973,
+          "water_area": 1496.4736889557362,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 15,
+          "water_level": 30.025335235477783,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 16,
+          "water_level": 30.1446685688111,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 17,
+          "water_level": 30.264001902144415,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 18,
+          "water_level": 30.38333523547773,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 19,
+          "water_level": 30.502668568811046,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 20,
+          "water_level": 30.622001902144362,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 21,
+          "water_level": 30.741335235477678,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 22,
+          "water_level": 30.860668568810993,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 23,
+          "water_level": 30.98000190214431,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 24,
+          "water_level": 31.099335235477625,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 25,
+          "water_level": 31.21866856881094,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 26,
+          "water_level": 31.338001902144256,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 27,
+          "water_level": 31.457335235477572,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 28,
+          "water_level": 31.576668568810888,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 29,
+          "water_level": 31.696001902144204,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        },
+        {
+          "minute": 30,
+          "water_level": 31.81533523547752,
+          "risk_score": 53.58999999999973,
+          "water_area": 1500,
+          "pump_capacity": 0.025333333333333336,
+          "exposure": {
+            "people": 32,
+            "vehicles": 48
+          },
+          "rainfall": 20.000000000000004
+        }
+      ]
+    },
+    "results": [
+      {
+        "plan_code": "FLOOD-A",
+        "plan_name": "方案 A · 单备用泵",
+        "baseline_timestamp": "2026-10-03T16:53:48.107213+00:00",
+        "horizon_minutes": 30,
+        "final_water_level": 28.03345590546822,
+        "final_risk_score": 47,
+        "final_risk_level": "elevated",
+        "final_affected_area": 1425.6331913928302,
+        "peak_water_level": 28.238808102044427,
+        "peak_risk_score": 82.79999999999986,
+        "time_to_risk_below_60": 4.166666666666667,
+        "time_to_risk_below_40": null,
+        "pump_runtime_minutes": {
+          "P01": 29.999999999999844,
+          "P02": 0
+        },
+        "resource_cost_score": 29.999999999999844,
+        "affected_people": 32,
+        "affected_vehicles": 48,
+        "final_pump_capacity": 0.05726949937354024,
+        "timeline": [
+          {
+            "minute": 0,
+            "water_level": 25.003008242737014,
+            "risk_score": 82.79999999999986,
+            "water_area": 1308.4119924351696,
+            "pump_capacity": 0.025333333333333465,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 99.99999999999966
+          },
+          {
+            "minute": 1,
+            "water_level": 25.959238828982034,
+            "risk_score": 77.28653210898854,
+            "water_area": 1345.765168395767,
+            "pump_capacity": 0.05731298231137773,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 99.70293791571044
+          },
+          {
+            "minute": 2,
+            "water_level": 26.77467203907828,
+            "risk_score": 72.38129756147042,
+            "water_area": 1377.3472236529174,
+            "pump_capacity": 0.0573864903079291,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 85.6942230532527
+          },
+          {
+            "minute": 3,
+            "water_level": 27.41215046537907,
+            "risk_score": 66.50368825931028,
+            "water_area": 1401.869697593809,
+            "pump_capacity": 0.05740734058989233,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 69.70764022696952
+          },
+          {
+            "minute": 4,
+            "water_level": 27.868470065153982,
+            "risk_score": 60.586296115377834,
+            "water_area": 1419.3358207134388,
+            "pump_capacity": 0.05732832294124027,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 53.707730631174904
+          },
+          {
+            "minute": 5,
+            "water_level": 28.143803494221654,
+            "risk_score": 54.671609232872655,
+            "water_area": 1429.8398946539942,
+            "pump_capacity": 0.05725608808832301,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 37.70773124031365
+          },
+          {
+            "minute": 6,
+            "water_level": 28.23815869521559,
+            "risk_score": 48.813827484080456,
+            "water_area": 1433.4336618595255,
+            "pump_capacity": 0.057288367423611083,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 22.004793328707542
+          },
+          {
+            "minute": 7,
+            "water_level": 28.233107535920958,
+            "risk_score": 47.00270163823859,
+            "water_area": 1433.2413512413953,
+            "pump_capacity": 0.05738148640470028,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.01350819119295
+          },
+          {
+            "minute": 8,
+            "water_level": 28.224174686657534,
+            "risk_score": 47.00001820349526,
+            "water_area": 1432.9012336503085,
+            "pump_capacity": 0.05740945345645951,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.00009101747631
+          },
+          {
+            "minute": 9,
+            "water_level": 28.215342964378245,
+            "risk_score": 47.000000122654185,
+            "water_area": 1432.5649400046054,
+            "pump_capacity": 0.057334428679402014,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.00000061327093
+          },
+          {
+            "minute": 10,
+            "water_level": 28.206860101491227,
+            "risk_score": 47.00000000082644,
+            "water_area": 1432.2419054221123,
+            "pump_capacity": 0.05725792188037494,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000004132186
+          },
+          {
+            "minute": 11,
+            "water_level": 28.198477572807036,
+            "risk_score": 47.00000000000557,
+            "water_area": 1431.922667791972,
+            "pump_capacity": 0.057283448067304094,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000027843
+          },
+          {
+            "minute": 12,
+            "water_level": 28.189810935882655,
+            "risk_score": 47.000000000000036,
+            "water_area": 1431.592585325807,
+            "pump_capacity": 0.05737646987258439,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.00000000000019
+          },
+          {
+            "minute": 13,
+            "water_level": 28.18086015048373,
+            "risk_score": 47,
+            "water_area": 1431.2516539866413,
+            "pump_capacity": 0.05741112720229846,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 14,
+            "water_level": 28.17200963411563,
+            "risk_score": 47,
+            "water_area": 1430.9145152297756,
+            "pump_capacity": 0.057340528096441926,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 15,
+            "water_level": 28.163508138569604,
+            "risk_score": 47,
+            "water_area": 1430.5906466327815,
+            "pump_capacity": 0.057260194353014854,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 16,
+            "water_level": 28.15513218449376,
+            "risk_score": 47,
+            "water_area": 1430.2715366959376,
+            "pump_capacity": 0.05727881890118583,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 17,
+            "water_level": 28.146488432779336,
+            "risk_score": 47,
+            "water_area": 1429.9421992293053,
+            "pump_capacity": 0.05737120240865953,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 18,
+            "water_level": 28.137545879103936,
+            "risk_score": 47,
+            "water_area": 1429.6014504319642,
+            "pump_capacity": 0.05741234840937064,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 19,
+            "water_level": 28.12867780331012,
+            "risk_score": 47,
+            "water_area": 1429.263512816673,
+            "pump_capacity": 0.057346585660450644,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 20,
+            "water_level": 28.120156715392536,
+            "risk_score": 47,
+            "water_area": 1428.9387728475838,
+            "pump_capacity": 0.057262892286226386,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 21,
+            "water_level": 28.11178564481318,
+            "risk_score": 47,
+            "water_area": 1428.6197261062744,
+            "pump_capacity": 0.05727450685381,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 22,
+            "water_level": 28.103164645009006,
+            "risk_score": 47,
+            "water_area": 1428.2911289820252,
+            "pump_capacity": 0.05736571465456433,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 23,
+            "water_level": 28.094231927933812,
+            "risk_score": 47,
+            "water_area": 1427.9506238902413,
+            "pump_capacity": 0.05741310997372877,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 24,
+            "water_level": 28.085347464341805,
+            "risk_score": 47,
+            "water_area": 1427.6119313182683,
+            "pump_capacity": 0.05735256613365709,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 25,
+            "water_level": 28.07680593719893,
+            "risk_score": 47,
+            "water_area": 1427.286286877668,
+            "pump_capacity": 0.05726599998572171,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 26,
+            "water_level": 28.068438030588684,
+            "risk_score": 47,
+            "water_area": 1426.967237676103,
+            "pump_capacity": 0.05727053700901198,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 27,
+            "water_level": 28.05983951704367,
+            "risk_score": 47,
+            "water_area": 1426.6393711857017,
+            "pump_capacity": 0.05736003853339891,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 28,
+            "water_level": 28.050918184224376,
+            "risk_score": 47,
+            "water_area": 1426.2991688515347,
+            "pump_capacity": 0.05741340746523717,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 29,
+            "water_level": 28.04201859979201,
+            "risk_score": 47,
+            "water_area": 1425.9597689093837,
+            "pump_capacity": 0.0573584347267391,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 30,
+            "water_level": 28.03345590546822,
+            "risk_score": 47,
+            "water_area": 1425.6331913928302,
+            "pump_capacity": 0.05726949937354024,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          }
+        ],
+        "risk_reduction": 6.589999999999733,
+        "water_reduction": 3.7818793300093
+      },
+      {
+        "plan_code": "FLOOD-B",
+        "plan_name": "方案 B · 双备用泵",
+        "baseline_timestamp": "2026-10-03T16:53:48.107213+00:00",
+        "horizon_minutes": 30,
+        "final_water_level": 24.272901042078058,
+        "final_risk_score": 46.109303776545616,
+        "final_risk_level": "elevated",
+        "final_affected_area": 1279.6511226128096,
+        "peak_water_level": 27.592297465658405,
+        "peak_risk_score": 82.79999999999986,
+        "time_to_risk_below_60": 3.8333333333333335,
+        "time_to_risk_below_40": null,
+        "pump_runtime_minutes": {
+          "P01": 29.999999999999844,
+          "P02": 29.83333333333318
+        },
+        "resource_cost_score": 59.83333333333302,
+        "affected_people": 32,
+        "affected_vehicles": 48,
+        "final_pump_capacity": 0.08919149770234838,
+        "timeline": [
+          {
+            "minute": 0,
+            "water_level": 25.003008242737014,
+            "risk_score": 82.79999999999986,
+            "water_area": 1308.4119924351696,
+            "pump_capacity": 0.025333333333333465,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 99.99999999999966
+          },
+          {
+            "minute": 1,
+            "water_level": 25.91012817641064,
+            "risk_score": 76.55731317007763,
+            "water_area": 1343.85524007501,
+            "pump_capacity": 0.084005931188001,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 99.70293791571044
+          },
+          {
+            "minute": 2,
+            "water_level": 26.598258114422652,
+            "risk_score": 70.46370712731971,
+            "water_area": 1370.5352661847928,
+            "pump_capacity": 0.08945984468768638,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 85.6942230532527
+          },
+          {
+            "minute": 3,
+            "water_level": 27.10744467663128,
+            "risk_score": 64.57922223833745,
+            "water_area": 1390.1662898422912,
+            "pump_capacity": 0.08946244448175708,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 69.70764022696952
+          },
+          {
+            "minute": 4,
+            "water_level": 27.43573837257619,
+            "risk_score": 58.66589965643419,
+            "water_area": 1402.7743224488177,
+            "pump_capacity": 0.08929115915037233,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 53.707730631174904
+          },
+          {
+            "minute": 5,
+            "water_level": 27.583346493352916,
+            "risk_score": 52.75581356571204,
+            "water_area": 1408.4308662408218,
+            "pump_capacity": 0.0891769472825439,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 37.70773124031365
+          },
+          {
+            "minute": 6,
+            "water_level": 27.549905313328217,
+            "risk_score": 47.400958665741506,
+            "water_area": 1407.1500191671953,
+            "pump_capacity": 0.08927432856921201,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 22.004793328707542
+          },
+          {
+            "minute": 7,
+            "water_level": 27.416711200243803,
+            "risk_score": 47.00270163823859,
+            "water_area": 1402.0446224794673,
+            "pump_capacity": 0.08945154431325952,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.01350819119295
+          },
+          {
+            "minute": 8,
+            "water_level": 27.279482243341548,
+            "risk_score": 47.00001820349526,
+            "water_area": 1396.778078572786,
+            "pump_capacity": 0.08946881857919814,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.00009101747631
+          },
+          {
+            "minute": 9,
+            "water_level": 27.142601898275377,
+            "risk_score": 47.000000122654185,
+            "water_area": 1391.5183113736039,
+            "pump_capacity": 0.08930277898966445,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.00000061327093
+          },
+          {
+            "minute": 10,
+            "water_level": 27.006383684915892,
+            "risk_score": 47.00000000082644,
+            "water_area": 1386.277399923431,
+            "pump_capacity": 0.08917807994982406,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000004132186
+          },
+          {
+            "minute": 11,
+            "water_level": 26.870221002735406,
+            "risk_score": 47.00000000000557,
+            "water_area": 1381.0320161568545,
+            "pump_capacity": 0.0892634413938733,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000027843
+          },
+          {
+            "minute": 12,
+            "water_level": 26.733431953210363,
+            "risk_score": 47.000000000000036,
+            "water_area": 1375.7558074920182,
+            "pump_capacity": 0.08944336782769026,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.00000000000019
+          },
+          {
+            "minute": 13,
+            "water_level": 26.596182122449296,
+            "risk_score": 47,
+            "water_area": 1370.4550377739945,
+            "pump_capacity": 0.08947441570822413,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 14,
+            "water_level": 26.459260541448472,
+            "risk_score": 47,
+            "water_area": 1365.1601269454143,
+            "pump_capacity": 0.08931457672196008,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 15,
+            "water_level": 26.32301211366297,
+            "risk_score": 47,
+            "water_area": 1359.8844437399923,
+            "pump_capacity": 0.0891801157517633,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 16,
+            "water_level": 26.18687095473154,
+            "risk_score": 47,
+            "water_area": 1354.6060909617436,
+            "pump_capacity": 0.08925296079060481,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 17,
+            "water_level": 26.050126043698274,
+            "risk_score": 47,
+            "water_area": 1349.2974193919513,
+            "pump_capacity": 0.08943455125473353,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 18,
+            "water_level": 25.912883246529738,
+            "risk_score": 47,
+            "water_area": 1343.9624095431445,
+            "pump_capacity": 0.08947919213961937,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 19,
+            "water_level": 25.77592207765114,
+            "risk_score": 47,
+            "water_area": 1338.6313004562078,
+            "pump_capacity": 0.0893264835643166,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 20,
+            "water_level": 25.63964100359341,
+            "risk_score": 47,
+            "water_area": 1333.3196298179776,
+            "pump_capacity": 0.08918304284367609,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 21,
+            "water_level": 25.503518310960132,
+            "risk_score": 47,
+            "water_area": 1328.0070816142932,
+            "pump_capacity": 0.08924294772664054,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 22,
+            "water_level": 25.366817993578074,
+            "risk_score": 47,
+            "water_area": 1322.664851214376,
+            "pump_capacity": 0.08942514588173464,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 23,
+            "water_level": 25.229585581440837,
+            "risk_score": 47,
+            "water_area": 1317.2945823204745,
+            "pump_capacity": 0.08948312008815602,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 24,
+            "water_level": 25.09258653784861,
+            "risk_score": 47,
+            "water_area": 1311.9261567219326,
+            "pump_capacity": 0.08933843025282123,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 25,
+            "water_level": 24.95627057446782,
+            "risk_score": 46.94643145372308,
+            "water_area": 1306.5772204440864,
+            "pump_capacity": 0.08918684419822362,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 26,
+            "water_level": 24.820163183753007,
+            "risk_score": 46.779699900097434,
+            "water_area": 1301.229175933071,
+            "pump_capacity": 0.08923346044949641,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 27,
+            "water_level": 24.683507655773475,
+            "risk_score": 46.6122968783225,
+            "water_area": 1295.8522122145741,
+            "pump_capacity": 0.0894152064211787,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 28,
+            "water_level": 24.546288919694977,
+            "risk_score": 46.444203926626344,
+            "water_area": 1290.4455945317047,
+            "pump_capacity": 0.08948617670436008,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 29,
+            "water_level": 24.409253934876254,
+            "risk_score": 46.276336070223415,
+            "water_area": 1285.0386707714174,
+            "pump_capacity": 0.08935034729177005,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 30,
+            "water_level": 24.272901042078058,
+            "risk_score": 46.109303776545616,
+            "water_area": 1279.6511226128096,
+            "pump_capacity": 0.08919149770234838,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          }
+        ],
+        "risk_reduction": 7.480696223454117,
+        "water_reduction": 7.542434193399462
+      },
+      {
+        "plan_code": "FLOOD-C",
+        "plan_name": "方案 C · 双泵与入口封控",
+        "baseline_timestamp": "2026-10-03T16:53:48.107213+00:00",
+        "horizon_minutes": 30,
+        "final_water_level": 24.272901042078058,
+        "final_risk_score": 41.45930377654562,
+        "final_risk_level": "elevated",
+        "final_affected_area": 1279.6511226128096,
+        "peak_water_level": 27.592297465658405,
+        "peak_risk_score": 82.79999999999986,
+        "time_to_risk_below_60": 3.5,
+        "time_to_risk_below_40": null,
+        "pump_runtime_minutes": {
+          "P01": 29.999999999999844,
+          "P02": 29.83333333333318
+        },
+        "resource_cost_score": 69.83333333333303,
+        "affected_people": 1,
+        "affected_vehicles": 48,
+        "final_pump_capacity": 0.08919149770234838,
+        "timeline": [
+          {
+            "minute": 0,
+            "water_level": 25.003008242737014,
+            "risk_score": 82.79999999999986,
+            "water_area": 1308.4119924351696,
+            "pump_capacity": 0.025333333333333465,
+            "exposure": {
+              "people": 32,
+              "vehicles": 48
+            },
+            "rainfall": 99.99999999999966
+          },
+          {
+            "minute": 1,
+            "water_level": 25.91012817641064,
+            "risk_score": 76.10731317007765,
+            "water_area": 1343.85524007501,
+            "pump_capacity": 0.084005931188001,
+            "exposure": {
+              "people": 29,
+              "vehicles": 48
+            },
+            "rainfall": 99.70293791571044
+          },
+          {
+            "minute": 2,
+            "water_level": 26.598258114422652,
+            "risk_score": 69.11370712731971,
+            "water_area": 1370.5352661847928,
+            "pump_capacity": 0.08945984468768638,
+            "exposure": {
+              "people": 23,
+              "vehicles": 48
+            },
+            "rainfall": 85.6942230532527
+          },
+          {
+            "minute": 3,
+            "water_level": 27.10744467663128,
+            "risk_score": 62.629222238337455,
+            "water_area": 1390.1662898422912,
+            "pump_capacity": 0.08946244448175708,
+            "exposure": {
+              "people": 19,
+              "vehicles": 48
+            },
+            "rainfall": 69.70764022696952
+          },
+          {
+            "minute": 4,
+            "water_level": 27.43573837257619,
+            "risk_score": 56.265899656434186,
+            "water_area": 1402.7743224488177,
+            "pump_capacity": 0.08929115915037233,
+            "exposure": {
+              "people": 16,
+              "vehicles": 48
+            },
+            "rainfall": 53.707730631174904
+          },
+          {
+            "minute": 5,
+            "water_level": 27.583346493352916,
+            "risk_score": 49.90581356571204,
+            "water_area": 1408.4308662408218,
+            "pump_capacity": 0.0891769472825439,
+            "exposure": {
+              "people": 13,
+              "vehicles": 48
+            },
+            "rainfall": 37.70773124031365
+          },
+          {
+            "minute": 6,
+            "water_level": 27.549905313328217,
+            "risk_score": 44.25095866574151,
+            "water_area": 1407.1500191671953,
+            "pump_capacity": 0.08927432856921201,
+            "exposure": {
+              "people": 11,
+              "vehicles": 48
+            },
+            "rainfall": 22.004793328707542
+          },
+          {
+            "minute": 7,
+            "water_level": 27.416711200243803,
+            "risk_score": 43.55270163823859,
+            "water_area": 1402.0446224794673,
+            "pump_capacity": 0.08945154431325952,
+            "exposure": {
+              "people": 9,
+              "vehicles": 48
+            },
+            "rainfall": 20.01350819119295
+          },
+          {
+            "minute": 8,
+            "water_level": 27.279482243341548,
+            "risk_score": 43.25001820349526,
+            "water_area": 1396.778078572786,
+            "pump_capacity": 0.08946881857919814,
+            "exposure": {
+              "people": 7,
+              "vehicles": 48
+            },
+            "rainfall": 20.00009101747631
+          },
+          {
+            "minute": 9,
+            "water_level": 27.142601898275377,
+            "risk_score": 43.10000012265419,
+            "water_area": 1391.5183113736039,
+            "pump_capacity": 0.08930277898966445,
+            "exposure": {
+              "people": 6,
+              "vehicles": 48
+            },
+            "rainfall": 20.00000061327093
+          },
+          {
+            "minute": 10,
+            "water_level": 27.006383684915892,
+            "risk_score": 42.950000000826435,
+            "water_area": 1386.277399923431,
+            "pump_capacity": 0.08917807994982406,
+            "exposure": {
+              "people": 5,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000004132186
+          },
+          {
+            "minute": 11,
+            "water_level": 26.870221002735406,
+            "risk_score": 42.80000000000557,
+            "water_area": 1381.0320161568545,
+            "pump_capacity": 0.0892634413938733,
+            "exposure": {
+              "people": 4,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000027843
+          },
+          {
+            "minute": 12,
+            "water_level": 26.733431953210363,
+            "risk_score": 42.80000000000004,
+            "water_area": 1375.7558074920182,
+            "pump_capacity": 0.08944336782769026,
+            "exposure": {
+              "people": 4,
+              "vehicles": 48
+            },
+            "rainfall": 20.00000000000019
+          },
+          {
+            "minute": 13,
+            "water_level": 26.596182122449296,
+            "risk_score": 42.65,
+            "water_area": 1370.4550377739945,
+            "pump_capacity": 0.08947441570822413,
+            "exposure": {
+              "people": 3,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 14,
+            "water_level": 26.459260541448472,
+            "risk_score": 42.65,
+            "water_area": 1365.1601269454143,
+            "pump_capacity": 0.08931457672196008,
+            "exposure": {
+              "people": 3,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 15,
+            "water_level": 26.32301211366297,
+            "risk_score": 42.5,
+            "water_area": 1359.8844437399923,
+            "pump_capacity": 0.0891801157517633,
+            "exposure": {
+              "people": 2,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 16,
+            "water_level": 26.18687095473154,
+            "risk_score": 42.5,
+            "water_area": 1354.6060909617436,
+            "pump_capacity": 0.08925296079060481,
+            "exposure": {
+              "people": 2,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 17,
+            "water_level": 26.050126043698274,
+            "risk_score": 42.5,
+            "water_area": 1349.2974193919513,
+            "pump_capacity": 0.08943455125473353,
+            "exposure": {
+              "people": 2,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 18,
+            "water_level": 25.912883246529738,
+            "risk_score": 42.35,
+            "water_area": 1343.9624095431445,
+            "pump_capacity": 0.08947919213961937,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 19,
+            "water_level": 25.77592207765114,
+            "risk_score": 42.35,
+            "water_area": 1338.6313004562078,
+            "pump_capacity": 0.0893264835643166,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 20,
+            "water_level": 25.63964100359341,
+            "risk_score": 42.35,
+            "water_area": 1333.3196298179776,
+            "pump_capacity": 0.08918304284367609,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 21,
+            "water_level": 25.503518310960132,
+            "risk_score": 42.35,
+            "water_area": 1328.0070816142932,
+            "pump_capacity": 0.08924294772664054,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 22,
+            "water_level": 25.366817993578074,
+            "risk_score": 42.35,
+            "water_area": 1322.664851214376,
+            "pump_capacity": 0.08942514588173464,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 23,
+            "water_level": 25.229585581440837,
+            "risk_score": 42.35,
+            "water_area": 1317.2945823204745,
+            "pump_capacity": 0.08948312008815602,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 24,
+            "water_level": 25.09258653784861,
+            "risk_score": 42.35,
+            "water_area": 1311.9261567219326,
+            "pump_capacity": 0.08933843025282123,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 25,
+            "water_level": 24.95627057446782,
+            "risk_score": 42.29643145372308,
+            "water_area": 1306.5772204440864,
+            "pump_capacity": 0.08918684419822362,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 26,
+            "water_level": 24.820163183753007,
+            "risk_score": 42.129699900097435,
+            "water_area": 1301.229175933071,
+            "pump_capacity": 0.08923346044949641,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 27,
+            "water_level": 24.683507655773475,
+            "risk_score": 41.962296878322505,
+            "water_area": 1295.8522122145741,
+            "pump_capacity": 0.0894152064211787,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 28,
+            "water_level": 24.546288919694977,
+            "risk_score": 41.794203926626345,
+            "water_area": 1290.4455945317047,
+            "pump_capacity": 0.08948617670436008,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 29,
+            "water_level": 24.409253934876254,
+            "risk_score": 41.62633607022342,
+            "water_area": 1285.0386707714174,
+            "pump_capacity": 0.08935034729177005,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          },
+          {
+            "minute": 30,
+            "water_level": 24.272901042078058,
+            "risk_score": 41.45930377654562,
+            "water_area": 1279.6511226128096,
+            "pump_capacity": 0.08919149770234838,
+            "exposure": {
+              "people": 1,
+              "vehicles": 48
+            },
+            "rainfall": 20.000000000000004
+          }
+        ],
+        "risk_reduction": 12.130696223454116,
+        "water_reduction": 7.542434193399462
+      }
+    ],
+    "key_state": {
+      "session": "d9d6ed7f-bdc1-4490-bf45-4531e2facbd9",
+      "scenario": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "rain_plan": true,
+      "entrance": false,
+      "people": 32,
+      "vehicles": 48,
+      "devices": [
+        [
+          "P01",
+          "standby",
+          "normal",
+          120
+        ],
+        [
+          "P02",
+          "standby",
+          "normal",
+          120
+        ],
+        [
+          "P03",
+          "running",
+          "bearing_degradation",
+          120
+        ]
+      ],
+      "execution": null
+    },
+    "rainfall": 99.99999999999966,
+    "water_level": 25.003008242737014,
+    "plans": {
+      "FLOOD-A": {
+        "id": "FLOOD-A",
+        "plan_code": "FLOOD-A",
+        "name": "方案 A · 单备用泵",
+        "description": "启动 P01 增加排水能力，资源投入较少；降水效果取决于实际入流。",
+        "scenario_type": "flood",
+        "actions": [
+          {
+            "action_type": "START_PUMP",
+            "target_id": "P01",
+            "parameters": {},
+            "delay_seconds": 0,
+            "duration_seconds": 0,
+            "priority": 0
+          }
+        ],
+        "enabled": true,
+        "available": true,
+        "unavailable_reasons": [],
+        "risk_stage": "extreme"
+      },
+      "FLOOD-B": {
+        "id": "FLOOD-B",
+        "plan_code": "FLOOD-B",
+        "name": "方案 B · 双备用泵",
+        "description": "依次启动 P01、P02，10 秒错峰；增加排水能力，不能保证超过持续暴雨入流。",
+        "scenario_type": "flood",
+        "actions": [
+          {
+            "action_type": "START_PUMP",
+            "target_id": "P01",
+            "parameters": {},
+            "delay_seconds": 0,
+            "duration_seconds": 0,
+            "priority": 0
+          },
+          {
+            "action_type": "START_PUMP",
+            "target_id": "P02",
+            "parameters": {},
+            "delay_seconds": 10,
+            "duration_seconds": 0,
+            "priority": 0
+          }
+        ],
+        "enabled": true,
+        "available": true,
+        "unavailable_reasons": [],
+        "risk_stage": "extreme"
+      },
+      "FLOOD-C": {
+        "id": "FLOOD-C",
+        "plan_code": "FLOOD-C",
+        "name": "方案 C · 双泵与入口封控",
+        "description": "双泵排水并封控 B2 东入口，人员暴露按 5 分钟时间常数渐减；保留现有车辆和水量。",
+        "scenario_type": "flood",
+        "actions": [
+          {
+            "action_type": "START_PUMP",
+            "target_id": "P01",
+            "parameters": {},
+            "delay_seconds": 0,
+            "duration_seconds": 0,
+            "priority": 0
+          },
+          {
+            "action_type": "START_PUMP",
+            "target_id": "P02",
+            "parameters": {},
+            "delay_seconds": 10,
+            "duration_seconds": 0,
+            "priority": 0
+          },
+          {
+            "action_type": "CLOSE_ENTRANCE",
+            "target_id": "B2-EAST",
+            "parameters": {},
+            "delay_seconds": 20,
+            "duration_seconds": 0,
+            "priority": 0
+          }
+        ],
+        "enabled": true,
+        "available": true,
+        "unavailable_reasons": [],
+        "risk_stage": "extreme"
+      }
+    },
+    "compare_latency_ms": 187.46377600473352,
+    "assumption": "同一基线、同一降雨计划；维持当前泵和故障演化。封控仅降低人员暴露、不移除现有车辆或水量。",
+    "rainfall_plan": "30–35 min 雨势从 100 回落到 20 mm/h",
+    "cost_definition": "P01/P02 每运行仿真分钟各 1 指数（含启动），新增入口封控 10 固定指数；不是金额。",
+    "response_definition": "首次严格低于阈值的时间，5 仿真秒采样；起点已低于阈值为 0，30 min 内未达为 null。",
+    "stale": false
+  },
+  "observation": {
+    "before": {
+      "rainfallRecession": true,
+      "entranceClosed": false,
+      "vehicleEntryRate": 0,
+      "exposureRemaining": null,
+      "exposureTarget": 0,
+      "scenarioId": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "running": false,
+      "scenario": "extreme_rain",
+      "status": "stopped",
+      "startedAt": "2026-10-03T16:50:53.127196Z",
+      "simulationStartedAt": 0,
+      "elapsedSimulationSeconds": 1748.2691186650013,
+      "durationMinutes": 60,
+      "autoFault": true,
+      "faultTriggered": true,
+      "rainfall": 99.99999999999966,
+      "rainfallTarget": 100,
+      "surfaceInflow": 0.2833333333333324,
+      "naturalDrainage": 0.0015,
+      "pumpCapacity": 0.03333333333333333,
+      "pumpEfficiency": 76.00000000000038,
+      "effectivePumpCapacity": 0.025333333333333465,
+      "outflow": 0.026833333333333466,
+      "waterLevel": 25.003008242737014,
+      "waterArea": 1308.4119924351696,
+      "floodVolume": 375.0451236410552,
+      "effectiveArea": 1500,
+      "growthRate": 1.0259999999999898,
+      "riskScore": 82.79999999999986,
+      "riskLevel": "extreme",
+      "stage": "extreme",
+      "riskBreakdown": {
+        "factors": [
+          {
+            "key": "water",
+            "label": "积水水位",
+            "weight": 0.35,
+            "normalizedValue": 1,
+            "points": 35,
+            "contribution": 42.27053140096626
+          },
+          {
+            "key": "rainfall",
+            "label": "降雨强度",
+            "weight": 0.2,
+            "normalizedValue": 0.9999999999999966,
+            "points": 19.999999999999932,
+            "contribution": 24.154589371980638
+          },
+          {
+            "key": "pump",
+            "label": "泵站能力",
+            "weight": 0.2,
+            "normalizedValue": 0.2399999999999961,
+            "points": 4.7999999999999226,
+            "contribution": 5.797101449275279
+          },
+          {
+            "key": "trend",
+            "label": "上涨趋势",
+            "weight": 0.15,
+            "normalizedValue": 1,
+            "points": 15,
+            "contribution": 18.115942028985536
+          },
+          {
+            "key": "exposure",
+            "label": "人员 / 车辆暴露",
+            "weight": 0.1,
+            "normalizedValue": 0.8,
+            "points": 8,
+            "contribution": 9.661835748792287
+          }
+        ],
+        "method": "Flood scenario risk score · 场景规则模型"
+      },
+      "peopleCount": 32,
+      "vehicleCount": 48,
+      "peakWaterLevel": 25.003008242737014,
+      "peakRisk": 82.79999999999986,
+      "alarm": {
+        "id": "FLOOD-bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+        "alarmType": "FLOOD_SCENARIO",
+        "level": "critical",
+        "stage": "extreme",
+        "peakRisk": 82.79999999999986,
+        "status": "active",
+        "message": "B2 内涝场景：水位 25.0 cm，场景风险 82.8，建议进入应急方案推演"
+      },
+      "requiresEmergency": true
+    },
+    "after": {
+      "rainfallRecession": true,
+      "entranceClosed": false,
+      "vehicleEntryRate": 0,
+      "exposureRemaining": null,
+      "exposureTarget": 0,
+      "scenarioId": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "running": true,
+      "scenario": "extreme_rain",
+      "status": "running",
+      "startedAt": "2026-10-03T16:50:53.127196Z",
+      "simulationStartedAt": 0,
+      "elapsedSimulationSeconds": 2501.1148034640246,
+      "durationMinutes": 60,
+      "autoFault": true,
+      "faultTriggered": true,
+      "rainfall": 20.000000000000085,
+      "rainfallTarget": 20,
+      "surfaceInflow": 0.0566666666666669,
+      "naturalDrainage": 0.0015,
+      "pumpCapacity": 0.1,
+      "pumpEfficiency": 89.48794098826951,
+      "effectivePumpCapacity": 0.08948794098826951,
+      "outflow": 0.09098794098826951,
+      "waterLevel": 26.666001707404373,
+      "waterArea": 1373.15241470977,
+      "floodVolume": 399.9900256110656,
+      "effectiveArea": 1500,
+      "growthRate": -0.13709675549642744,
+      "riskScore": 47.000000000000014,
+      "riskLevel": "elevated",
+      "stage": "extreme",
+      "riskBreakdown": {
+        "factors": [
+          {
+            "key": "water",
+            "label": "积水水位",
+            "weight": 0.35,
+            "normalizedValue": 1,
+            "points": 35,
+            "contribution": 74.46808510638296
+          },
+          {
+            "key": "rainfall",
+            "label": "降雨强度",
+            "weight": 0.2,
+            "normalizedValue": 0.20000000000000084,
+            "points": 4.000000000000017,
+            "contribution": 8.510638297872374
+          },
+          {
+            "key": "pump",
+            "label": "泵站能力",
+            "weight": 0.2,
+            "normalizedValue": 0,
+            "points": 0,
+            "contribution": 0
+          },
+          {
+            "key": "trend",
+            "label": "上涨趋势",
+            "weight": 0.15,
+            "normalizedValue": 0,
+            "points": 0,
+            "contribution": 0
+          },
+          {
+            "key": "exposure",
+            "label": "人员 / 车辆暴露",
+            "weight": 0.1,
+            "normalizedValue": 0.8,
+            "points": 8,
+            "contribution": 17.021276595744673
+          }
+        ],
+        "method": "Flood scenario risk score · 场景规则模型"
+      },
+      "peopleCount": 32,
+      "vehicleCount": 48,
+      "peakWaterLevel": 27.600255832047903,
+      "peakRisk": 82.79999999999986,
+      "alarm": {
+        "id": "FLOOD-bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+        "alarmType": "FLOOD_SCENARIO",
+        "level": "critical",
+        "stage": "extreme",
+        "peakRisk": 82.79999999999986,
+        "status": "active",
+        "message": "B2 内涝场景：水位 26.7 cm，场景风险 47.0，持续关注演化"
+      },
+      "requiresEmergency": false
+    },
+    "peak": 27.600169194651137,
+    "samples": [
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.64999999999985,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.64999999999985,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.64999999999985,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.64999999999985,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465
+      },
+      {
+        "t": 1748.2691186650013,
+        "water": 25.003008242737014,
+        "risk": 82.79999999999986,
+        "capacity": 0.025333333333333465,
+        "phase": "EXECUTING"
+      },
+      {
+        "t": 1748.7792951339914,
+        "water": 25.011725841310678,
+        "risk": 82.63019979550596,
+        "capacity": 0.025616333674156628,
+        "phase": "EXECUTING"
+      },
+      {
+        "t": 1758.3191729440089,
+        "water": 25.172979394158247,
+        "risk": 79.52284424408924,
+        "capacity": 0.030795259593184472,
+        "phase": "EXECUTING"
+      },
+      {
+        "t": 1768.7304928940832,
+        "water": 25.34322971973929,
+        "risk": 77.99999999999993,
+        "capacity": 0.04198821296696843,
+        "phase": "EXECUTING"
+      },
+      {
+        "t": 1779.1165870040852,
+        "water": 25.505389944485803,
+        "risk": 77.99999999999993,
+        "capacity": 0.053011045432857,
+        "phase": "EXECUTING"
+      },
+      {
+        "t": 1789.5025510240346,
+        "water": 25.659924889239615,
+        "risk": 77.77200545611667,
+        "capacity": 0.06401941986222312,
+        "phase": "EXECUTING"
+      },
+      {
+        "t": 1799.885004493968,
+        "water": 25.806782122952338,
+        "risk": 77.26434338998521,
+        "capacity": 0.075046906717529,
+        "phase": "EXECUTING"
+      },
+      {
+        "t": 1810.2487853940459,
+        "water": 25.945215058255826,
+        "risk": 76.4619482880395,
+        "capacity": 0.08502843419229188,
+        "phase": "EXECUTING"
+      },
+      {
+        "t": 1820.708437333937,
+        "water": 26.076938735703493,
+        "risk": 75.38597319736161,
+        "capacity": 0.08934222978890605,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1831.3567235940523,
+        "water": 26.20529233649519,
+        "risk": 74.2100212765019,
+        "capacity": 0.08936369861749784,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1841.9887872739998,
+        "water": 26.328180410178405,
+        "risk": 73.03614695175216,
+        "capacity": 0.08939110426657942,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1852.6181139840455,
+        "water": 26.445508789541925,
+        "risk": 71.91096580894596,
+        "capacity": 0.08941919308057267,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1863.2603908939745,
+        "water": 26.557335289903154,
+        "risk": 70.80716072241967,
+        "capacity": 0.0894448002368656,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1873.890950694021,
+        "water": 26.663357958696963,
+        "risk": 69.77251100986243,
+        "capacity": 0.08946576679332893,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1884.547878314026,
+        "water": 26.763930100759698,
+        "risk": 68.7396579539519,
+        "capacity": 0.08948073727854756,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1895.1724993540731,
+        "water": 26.858500150797447,
+        "risk": 67.70145144503522,
+        "capacity": 0.0894887244816307,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1905.7677567039977,
+        "water": 26.94714570021923,
+        "risk": 66.66197538460406,
+        "capacity": 0.08948931991709883,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1916.3666158940632,
+        "water": 27.030167011489443,
+        "risk": 65.59343206487506,
+        "capacity": 0.08948248226144183,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1927.113234733973,
+        "water": 27.108575817249957,
+        "risk": 64.5428391090147,
+        "capacity": 0.08946827395353829,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1937.6998914040319,
+        "water": 27.180142993551364,
+        "risk": 63.50076442680251,
+        "capacity": 0.08944778769008144,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1948.3723259140831,
+        "water": 27.24659204403805,
+        "risk": 62.45580152683046,
+        "capacity": 0.08942160430121887,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1959.0067443740409,
+        "water": 27.3071182326148,
+        "risk": 61.41367236365763,
+        "capacity": 0.08939125189076427,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1969.6614685840796,
+        "water": 27.362069806358246,
+        "risk": 60.34230436768101,
+        "capacity": 0.08935804218881283,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1980.2721296739685,
+        "water": 27.411135527597093,
+        "risk": 59.300122460178834,
+        "capacity": 0.08932378047447903,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 1990.8700850339583,
+        "water": 27.454505755030667,
+        "risk": 58.2610137512232,
+        "capacity": 0.0892900168266773,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 2001.4547134240222,
+        "water": 27.492197819892176,
+        "risk": 57.2225961982385,
+        "capacity": 0.08925836528357176,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 2012.0663366540882,
+        "water": 27.52434223018543,
+        "risk": 56.18269389722935,
+        "capacity": 0.0892302282449062,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 2022.6761856239925,
+        "water": 27.55082888461277,
+        "risk": 55.114551434811716,
+        "capacity": 0.08920704476069896,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 2033.2955873940875,
+        "water": 27.571675843520875,
+        "risk": 54.10202431695088,
+        "capacity": 0.08918990986975119,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 2043.8966998740123,
+        "water": 27.58683096519737,
+        "risk": 53.03518509821414,
+        "capacity": 0.08917968215617753,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 2054.520394943969,
+        "water": 27.59634393806083,
+        "risk": 51.99489639441177,
+        "capacity": 0.089176818544728,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 2065.1204129839616,
+        "water": 27.600169194651137,
+        "risk": 50.95514707248893,
+        "capacity": 0.08918146727713824,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 2075.768505524037,
+        "water": 27.59830738107807,
+        "risk": 49.88398753264835,
+        "capacity": 0.08919346164354405,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 2086.3781156840682,
+        "water": 27.590761439327576,
+        "risk": 48.8703045607791,
+        "capacity": 0.08921213750072896,
+        "phase": "COMPLETED"
+      },
+      {
+        "t": 2097.0068557741083,
+        "water": 27.5775011154932,
+        "risk": 47.80624581741183,
+        "capacity": 0.08923667891475474,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2107.673783554074,
+        "water": 27.55872388951292,
+        "risk": 47.34113758868003,
+        "capacity": 0.08926598790405917,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2118.2548297340813,
+        "water": 27.536900854176398,
+        "risk": 47.141250093706574,
+        "capacity": 0.08929829039618188,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2128.8528471740046,
+        "water": 27.5137027607993,
+        "risk": 47.05840280464608,
+        "capacity": 0.08933232165618064,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2139.4529666639837,
+        "water": 27.48993068555883,
+        "risk": 47.02414363109665,
+        "capacity": 0.08936640820164074,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2150.116615944012,
+        "water": 27.465765164478213,
+        "risk": 47.00992823961226,
+        "capacity": 0.08939909821106155,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2160.802848844048,
+        "water": 27.441432092240902,
+        "risk": 47.004074971587485,
+        "capacity": 0.08942865765564542,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2171.4766108839976,
+        "water": 27.417069354967477,
+        "risk": 47.00167428063984,
+        "capacity": 0.08945354976929741,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2182.114692984044,
+        "water": 27.392756683787052,
+        "risk": 47.00068995890758,
+        "capacity": 0.08947254965855138,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2192.731132293996,
+        "water": 27.36847594959551,
+        "risk": 47.00028484032661,
+        "capacity": 0.08948481508970593,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2203.3216865939903,
+        "water": 27.34424570487827,
+        "risk": 47.00011784645804,
+        "capacity": 0.08948979866288537,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2214.023869864038,
+        "water": 27.31975813699895,
+        "risk": 47.00004830494654,
+        "capacity": 0.08948723339391937,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2224.8098378939876,
+        "water": 27.295083055153196,
+        "risk": 47.000019662303984,
+        "capacity": 0.08947704778885826,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2235.5085618639746,
+        "water": 27.270617228208604,
+        "risk": 47.00000806184927,
+        "capacity": 0.08945989878455145,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2246.1483146340543,
+        "water": 27.246300595314764,
+        "risk": 47.00000332176711,
+        "capacity": 0.08943671887975105,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2256.781212094064,
+        "water": 27.222017906646133,
+        "risk": 47.00000136946769,
+        "capacity": 0.08940856874665944,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2267.5056227340206,
+        "water": 27.197547855385917,
+        "risk": 47.000000560302325,
+        "capacity": 0.08937650528756526,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2278.1429189239866,
+        "water": 27.17330006941925,
+        "risk": 47.000000230911645,
+        "capacity": 0.08934260944410119,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2288.761050264011,
+        "water": 27.149120199405175,
+        "risk": 47.00000009531535,
+        "capacity": 0.08930832721029786,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2299.448491294034,
+        "water": 27.124806658047103,
+        "risk": 47.00000003911754,
+        "capacity": 0.0892750368393136,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2310.03428712401,
+        "water": 27.10074681291761,
+        "risk": 47.00000001619044,
+        "capacity": 0.08924485871765317,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2320.627817514045,
+        "water": 27.076689260267667,
+        "risk": 47.00000000669678,
+        "capacity": 0.08921888962713767,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2331.283941193991,
+        "water": 27.05250612712443,
+        "risk": 47.00000000275555,
+        "capacity": 0.08919829277362791,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2341.9199026540596,
+        "water": 27.02838102417723,
+        "risk": 47.000000001135746,
+        "capacity": 0.08918425372729813,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2352.4883007840394,
+        "water": 27.004416488924143,
+        "risk": 47.000000000470756,
+        "capacity": 0.08917742446374323,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2363.1302049740275,
+        "water": 26.980287427957872,
+        "risk": 47.000000000193936,
+        "capacity": 0.08917805018795458,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2373.7581163640625,
+        "water": 26.956186924529142,
+        "risk": 47.000000000079986,
+        "capacity": 0.08918615773312324,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2384.3626538540516,
+        "water": 26.932131109665903,
+        "risk": 47.000000000033054,
+        "capacity": 0.08920131164864287,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2394.9544716641035,
+        "water": 26.90809111909861,
+        "risk": 47.00000000001367,
+        "capacity": 0.08922276609966426,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2405.5440875640597,
+        "water": 26.884039003321732,
+        "risk": 47.000000000005656,
+        "capacity": 0.08924950313978161,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2416.1665740040307,
+        "water": 26.859891725207934,
+        "risk": 47.00000000000234,
+        "capacity": 0.08928034912696477,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2426.7437912539813,
+        "water": 26.83582464422503,
+        "risk": 47.000000000000966,
+        "capacity": 0.08931359733852876,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2437.3398884439707,
+        "water": 26.811690659573884,
+        "risk": 47.0000000000004,
+        "capacity": 0.08934784857502932,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2447.9484738739975,
+        "water": 26.78750414822958,
+        "risk": 47.00000000000016,
+        "capacity": 0.08938144365331258,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2458.6165710540113,
+        "water": 26.76315874690077,
+        "risk": 47.00000000000007,
+        "capacity": 0.0894128971691005,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2469.207929553969,
+        "water": 26.73896763993684,
+        "risk": 47.00000000000003,
+        "capacity": 0.08944030723639626,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2479.8345735740577,
+        "water": 26.714678278551336,
+        "risk": 47.000000000000014,
+        "capacity": 0.08946266625075194,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2490.436663394088,
+        "water": 26.690431446585723,
+        "risk": 47.000000000000014,
+        "capacity": 0.08947876893241702,
+        "phase": "STABILIZING"
+      },
+      {
+        "t": 2501.1148034640246,
+        "water": 26.666001707404373,
+        "risk": 47.000000000000014,
+        "capacity": 0.08948794098826951,
+        "phase": "STABILIZING"
+      }
+    ]
+  },
+  "events": [
+    {
+      "execution_id": "d6b63be0-3a2f-429a-bbaa-9e04de48ee77",
+      "scenario_id": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "plan_code": "FLOOD-B",
+      "sequence": 1,
+      "timestamp": "2026-10-03T16:54:03.843165+00:00",
+      "simulation_time": 1748.2691186650013,
+      "message": "推演基线风险 82.8，候选方案已生成（比较 e5d0e96c）",
+      "step": null,
+      "status": "plan_generated"
+    },
+    {
+      "execution_id": "d6b63be0-3a2f-429a-bbaa-9e04de48ee77",
+      "scenario_id": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "plan_code": "FLOOD-B",
+      "sequence": 2,
+      "timestamp": "2026-10-03T16:54:05.360922+00:00",
+      "simulation_time": 1748.2691186650013,
+      "message": "FLOOD-B 已选择并确认，等待仿真时钟执行",
+      "step": null,
+      "status": "pending"
+    },
+    {
+      "execution_id": "d6b63be0-3a2f-429a-bbaa-9e04de48ee77",
+      "scenario_id": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "plan_code": "FLOOD-B",
+      "sequence": 3,
+      "timestamp": "2026-10-03T16:54:06.089463+00:00",
+      "simulation_time": 1748.2691186650013,
+      "message": "P01 START_PUMP 已施加，等待过渡完成",
+      "step": 0,
+      "status": "executing"
+    },
+    {
+      "execution_id": "d6b63be0-3a2f-429a-bbaa-9e04de48ee77",
+      "scenario_id": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "plan_code": "FLOOD-B",
+      "sequence": 4,
+      "timestamp": "2026-10-03T16:54:08.153142+00:00",
+      "simulation_time": 1758.3191729440089,
+      "message": "P02 START_PUMP 已施加，等待过渡完成",
+      "step": 1,
+      "status": "executing"
+    },
+    {
+      "execution_id": "d6b63be0-3a2f-429a-bbaa-9e04de48ee77",
+      "scenario_id": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "plan_code": "FLOOD-B",
+      "sequence": 5,
+      "timestamp": "2026-10-03T16:54:12.319609+00:00",
+      "simulation_time": 1808.274731889269,
+      "message": "P01 已运行",
+      "step": 0,
+      "status": "completed"
+    },
+    {
+      "execution_id": "d6b63be0-3a2f-429a-bbaa-9e04de48ee77",
+      "scenario_id": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "plan_code": "FLOOD-B",
+      "sequence": 6,
+      "timestamp": "2026-10-03T16:54:13.369139+00:00",
+      "simulation_time": 1818.4670833468174,
+      "message": "P02 已运行",
+      "step": 1,
+      "status": "completed"
+    },
+    {
+      "execution_id": "d6b63be0-3a2f-429a-bbaa-9e04de48ee77",
+      "scenario_id": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "plan_code": "FLOOD-B",
+      "sequence": 7,
+      "timestamp": "2026-10-03T16:54:13.369156+00:00",
+      "simulation_time": 1818.4670833468174,
+      "message": "方案动作完成；继续观察风险，未关闭内涝告警",
+      "step": null,
+      "status": "completed"
+    },
+    {
+      "execution_id": "d6b63be0-3a2f-429a-bbaa-9e04de48ee77",
+      "scenario_id": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "plan_code": "FLOOD-B",
+      "sequence": 8,
+      "timestamp": "2026-10-03T16:54:41.003050+00:00",
+      "simulation_time": 2096.7596757720144,
+      "message": "风险开始回落；继续监测，事件未关闭",
+      "step": null,
+      "status": "completed"
+    }
+  ],
+  "predictions": {
+    "before": {
+      "id": "d747ca2c-9d2c-42c1-bfe3-63bbe717d54f",
+      "scenarioId": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "sessionId": "d9d6ed7f-bdc1-4490-bf45-4531e2facbd9",
+      "basedOnRevision": 1194,
+      "simulationTime": 1748.2691186650013,
+      "generatedAt": "2026-10-03T16:54:04.138168+00:00",
+      "current": {
+        "waterLevel": 25.003008242737014,
+        "riskScore": 82.79999999999986,
+        "riskLevel": "extreme"
+      },
+      "physicalForecast": [
+        {
+          "minute": 10,
+          "waterLevel": 29.42866856880363,
+          "waterArea": 1478.5236591596406,
+          "riskScore": 53.590000014176894,
+          "riskLevel": "elevated"
+        },
+        {
+          "minute": 20,
+          "waterLevel": 30.622001902144362,
+          "waterArea": 1500,
+          "riskScore": 53.58999999999973,
+          "riskLevel": "elevated"
+        },
+        {
+          "minute": 30,
+          "waterLevel": 31.81533523547752,
+          "waterArea": 1500,
+          "riskScore": 53.58999999999973,
+          "riskLevel": "elevated"
+        }
+      ],
+      "mlForecast": [
+        {
+          "minute": 10,
+          "waterLevel": 34.51181411743164,
+          "riskScore": 76.63697814941406,
+          "riskLevel": "high"
+        },
+        {
+          "minute": 20,
+          "waterLevel": 44.325653076171875,
+          "riskScore": 54.092918395996094,
+          "riskLevel": "elevated"
+        },
+        {
+          "minute": 30,
+          "waterLevel": 52.156829833984375,
+          "riskScore": 59.19026184082031,
+          "riskLevel": "elevated"
+        }
+      ],
+      "comparison": [
+        {
+          "minute": 10,
+          "waterGap": 5.083145548628011,
+          "riskGap": 23.04697813523717,
+          "agreement": "low"
+        },
+        {
+          "minute": 20,
+          "waterGap": 13.703651174027513,
+          "riskGap": 0.5029183959963603,
+          "agreement": "low"
+        },
+        {
+          "minute": 30,
+          "waterGap": 20.341494598506856,
+          "riskGap": 5.600261840820579,
+          "agreement": "low"
+        }
+      ],
+      "modelStatus": {
+        "available": true,
+        "model": "XGBoost",
+        "version": "risk-xgb-v1",
+        "featureVersion": "m6-v1",
+        "trainedAt": "2026-10-03T13:52:36.760399+00:00",
+        "datasetSize": 60000,
+        "scenarioCounts": {
+          "train": 170,
+          "validation": 40,
+          "test": 40
+        },
+        "metrics": {
+          "water_10m": {
+            "mae": 0.2916005849838257,
+            "rmse": 0.3735974431037903,
+            "r2": 0.9989901781082153
+          },
+          "water_20m": {
+            "mae": 0.4818006455898285,
+            "rmse": 0.6338656544685364,
+            "r2": 0.998011589050293
+          },
+          "water_30m": {
+            "mae": 0.7329612970352173,
+            "rmse": 0.9526486992835999,
+            "r2": 0.9968525767326355
+          },
+          "risk_10m": {
+            "mae": 0.996355414390564,
+            "rmse": 1.3376532793045044,
+            "r2": 0.9960619807243347,
+            "risk_level_accuracy": 0.9653125
+          },
+          "risk_20m": {
+            "mae": 1.3904186487197876,
+            "rmse": 1.8153774738311768,
+            "r2": 0.9926336407661438,
+            "risk_level_accuracy": 0.9565625
+          },
+          "risk_30m": {
+            "mae": 1.4197661876678467,
+            "rmse": 1.888012409210205,
+            "r2": 0.9916701316833496,
+            "risk_level_accuracy": 0.9647916666666667
+          }
+        },
+        "message": "使用软件仿真数据训练；仅用于比赛软件演示"
+      },
+      "inferenceMs": 1.7046040011337027,
+      "cacheHit": true,
+      "assumption": "物理预测延续降雨计划、泵启动与待执行动作；ML 只读当前特征，不编码封控/待执行动作，雨势回落为扩展工况。ML 非因果模型，一致度不是置信概率。"
+    },
+    "after": {
+      "id": "76be235e-9acd-4926-89ba-7a032bc1e6de",
+      "scenarioId": "bbce5171-0fa8-45e1-867d-46c90b9a24a8",
+      "sessionId": "d9d6ed7f-bdc1-4490-bf45-4531e2facbd9",
+      "basedOnRevision": 1268,
+      "simulationTime": 2469.207929553969,
+      "generatedAt": "2026-10-03T16:55:18.314558+00:00",
+      "current": {
+        "waterLevel": 26.73896763993684,
+        "riskScore": 47.00000000000003,
+        "riskLevel": "elevated"
+      },
+      "physicalForecast": [
+        {
+          "minute": 10,
+          "waterLevel": 25.372358801881163,
+          "waterArea": 1322.8815249901263,
+          "riskScore": 47,
+          "riskLevel": "elevated"
+        },
+        {
+          "minute": 20,
+          "waterLevel": 24.005736928963984,
+          "waterArea": 1269.0729867258754,
+          "riskScore": 45.782027737980876,
+          "riskLevel": "elevated"
+        },
+        {
+          "minute": 30,
+          "waterLevel": 22.639105022500157,
+          "waterArea": 1214.4922803108752,
+          "riskScore": 44.10790365256269,
+          "riskLevel": "elevated"
+        }
+      ],
+      "mlForecast": [
+        {
+          "minute": 10,
+          "waterLevel": 29.1293888092041,
+          "riskScore": 39.44755172729492,
+          "riskLevel": "general"
+        },
+        {
+          "minute": 20,
+          "waterLevel": 23.5841007232666,
+          "riskScore": 33.51899337768555,
+          "riskLevel": "general"
+        },
+        {
+          "minute": 30,
+          "waterLevel": 17.61448860168457,
+          "riskScore": 31.431106567382812,
+          "riskLevel": "general"
+        }
+      ],
+      "comparison": [
+        {
+          "minute": 10,
+          "waterGap": 3.757030007322939,
+          "riskGap": 7.552448272705078,
+          "agreement": "medium"
+        },
+        {
+          "minute": 20,
+          "waterGap": 0.42163620569738214,
+          "riskGap": 12.263034360295329,
+          "agreement": "medium"
+        },
+        {
+          "minute": 30,
+          "waterGap": 5.024616420815587,
+          "riskGap": 12.676797085179878,
+          "agreement": "low"
+        }
+      ],
+      "modelStatus": {
+        "available": true,
+        "model": "XGBoost",
+        "version": "risk-xgb-v1",
+        "featureVersion": "m6-v1",
+        "trainedAt": "2026-10-03T13:52:36.760399+00:00",
+        "datasetSize": 60000,
+        "scenarioCounts": {
+          "train": 170,
+          "validation": 40,
+          "test": 40
+        },
+        "metrics": {
+          "water_10m": {
+            "mae": 0.2916005849838257,
+            "rmse": 0.3735974431037903,
+            "r2": 0.9989901781082153
+          },
+          "water_20m": {
+            "mae": 0.4818006455898285,
+            "rmse": 0.6338656544685364,
+            "r2": 0.998011589050293
+          },
+          "water_30m": {
+            "mae": 0.7329612970352173,
+            "rmse": 0.9526486992835999,
+            "r2": 0.9968525767326355
+          },
+          "risk_10m": {
+            "mae": 0.996355414390564,
+            "rmse": 1.3376532793045044,
+            "r2": 0.9960619807243347,
+            "risk_level_accuracy": 0.9653125
+          },
+          "risk_20m": {
+            "mae": 1.3904186487197876,
+            "rmse": 1.8153774738311768,
+            "r2": 0.9926336407661438,
+            "risk_level_accuracy": 0.9565625
+          },
+          "risk_30m": {
+            "mae": 1.4197661876678467,
+            "rmse": 1.888012409210205,
+            "r2": 0.9916701316833496,
+            "risk_level_accuracy": 0.9647916666666667
+          }
+        },
+        "message": "使用软件仿真数据训练；仅用于比赛软件演示"
+      },
+      "inferenceMs": 2.049232993158512,
+      "cacheHit": true,
+      "assumption": "物理预测延续降雨计划、泵启动与待执行动作；ML 只读当前特征，不编码封控/待执行动作，雨势回落为扩展工况。ML 非因果模型，一致度不是置信概率。"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "checks": [
+    {
+      "name": "software confirmation, one realtime source, demo start and B2 camera guidance",
+      "detail": {
+        "initialWater": 0.7902707314719395,
+        "initialRain": 9.564103059997214,
+        "initialRisk": 11.605775283774745
+      }
+    },
+    {
+      "name": "ramped weather, real P03 fault, coupled water balance and expanding surface",
+      "detail": {
+        "rainfall": 64.9637980358226,
+        "efficiency": 76.00589801388843,
+        "water": 2.7776539426748545,
+        "risk": 37.99189315639725
+      }
+    },
+    {
+      "name": "high-risk heatmap/pulse, one escalating alarm and stable resources over >10 simulated minutes",
+      "detail": {
+        "water": 12.214325502621172,
+        "risk": 65.6750433035535,
+        "resources": {
+          "geometry": 103,
+          "material": 98,
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "30-minute completion freezes evolution without recovery; 10/20/30 forecast changes without state mutation",
+      "detail": {
+        "water": 25.887628585580956,
+        "risk": 82.79999999999986,
+        "forecast": [
+          {
+            "minute": 10,
+            "waterLevel": 36.14762858558116,
+            "waterArea": 1500,
+            "riskScore": 82.8,
+            "riskLevel": "extreme"
+          },
+          {
+            "minute": 20,
+            "waterLevel": 46.40762858558138,
+            "waterArea": 1500,
+            "riskScore": 82.8,
+            "riskLevel": "extreme"
+          },
+          {
+            "minute": 30,
+            "waterLevel": 56.667628585581596,
+            "waterArea": 1500,
+            "riskScore": 82.8,
+            "riskLevel": "extreme"
+          }
+        ],
+        "fps": 29
+      }
+    },
+    {
+      "name": "four trend tabs, Dashboard scenario risk, actual database snapshots, 1440 layout and one socket",
+      "detail": {
+        "snapshots": 39
+      }
+    },
+    {
+      "name": "reset clears live incident/history and restores normal pumps while retaining snapshots and 32 pipeline assets"
+    }
+  ],
+  "errors": [],
+  "performance": {
+    "floodFPS": 29
+  },
+  "screenshots": [
+    "/tmp/m10-m5/M5-simulation-normal.png",
+    "/tmp/m10-m5/M5-flood-developing.png",
+    "/tmp/m10-m5/M5-flood-extreme.png",
+    "/tmp/m10-m5/M5-dashboard-flood.png",
+    "/tmp/m10-m5/M5-flood-1440.png"
+  ]
+}

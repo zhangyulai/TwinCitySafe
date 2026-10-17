@@ -1,0 +1,3357 @@
+{
+  "checks": [
+    {
+      "name": "gradual real-network detection, observation ranking, fixed particles and affected buildings",
+      "detail": {
+        "risk": 61.987578759239604,
+        "score": 0.6747533301484094,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "M4 three isolation boundaries, separate units, readonly comparison and 2D/3D preview",
+      "detail": {
+        "options": [
+          {
+            "valves": [
+              "V-W-03"
+            ],
+            "buildings": 2,
+            "length": 86.92,
+            "serviceLoss": 0.4
+          },
+          {
+            "valves": [
+              "V-W-02"
+            ],
+            "buildings": 4,
+            "length": 185.51,
+            "serviceLoss": 0.8
+          },
+          {
+            "valves": [
+              "V-W-01"
+            ],
+            "buildings": 5,
+            "length": 224.39,
+            "serviceLoss": 1
+          }
+        ],
+        "latency": 6.689714995445684
+      }
+    },
+    {
+      "name": "stale valve state rejected, explicit software confirmation, immediate state continuity and gradual decay"
+    },
+    {
+      "name": "natural risk decline, preserved service interruption, one event/alarm/socket and stable resources over 10 simulated minutes",
+      "detail": {
+        "warm": {
+          "time": 515.9685792740659,
+          "geometry": 36,
+          "material": 98,
+          "texture": 9
+        },
+        "hot": {
+          "time": 1167.3991553740295,
+          "geometry": 36,
+          "material": 98,
+          "texture": 9,
+          "fps": 31
+        }
+      }
+    },
+    {
+      "name": "PostgreSQL event, fixed-rate snapshots, comparison hashes and execution retained",
+      "detail": {
+        "snapshots": 27,
+        "event": "74e2dafe-7453-467c-a8a6-9976df9c6742"
+      }
+    },
+    {
+      "name": "1440 readable layout, Dashboard current incident and Risk ML boundary"
+    },
+    {
+      "name": "reset restores demo valve and caches; all canvas disposed, no JS errors"
+    }
+  ],
+  "errors": [],
+  "performance": {
+    "warm": {
+      "time": 515.9685792740659,
+      "geometry": 36,
+      "material": 98,
+      "texture": 9
+    },
+    "hot": {
+      "time": 1167.3991553740295,
+      "geometry": 36,
+      "material": 98,
+      "texture": 9,
+      "fps": 31
+    }
+  },
+  "screenshots": [
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M8-normal.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M8-confirmed.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M8-preview.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M8-stabilizing.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M8-1440.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M8-dashboard.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M8-risk.png"
+  ],
+  "observation": {
+    "before": {
+      "scenarioId": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+      "scenarioType": "WATER_SUPPLY_LEAK",
+      "scenarioName": "PIPELINE_LEAK_DEMO",
+      "targetPipelineId": "WS-003",
+      "status": "stopped",
+      "elapsedSimulationSeconds": 340.29326315394445,
+      "targetSeverity": 0.75,
+      "leakSeverity": 0.75,
+      "leakCoefficient": 45,
+      "estimatedLeakFlow": 20.966043965172467,
+      "upstreamPressure": 0.3427650574460454,
+      "downstreamPressure": 0.21620958266666981,
+      "pipelineFlow": 43.19512005346042,
+      "pressureDropRate": 0.004145352547200892,
+      "flowChangeRate": 0.27916520660375216,
+      "detectionScore": 0.6747533301484094,
+      "confidence": 0.6747533301484094,
+      "confidenceMethod": "多变量软件异常匹配分数，未经概率校准",
+      "riskScore": 61.987578759239604,
+      "riskLevel": "high",
+      "riskBreakdown": [
+        {
+          "key": "leak_flow",
+          "normalizedValue": 0.8386417586068987,
+          "weight": 0.5,
+          "points": 41.932087930344935
+        },
+        {
+          "key": "pressure_loss",
+          "normalizedValue": 0.6836286159186313,
+          "weight": 0.2,
+          "points": 13.672572318372628
+        },
+        {
+          "key": "affected_buildings",
+          "normalizedValue": 0.3354567034427595,
+          "weight": 0.1,
+          "points": 3.3545670344275957
+        },
+        {
+          "key": "service_disruption",
+          "normalizedValue": 0.19408611174602874,
+          "weight": 0.15,
+          "points": 2.911291676190431
+        },
+        {
+          "key": "growth",
+          "normalizedValue": 0.023411959980802893,
+          "weight": 0.05,
+          "points": 0.11705979990401448
+        }
+      ],
+      "detectionBreakdown": {
+        "pressure_deviation": 1,
+        "flow_deviation": 0.6077514282505799,
+        "pressure_trend": 0.1036338136800223,
+        "flow_trend": 0.027916520660375217,
+        "imbalance": 0.8386417586068987
+      },
+      "suspectedSegments": [
+        {
+          "pipeline_id": "WS-003",
+          "score": 0.8341697188532533,
+          "pressure_residual": 1,
+          "flow_residual": 0.6077514282505799,
+          "imbalance": 0.8386417586068987,
+          "topology_consistency": 0.5971616584749182
+        },
+        {
+          "pipeline_id": "WS-008",
+          "score": 0.22943337820793336,
+          "pressure_residual": 0.7817217258615075,
+          "flow_residual": 0.2308903303563187,
+          "imbalance": 0,
+          "topology_consistency": 1
+        },
+        {
+          "pipeline_id": "WS-009",
+          "score": 0.22943337820793336,
+          "pressure_residual": 0.7817217258615075,
+          "flow_residual": 0.2308903303563187,
+          "imbalance": 0,
+          "topology_consistency": 1
+        }
+      ],
+      "affectedBuildings": [
+        {
+          "buildingId": "B-RESEARCH",
+          "buildingName": "科研楼 B",
+          "connectionNode": "WS-BC-02",
+          "criticality": "normal"
+        },
+        {
+          "buildingId": "C-LAB",
+          "buildingName": "实验楼 C",
+          "connectionNode": "WS-BC-03",
+          "criticality": "high"
+        }
+      ],
+      "affectedNodes": [
+        "V-W-03",
+        "WS-BC-02",
+        "WS-BC-03",
+        "WS-J-03"
+      ],
+      "affectedEdges": [
+        "WS-003",
+        "WS-008",
+        "WS-009"
+      ],
+      "interruptedBuildings": [],
+      "estimatedServiceLoss": 0.19408611174602874,
+      "currentStage": "CONFIRMED",
+      "leakStatus": "DETECTED",
+      "serviceStatus": "DEGRADED",
+      "eventId": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+      "detectedAt": "2026-10-03T16:36:47.458800+00:00",
+      "confirmedAt": "2026-10-03T16:36:52.612036+00:00",
+      "peakDetectionScore": 0.7609811286177329,
+      "peakRisk": 62.18331986618811,
+      "alarm": {
+        "id": "LEAK-afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+        "type": "PIPELINE_LEAK_CONFIRMED",
+        "status": "active",
+        "level": "high",
+        "peakDetectionScore": 0.7609811286177329,
+        "peakRisk": 62.18331986618811
+      },
+      "events": [
+        {
+          "sequence": 1,
+          "timestamp": "2026-10-03T16:36:37.688101+00:00",
+          "simulationTime": 0,
+          "stage": "NORMAL",
+          "message": "软件泄漏场景启动，观察全网压力与流量；注入目标仅用于演示真值"
+        },
+        {
+          "sequence": 2,
+          "timestamp": "2026-10-03T16:36:47.458777+00:00",
+          "simulationTime": 92.60486995386606,
+          "stage": "SUSPECTED",
+          "message": "多变量异常匹配进入 SUSPECTED，首位疑似 WS-003"
+        },
+        {
+          "sequence": 3,
+          "timestamp": "2026-10-03T16:36:52.612008+00:00",
+          "simulationTime": 144.12742394393734,
+          "stage": "CONFIRMED",
+          "message": "多变量异常匹配进入 CONFIRMED，首位疑似 WS-003"
+        },
+        {
+          "sequence": 4,
+          "timestamp": "2026-10-03T16:36:59.841326+00:00",
+          "simulationTime": 216.40845632391427,
+          "stage": "HIGH",
+          "message": "多变量异常匹配进入 HIGH，首位疑似 WS-003"
+        },
+        {
+          "sequence": 5,
+          "timestamp": "2026-10-03T16:37:00.877291+00:00",
+          "simulationTime": 226.73875892396512,
+          "stage": "CONFIRMED",
+          "message": "多变量异常匹配进入 CONFIRMED，首位疑似 WS-003"
+        }
+      ],
+      "execution": null,
+      "localizationLatencyMs": 0.09420300193596631
+    },
+    "firstDecay": {
+      "scenarioId": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+      "scenarioType": "WATER_SUPPLY_LEAK",
+      "scenarioName": "PIPELINE_LEAK_DEMO",
+      "targetPipelineId": "WS-003",
+      "status": "running",
+      "elapsedSimulationSeconds": 340.7961052439497,
+      "targetSeverity": 0.75,
+      "leakSeverity": 0.75,
+      "leakCoefficient": 45,
+      "estimatedLeakFlow": 20.31737729755049,
+      "upstreamPressure": 0.3321602782153942,
+      "downstreamPressure": 0.20952029260654692,
+      "pipelineFlow": 41.858709873783546,
+      "pressureDropRate": 0.7981778208009562,
+      "flowChangeRate": -159.46280626543881,
+      "detectionScore": 0.8126950919020196,
+      "confidence": 0.8126950919020196,
+      "confidenceMethod": "多变量软件异常匹配分数，未经概率校准",
+      "riskScore": 63.570000974199665,
+      "riskLevel": "high",
+      "riskBreakdown": [
+        {
+          "key": "leak_flow",
+          "normalizedValue": 0.8126950919020196,
+          "weight": 0.5,
+          "points": 40.63475459510098
+        },
+        {
+          "key": "pressure_loss",
+          "normalizedValue": 0.6842233005745302,
+          "weight": 0.2,
+          "points": 13.684466011490606
+        },
+        {
+          "key": "affected_buildings",
+          "normalizedValue": 0.3250780367608079,
+          "weight": 0.1,
+          "points": 3.2507803676080793
+        },
+        {
+          "key": "service_disruption",
+          "normalizedValue": 0.4,
+          "weight": 0.15,
+          "points": 6
+        },
+        {
+          "key": "growth",
+          "normalizedValue": 0,
+          "weight": 0.05,
+          "points": 0
+        }
+      ],
+      "detectionBreakdown": {
+        "residual_flow": 0.8126950919020196
+      },
+      "suspectedSegments": [
+        {
+          "pipeline_id": "WS-003",
+          "score": 0.8341697188532533,
+          "pressure_residual": 1,
+          "flow_residual": 0.6077514282505799,
+          "imbalance": 0.8386417586068987,
+          "topology_consistency": 0.5971616584749182
+        },
+        {
+          "pipeline_id": "WS-008",
+          "score": 0.22943337820793336,
+          "pressure_residual": 0.7817217258615075,
+          "flow_residual": 0.2308903303563187,
+          "imbalance": 0,
+          "topology_consistency": 1
+        },
+        {
+          "pipeline_id": "WS-009",
+          "score": 0.22943337820793336,
+          "pressure_residual": 0.7817217258615075,
+          "flow_residual": 0.2308903303563187,
+          "imbalance": 0,
+          "topology_consistency": 1
+        }
+      ],
+      "affectedBuildings": [
+        {
+          "buildingId": "B-RESEARCH",
+          "buildingName": "科研楼 B",
+          "connectionNode": "WS-BC-02",
+          "criticality": "normal"
+        },
+        {
+          "buildingId": "C-LAB",
+          "buildingName": "实验楼 C",
+          "connectionNode": "WS-BC-03",
+          "criticality": "high"
+        }
+      ],
+      "affectedNodes": [
+        "V-W-03",
+        "WS-BC-02",
+        "WS-BC-03",
+        "WS-J-03"
+      ],
+      "affectedEdges": [
+        "WS-003",
+        "WS-008",
+        "WS-009"
+      ],
+      "interruptedBuildings": [
+        {
+          "buildingId": "B-RESEARCH",
+          "buildingName": "科研楼 B",
+          "connectionNode": "WS-BC-02",
+          "criticality": "normal"
+        },
+        {
+          "buildingId": "C-LAB",
+          "buildingName": "实验楼 C",
+          "connectionNode": "WS-BC-03",
+          "criticality": "high"
+        }
+      ],
+      "estimatedServiceLoss": 0.4,
+      "currentStage": "ISOLATING",
+      "leakStatus": "ISOLATING",
+      "serviceStatus": "INTERRUPTED",
+      "eventId": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+      "detectedAt": "2026-10-03T16:36:47.458800+00:00",
+      "confirmedAt": "2026-10-03T16:36:52.612036+00:00",
+      "peakDetectionScore": 0.7609811286177329,
+      "peakRisk": 63.570000974199665,
+      "alarm": {
+        "id": "LEAK-afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+        "type": "PIPELINE_LEAK_CONFIRMED",
+        "status": "active",
+        "level": "high",
+        "peakDetectionScore": 0.7609811286177329,
+        "peakRisk": 63.570000974199665
+      },
+      "events": [
+        {
+          "sequence": 1,
+          "timestamp": "2026-10-03T16:36:37.688101+00:00",
+          "simulationTime": 0,
+          "stage": "NORMAL",
+          "message": "软件泄漏场景启动，观察全网压力与流量；注入目标仅用于演示真值"
+        },
+        {
+          "sequence": 2,
+          "timestamp": "2026-10-03T16:36:47.458777+00:00",
+          "simulationTime": 92.60486995386606,
+          "stage": "SUSPECTED",
+          "message": "多变量异常匹配进入 SUSPECTED，首位疑似 WS-003"
+        },
+        {
+          "sequence": 3,
+          "timestamp": "2026-10-03T16:36:52.612008+00:00",
+          "simulationTime": 144.12742394393734,
+          "stage": "CONFIRMED",
+          "message": "多变量异常匹配进入 CONFIRMED，首位疑似 WS-003"
+        },
+        {
+          "sequence": 4,
+          "timestamp": "2026-10-03T16:36:59.841326+00:00",
+          "simulationTime": 216.40845632391427,
+          "stage": "HIGH",
+          "message": "多变量异常匹配进入 HIGH，首位疑似 WS-003"
+        },
+        {
+          "sequence": 5,
+          "timestamp": "2026-10-03T16:37:00.877291+00:00",
+          "simulationTime": 226.73875892396512,
+          "stage": "CONFIRMED",
+          "message": "多变量异常匹配进入 CONFIRMED，首位疑似 WS-003"
+        },
+        {
+          "sequence": 6,
+          "timestamp": "2026-10-03T16:37:23.241279+00:00",
+          "simulationTime": 340.29326315394445,
+          "stage": "ISOLATING",
+          "message": "用户确认软件隔离，已关闭 V-W-03；等待管内压力和泄漏流量衰减"
+        }
+      ],
+      "execution": {
+        "id": "8ca5cb16-ef6a-4952-b98c-eed7e455adfa",
+        "comparisonId": "7dae029b-f2df-47ad-88ee-5e2bcda7f1df",
+        "optionId": "option-1",
+        "valves": [
+          "V-W-03"
+        ],
+        "status": "applied",
+        "operator": "demo-user",
+        "timestamp": "2026-10-03T16:37:23.234244+00:00",
+        "affectedBuildings": [
+          {
+            "buildingId": "B-RESEARCH",
+            "buildingName": "科研楼 B",
+            "connectionNode": "WS-BC-02",
+            "criticality": "normal"
+          },
+          {
+            "buildingId": "C-LAB",
+            "buildingName": "实验楼 C",
+            "connectionNode": "WS-BC-03",
+            "criticality": "high"
+          }
+        ]
+      },
+      "localizationLatencyMs": 0.08549500489607453
+    },
+    "after": {
+      "scenarioId": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+      "scenarioType": "WATER_SUPPLY_LEAK",
+      "scenarioName": "PIPELINE_LEAK_DEMO",
+      "targetPipelineId": "WS-003",
+      "status": "stopped",
+      "elapsedSimulationSeconds": 1167.3991553740295,
+      "targetSeverity": 0.75,
+      "leakSeverity": 0.75,
+      "leakCoefficient": 45,
+      "estimatedLeakFlow": 7.430981555849101e-22,
+      "upstreamPressure": 1.2148600012964565e-23,
+      "downstreamPressure": 7.663102412943048e-24,
+      "pipelineFlow": 1.5309618779448602e-21,
+      "pressureDropRate": 4.039241801550024e-23,
+      "flowChangeRate": -8.069741053609964e-21,
+      "detectionScore": 2.9723926223396404e-23,
+      "confidence": 2.9723926223396404e-23,
+      "confidenceMethod": "多变量软件异常匹配分数，未经概率校准",
+      "riskScore": 6,
+      "riskLevel": "low",
+      "riskBreakdown": [
+        {
+          "key": "leak_flow",
+          "normalizedValue": 2.9723926223396404e-23,
+          "weight": 0.5,
+          "points": 1.4861963111698202e-21
+        },
+        {
+          "key": "pressure_loss",
+          "normalizedValue": 2.9723926223396404e-23,
+          "weight": 0.2,
+          "points": 5.944785244679281e-22
+        },
+        {
+          "key": "affected_buildings",
+          "normalizedValue": 1.1889570489358562e-23,
+          "weight": 0.1,
+          "points": 1.1889570489358562e-22
+        },
+        {
+          "key": "service_disruption",
+          "normalizedValue": 0.4,
+          "weight": 0.15,
+          "points": 6
+        },
+        {
+          "key": "growth",
+          "normalizedValue": 0,
+          "weight": 0.05,
+          "points": 0
+        }
+      ],
+      "detectionBreakdown": {
+        "residual_flow": 2.9723926223396404e-23
+      },
+      "suspectedSegments": [
+        {
+          "pipeline_id": "WS-003",
+          "score": 0.8341697188532533,
+          "pressure_residual": 1,
+          "flow_residual": 0.6077514282505799,
+          "imbalance": 0.8386417586068987,
+          "topology_consistency": 0.5971616584749182
+        },
+        {
+          "pipeline_id": "WS-008",
+          "score": 0.22943337820793336,
+          "pressure_residual": 0.7817217258615075,
+          "flow_residual": 0.2308903303563187,
+          "imbalance": 0,
+          "topology_consistency": 1
+        },
+        {
+          "pipeline_id": "WS-009",
+          "score": 0.22943337820793336,
+          "pressure_residual": 0.7817217258615075,
+          "flow_residual": 0.2308903303563187,
+          "imbalance": 0,
+          "topology_consistency": 1
+        }
+      ],
+      "affectedBuildings": [
+        {
+          "buildingId": "B-RESEARCH",
+          "buildingName": "科研楼 B",
+          "connectionNode": "WS-BC-02",
+          "criticality": "normal"
+        },
+        {
+          "buildingId": "C-LAB",
+          "buildingName": "实验楼 C",
+          "connectionNode": "WS-BC-03",
+          "criticality": "high"
+        }
+      ],
+      "affectedNodes": [
+        "V-W-03",
+        "WS-BC-02",
+        "WS-BC-03",
+        "WS-J-03"
+      ],
+      "affectedEdges": [
+        "WS-003",
+        "WS-008",
+        "WS-009"
+      ],
+      "interruptedBuildings": [
+        {
+          "buildingId": "B-RESEARCH",
+          "buildingName": "科研楼 B",
+          "connectionNode": "WS-BC-02",
+          "criticality": "normal"
+        },
+        {
+          "buildingId": "C-LAB",
+          "buildingName": "实验楼 C",
+          "connectionNode": "WS-BC-03",
+          "criticality": "high"
+        }
+      ],
+      "estimatedServiceLoss": 0.4,
+      "currentStage": "STABILIZING",
+      "leakStatus": "CONTAINED",
+      "serviceStatus": "INTERRUPTED",
+      "eventId": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+      "detectedAt": "2026-10-03T16:36:47.458800+00:00",
+      "confirmedAt": "2026-10-03T16:36:52.612036+00:00",
+      "peakDetectionScore": 0.8126950919020196,
+      "peakRisk": 63.570000974199665,
+      "alarm": {
+        "id": "LEAK-afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+        "type": "PIPELINE_LEAK_CONFIRMED",
+        "status": "active",
+        "level": "low",
+        "peakDetectionScore": 0.8126950919020196,
+        "peakRisk": 63.570000974199665
+      },
+      "events": [
+        {
+          "sequence": 1,
+          "timestamp": "2026-10-03T16:36:37.688101+00:00",
+          "simulationTime": 0,
+          "stage": "NORMAL",
+          "message": "软件泄漏场景启动，观察全网压力与流量；注入目标仅用于演示真值"
+        },
+        {
+          "sequence": 2,
+          "timestamp": "2026-10-03T16:36:47.458777+00:00",
+          "simulationTime": 92.60486995386606,
+          "stage": "SUSPECTED",
+          "message": "多变量异常匹配进入 SUSPECTED，首位疑似 WS-003"
+        },
+        {
+          "sequence": 3,
+          "timestamp": "2026-10-03T16:36:52.612008+00:00",
+          "simulationTime": 144.12742394393734,
+          "stage": "CONFIRMED",
+          "message": "多变量异常匹配进入 CONFIRMED，首位疑似 WS-003"
+        },
+        {
+          "sequence": 4,
+          "timestamp": "2026-10-03T16:36:59.841326+00:00",
+          "simulationTime": 216.40845632391427,
+          "stage": "HIGH",
+          "message": "多变量异常匹配进入 HIGH，首位疑似 WS-003"
+        },
+        {
+          "sequence": 5,
+          "timestamp": "2026-10-03T16:37:00.877291+00:00",
+          "simulationTime": 226.73875892396512,
+          "stage": "CONFIRMED",
+          "message": "多变量异常匹配进入 CONFIRMED，首位疑似 WS-003"
+        },
+        {
+          "sequence": 6,
+          "timestamp": "2026-10-03T16:37:23.241279+00:00",
+          "simulationTime": 340.29326315394445,
+          "stage": "ISOLATING",
+          "message": "用户确认软件隔离，已关闭 V-W-03；等待管内压力和泄漏流量衰减"
+        },
+        {
+          "sequence": 7,
+          "timestamp": "2026-10-03T16:37:31.501091+00:00",
+          "simulationTime": 412.57132145402954,
+          "stage": "STABILIZING",
+          "message": "泄漏受控，仍保留停水影响；事件未关闭"
+        }
+      ],
+      "execution": {
+        "id": "8ca5cb16-ef6a-4952-b98c-eed7e455adfa",
+        "comparisonId": "7dae029b-f2df-47ad-88ee-5e2bcda7f1df",
+        "optionId": "option-1",
+        "valves": [
+          "V-W-03"
+        ],
+        "status": "applied",
+        "operator": "demo-user",
+        "timestamp": "2026-10-03T16:37:23.234244+00:00",
+        "affectedBuildings": [
+          {
+            "buildingId": "B-RESEARCH",
+            "buildingName": "科研楼 B",
+            "connectionNode": "WS-BC-02",
+            "criticality": "normal"
+          },
+          {
+            "buildingId": "C-LAB",
+            "buildingName": "实验楼 C",
+            "connectionNode": "WS-BC-03",
+            "criticality": "high"
+          }
+        ]
+      },
+      "localizationLatencyMs": 0.0725900026736781
+    }
+  },
+  "comparison": {
+    "id": "a69fd5f9-2ce7-4eda-be53-16a3abf2f80a",
+    "scenarioId": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+    "pipelineId": "WS-003",
+    "graphRevision": "a08bb510be9ae955f07be690f09bfbdae7c8c817f0652b2f4d126fbdf1a13f88",
+    "stateHash": "da886cc41288c970766a5da6a83d92cd5939681e7c7c0b39c314d7d9d4950f89",
+    "simulationTime": 340.29326315394445,
+    "comparedAt": "2026-10-03T16:37:15.584547+00:00",
+    "observations": [
+      {
+        "inletPressure": 0.3744039261408891,
+        "outletPressure": 0.3744039261408891,
+        "inletFlow": 45.45530990514173,
+        "outletFlow": 45.45530990514173,
+        "id": "WS-001",
+        "type": "water",
+        "pressure": 0.3744039261408891,
+        "flow": 45.45530990514173,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.3744039261408891,
+        "outletPressure": 0.3744039261408891,
+        "inletFlow": 45.45530990514173,
+        "outletFlow": 45.45530990514173,
+        "id": "WS-002",
+        "type": "water",
+        "pressure": 0.3744039261408891,
+        "flow": 45.45530990514173,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.3427650574460454,
+        "outletPressure": 0.21620958266666981,
+        "inletFlow": 43.19512005346042,
+        "outletFlow": 22.229076088287954,
+        "id": "WS-003",
+        "type": "water",
+        "pressure": 0.21620958266666981,
+        "flow": 43.19512005346042,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.3744039261408891,
+        "outletPressure": 0.3744039261408891,
+        "inletFlow": 45.45530990514173,
+        "outletFlow": 45.45530990514173,
+        "id": "WS-004",
+        "type": "water",
+        "pressure": 0.3744039261408891,
+        "flow": 45.45530990514173,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.3744039261408891,
+        "outletPressure": 0.3744039261408891,
+        "inletFlow": 45.45530990514173,
+        "outletFlow": 45.45530990514173,
+        "id": "WS-005",
+        "type": "water",
+        "pressure": 0.3744039261408891,
+        "flow": 45.45530990514173,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.3744039261408891,
+        "outletPressure": 0.3744039261408891,
+        "inletFlow": 45.45530990514173,
+        "outletFlow": 45.45530990514173,
+        "id": "WS-006",
+        "type": "water",
+        "pressure": 0.3744039261408891,
+        "flow": 45.45530990514173,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42186222918315536,
+        "outletPressure": 0.42186222918315536,
+        "inletFlow": 28.68247473300376,
+        "outletFlow": 28.68247473300376,
+        "id": "WS-007",
+        "type": "water",
+        "pressure": 0.42186222918315536,
+        "flow": 28.68247473300376,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.2636678857089355,
+        "outletPressure": 0.2636678857089355,
+        "inletFlow": 22.229076088287954,
+        "outletFlow": 22.229076088287954,
+        "id": "WS-008",
+        "type": "water",
+        "pressure": 0.2636678857089355,
+        "flow": 22.229076088287954,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.2636678857089355,
+        "outletPressure": 0.2636678857089355,
+        "inletFlow": 22.229076088287954,
+        "outletFlow": 22.229076088287954,
+        "id": "WS-009",
+        "type": "water",
+        "pressure": 0.2636678857089355,
+        "flow": 22.229076088287954,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42186222918315536,
+        "outletPressure": 0.42186222918315536,
+        "inletFlow": 28.68247473300376,
+        "outletFlow": 28.68247473300376,
+        "id": "WS-010",
+        "type": "water",
+        "pressure": 0.42186222918315536,
+        "flow": 28.68247473300376,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42186222918315536,
+        "outletPressure": 0.42186222918315536,
+        "inletFlow": 28.68247473300376,
+        "outletFlow": 28.68247473300376,
+        "id": "WS-011",
+        "type": "water",
+        "pressure": 0.42186222918315536,
+        "flow": 28.68247473300376,
+        "status": "normal"
+      }
+    ],
+    "options": [
+      {
+        "id": "option-1",
+        "valves": [
+          "V-W-03"
+        ],
+        "isolatedEdges": [
+          "WS-003",
+          "WS-006",
+          "WS-008",
+          "WS-009"
+        ],
+        "affectedBuildings": [
+          {
+            "buildingId": "B-RESEARCH",
+            "buildingName": "科研楼 B",
+            "connectionNode": "WS-BC-02",
+            "criticality": "normal"
+          },
+          {
+            "buildingId": "C-LAB",
+            "buildingName": "实验楼 C",
+            "connectionNode": "WS-BC-03",
+            "criticality": "high"
+          }
+        ],
+        "affectedNodes": [
+          "V-W-03",
+          "WS-BC-02",
+          "WS-BC-03",
+          "WS-J-03"
+        ],
+        "estimatedScope": {
+          "buildingCount": 2,
+          "edgeCount": 4,
+          "length": 86.92
+        },
+        "estimatedServiceLoss": 0.4
+      },
+      {
+        "id": "option-2",
+        "valves": [
+          "V-W-02"
+        ],
+        "isolatedEdges": [
+          "WS-003",
+          "WS-004",
+          "WS-005",
+          "WS-006",
+          "WS-008",
+          "WS-009",
+          "WS-010",
+          "WS-011"
+        ],
+        "affectedBuildings": [
+          {
+            "buildingId": "B-RESEARCH",
+            "buildingName": "科研楼 B",
+            "connectionNode": "WS-BC-02",
+            "criticality": "normal"
+          },
+          {
+            "buildingId": "C-LAB",
+            "buildingName": "实验楼 C",
+            "connectionNode": "WS-BC-03",
+            "criticality": "high"
+          },
+          {
+            "buildingId": "D-SERVICE",
+            "buildingName": "综合服务楼",
+            "connectionNode": "WS-BC-04",
+            "criticality": "normal"
+          },
+          {
+            "buildingId": "B2-PARKING",
+            "buildingName": "B2 地下车库",
+            "connectionNode": "WS-BC-05",
+            "criticality": "high"
+          }
+        ],
+        "affectedNodes": [
+          "V-W-02",
+          "V-W-03",
+          "WS-BC-02",
+          "WS-BC-03",
+          "WS-BC-04",
+          "WS-BC-05",
+          "WS-J-02",
+          "WS-J-03"
+        ],
+        "estimatedScope": {
+          "buildingCount": 4,
+          "edgeCount": 8,
+          "length": 185.51
+        },
+        "estimatedServiceLoss": 0.8
+      },
+      {
+        "id": "option-3",
+        "valves": [
+          "V-W-01"
+        ],
+        "isolatedEdges": [
+          "WS-001",
+          "WS-002",
+          "WS-003",
+          "WS-004",
+          "WS-005",
+          "WS-006",
+          "WS-007",
+          "WS-008",
+          "WS-009",
+          "WS-010",
+          "WS-011"
+        ],
+        "affectedBuildings": [
+          {
+            "buildingId": "A-OFFICE",
+            "buildingName": "办公楼 A",
+            "connectionNode": "WS-BC-01",
+            "criticality": "normal"
+          },
+          {
+            "buildingId": "B-RESEARCH",
+            "buildingName": "科研楼 B",
+            "connectionNode": "WS-BC-02",
+            "criticality": "normal"
+          },
+          {
+            "buildingId": "C-LAB",
+            "buildingName": "实验楼 C",
+            "connectionNode": "WS-BC-03",
+            "criticality": "high"
+          },
+          {
+            "buildingId": "D-SERVICE",
+            "buildingName": "综合服务楼",
+            "connectionNode": "WS-BC-04",
+            "criticality": "normal"
+          },
+          {
+            "buildingId": "B2-PARKING",
+            "buildingName": "B2 地下车库",
+            "connectionNode": "WS-BC-05",
+            "criticality": "high"
+          }
+        ],
+        "affectedNodes": [
+          "V-W-01",
+          "V-W-02",
+          "V-W-03",
+          "WS-BC-01",
+          "WS-BC-02",
+          "WS-BC-03",
+          "WS-BC-04",
+          "WS-BC-05",
+          "WS-J-01",
+          "WS-J-02",
+          "WS-J-03"
+        ],
+        "estimatedScope": {
+          "buildingCount": 5,
+          "edgeCount": 11,
+          "length": 224.39
+        },
+        "estimatedServiceLoss": 1
+      }
+    ],
+    "latencyMs": 6.689714995445684,
+    "method": "M4 拓扑阀门边界枚举；服务损失为连接建筑比例，非水力预测，无自动最优方案"
+  },
+  "events": [
+    {
+      "event_id": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+      "scenario_id": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+      "pipeline_id": null,
+      "sequence": 1,
+      "timestamp": "2026-10-03T16:36:37.688101+00:00",
+      "simulationTime": 0,
+      "stage": "NORMAL",
+      "message": "软件泄漏场景启动，观察全网压力与流量；注入目标仅用于演示真值"
+    },
+    {
+      "event_id": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+      "scenario_id": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+      "pipeline_id": "WS-003",
+      "sequence": 2,
+      "timestamp": "2026-10-03T16:36:47.458777+00:00",
+      "simulationTime": 92.60486995386606,
+      "stage": "SUSPECTED",
+      "message": "多变量异常匹配进入 SUSPECTED，首位疑似 WS-003"
+    },
+    {
+      "event_id": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+      "scenario_id": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+      "pipeline_id": "WS-003",
+      "sequence": 3,
+      "timestamp": "2026-10-03T16:36:52.612008+00:00",
+      "simulationTime": 144.12742394393734,
+      "stage": "CONFIRMED",
+      "message": "多变量异常匹配进入 CONFIRMED，首位疑似 WS-003"
+    },
+    {
+      "event_id": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+      "scenario_id": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+      "pipeline_id": "WS-003",
+      "sequence": 4,
+      "timestamp": "2026-10-03T16:36:59.841326+00:00",
+      "simulationTime": 216.40845632391427,
+      "stage": "HIGH",
+      "message": "多变量异常匹配进入 HIGH，首位疑似 WS-003"
+    },
+    {
+      "event_id": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+      "scenario_id": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+      "pipeline_id": "WS-003",
+      "sequence": 5,
+      "timestamp": "2026-10-03T16:37:00.877291+00:00",
+      "simulationTime": 226.73875892396512,
+      "stage": "CONFIRMED",
+      "message": "多变量异常匹配进入 CONFIRMED，首位疑似 WS-003"
+    },
+    {
+      "event_id": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+      "scenario_id": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+      "pipeline_id": "WS-003",
+      "sequence": 6,
+      "timestamp": "2026-10-03T16:37:23.241279+00:00",
+      "simulationTime": 340.29326315394445,
+      "stage": "ISOLATING",
+      "message": "用户确认软件隔离，已关闭 V-W-03；等待管内压力和泄漏流量衰减"
+    },
+    {
+      "event_id": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+      "scenario_id": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+      "pipeline_id": "WS-003",
+      "sequence": 7,
+      "timestamp": "2026-10-03T16:37:31.501091+00:00",
+      "simulationTime": 412.57132145402954,
+      "stage": "STABILIZING",
+      "message": "泄漏受控，仍保留停水影响；事件未关闭"
+    }
+  ],
+  "samples": [
+    {
+      "t": 0,
+      "p": 0.420012230881237,
+      "q": 28.001334347195925,
+      "leak": 0,
+      "risk": 0,
+      "score": 0,
+      "stage": "NORMAL"
+    },
+    {
+      "t": 1.0139902740047546,
+      "p": 0.42003265661217193,
+      "q": 28.003563049791424,
+      "leak": 0,
+      "risk": 0,
+      "score": 0.00002228702595502341,
+      "stage": "NORMAL"
+    },
+    {
+      "t": 10.075442393936093,
+      "p": 0.42055722348527363,
+      "q": 28.060980711266556,
+      "leak": 0,
+      "risk": 0,
+      "score": 0.004398348419118926,
+      "stage": "NORMAL"
+    },
+    {
+      "t": 20.367425093936582,
+      "p": 0.4216077737803868,
+      "q": 28.17752508042149,
+      "leak": 0,
+      "risk": 0,
+      "score": 0.00855618823334504,
+      "stage": "NORMAL"
+    },
+    {
+      "t": 30.699037903905193,
+      "p": 0.42281222577130817,
+      "q": 28.317718887188175,
+      "leak": 0,
+      "risk": 0,
+      "score": 0.011426552134401574,
+      "stage": "NORMAL"
+    },
+    {
+      "t": 40.986465013920565,
+      "p": 0.4227510425973236,
+      "q": 28.65241651259584,
+      "leak": 0,
+      "risk": 0,
+      "score": 0.07947382872767458,
+      "stage": "NORMAL"
+    },
+    {
+      "t": 51.305220543945296,
+      "p": 0.42111626436154564,
+      "q": 29.18810783190406,
+      "leak": 0,
+      "risk": 0,
+      "score": 0.1937645011895394,
+      "stage": "NORMAL"
+    },
+    {
+      "t": 61.64190795396273,
+      "p": 0.41842302571312184,
+      "q": 29.80360561736359,
+      "leak": 0,
+      "risk": 0,
+      "score": 0.245859477222555,
+      "stage": "NORMAL"
+    },
+    {
+      "t": 71.93923318387542,
+      "p": 0.41496450033792454,
+      "q": 30.427765728649117,
+      "leak": 0,
+      "risk": 0,
+      "score": 0.29075386982519064,
+      "stage": "NORMAL"
+    },
+    {
+      "t": 82.27645760394796,
+      "p": 0.4108777268500565,
+      "q": 31.028202882748644,
+      "leak": 0,
+      "risk": 0,
+      "score": 0.33342653191719246,
+      "stage": "NORMAL"
+    },
+    {
+      "t": 92.60486995386606,
+      "p": 0.37039009283927876,
+      "q": 34.323911057306454,
+      "leak": 7.279719217128033,
+      "risk": 16.6438560202645,
+      "score": 0.3742463851507785,
+      "stage": "SUSPECTED"
+    },
+    {
+      "t": 102.90677607386885,
+      "p": 0.35782164479427975,
+      "q": 35.34604031675375,
+      "leak": 8.719813536964796,
+      "risk": 20.2128044036687,
+      "score": 0.413461567730019,
+      "stage": "SUSPECTED"
+    },
+    {
+      "t": 113.19131299394942,
+      "p": 0.345029194622425,
+      "q": 36.2861827811535,
+      "leak": 10.11175289055333,
+      "risk": 23.75859907399116,
+      "score": 0.4512884896178816,
+      "stage": "SUSPECTED"
+    },
+    {
+      "t": 123.49794663394289,
+      "p": 0.33210954150109867,
+      "q": 37.14728326374249,
+      "leak": 11.453098127621107,
+      "risk": 27.275636606148034,
+      "score": 0.487973412514257,
+      "stage": "SUSPECTED"
+    },
+    {
+      "t": 133.81803724398208,
+      "p": 0.3192001023572071,
+      "q": 37.93194301205227,
+      "leak": 12.73825410243673,
+      "risk": 30.747577078207165,
+      "score": 0.5235261727278298,
+      "stage": "SUSPECTED"
+    },
+    {
+      "t": 144.12742394393734,
+      "p": 0.30643767633578933,
+      "q": 38.644869114803555,
+      "leak": 13.9622663356501,
+      "risk": 38.013334789184896,
+      "score": 0.5579117059557215,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 154.4457855239304,
+      "p": 0.29388039912228114,
+      "q": 39.295726405707775,
+      "leak": 15.12706363140202,
+      "risk": 41.72620185855449,
+      "score": 0.591258853286138,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 164.73989123398485,
+      "p": 0.2816239998871912,
+      "q": 39.89143275115008,
+      "leak": 16.229406775739236,
+      "risk": 45.345761182746074,
+      "score": 0.6234986083991712,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 175.0831661238766,
+      "p": 0.26960843382890926,
+      "q": 40.444817397701975,
+      "leak": 17.27782107078255,
+      "risk": 48.89282296559581,
+      "score": 0.6549198644773125,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 185.41388336387155,
+      "p": 0.2579057269124752,
+      "q": 40.95990689566667,
+      "leak": 18.266385914573654,
+      "risk": 52.33874526483597,
+      "score": 0.6853253368885024,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 195.7380272838776,
+      "p": 0.2464799466091911,
+      "q": 41.44289646967387,
+      "leak": 19.19611770725882,
+      "risk": 55.67904008156287,
+      "score": 0.7147447427836143,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 206.0781111638778,
+      "p": 0.23525625798904054,
+      "q": 41.89811403676895,
+      "leak": 20.068401626146446,
+      "risk": 58.91118387180764,
+      "score": 0.743200504080534,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 216.40845632391427,
+      "p": 0.22552098966748307,
+      "q": 42.232989995728445,
+      "leak": 20.74776752681281,
+      "risk": 61.31255598975826,
+      "score": 0.7609811286177329,
+      "stage": "HIGH"
+    },
+    {
+      "t": 226.73875892396512,
+      "p": 0.22053462973702212,
+      "q": 42.28887528003492,
+      "leak": 20.97563641247583,
+      "risk": 61.68157161215393,
+      "score": 0.7274979591505499,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 237.0921895339406,
+      "p": 0.21833295122270127,
+      "q": 42.27479235650225,
+      "leak": 21.019372620019382,
+      "risk": 61.8473301978925,
+      "score": 0.6848261177133609,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 247.41782581397217,
+      "p": 0.21757243014579958,
+      "q": 42.28247001335102,
+      "leak": 21.011579673827168,
+      "risk": 61.90621602621992,
+      "score": 0.6644213366565036,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 257.750122303914,
+      "p": 0.2175055723737304,
+      "q": 42.3351337227952,
+      "leak": 20.999686608933285,
+      "risk": 61.98796554659076,
+      "score": 0.657363672947757,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 268.0759081040009,
+      "p": 0.21771772961487734,
+      "q": 42.42930634558101,
+      "leak": 20.995971725229335,
+      "risk": 62.061590168691964,
+      "score": 0.6597115218566689,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 278.37804934395496,
+      "p": 0.21797063246374532,
+      "q": 42.5522858824797,
+      "leak": 20.999723317813835,
+      "risk": 62.12254628730366,
+      "score": 0.662669116083563,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 288.6836943439992,
+      "p": 0.21812925914874653,
+      "q": 42.6900526542173,
+      "leak": 21.006502899831638,
+      "risk": 62.16480870121984,
+      "score": 0.6649730650129312,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 299.0075670739321,
+      "p": 0.21812007712230166,
+      "q": 42.8293132378543,
+      "leak": 21.011715245995493,
+      "risk": 62.18331986618811,
+      "score": 0.6666238593430338,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 309.3184353339164,
+      "p": 0.2179119970255678,
+      "q": 42.95785623720405,
+      "leak": 21.01179677681522,
+      "risk": 62.174733605576066,
+      "score": 0.6701903342127695,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 319.6364686539901,
+      "p": 0.21750507863647844,
+      "q": 43.06625616597903,
+      "leak": 21.00457976949232,
+      "risk": 62.138108915654776,
+      "score": 0.6729141773951625,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 329.9614741239215,
+      "p": 0.21692339779954894,
+      "q": 43.14704878647454,
+      "leak": 20.98921705264147,
+      "risk": 62.074630985940615,
+      "score": 0.6744948476970771,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "CONFIRMED"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "ISOLATING"
+    },
+    {
+      "t": 340.29326315394445,
+      "p": 0.21620958266666981,
+      "q": 43.19512005346042,
+      "leak": 20.966043965172467,
+      "risk": 61.987578759239604,
+      "score": 0.6747533301484094,
+      "stage": "ISOLATING"
+    },
+    {
+      "t": 340.7961052439497,
+      "p": 0.20952029260654692,
+      "q": 41.858709873783546,
+      "leak": 20.31737729755049,
+      "risk": 63.570000974199665,
+      "score": 0.8126950919020196,
+      "stage": "ISOLATING"
+    },
+    {
+      "t": 350.6144463140082,
+      "p": 0.11342868119171083,
+      "q": 22.661185693768694,
+      "leak": 10.999284524975623,
+      "risk": 38.557882193927846,
+      "score": 0.43997138099902494,
+      "stage": "ISOLATING"
+    },
+    {
+      "t": 360.94911028399724,
+      "p": 0.05945726277328119,
+      "q": 11.878583603306405,
+      "leak": 5.765625972625287,
+      "risk": 23.06625287897085,
+      "score": 0.2306250389050115,
+      "stage": "ISOLATING"
+    },
+    {
+      "t": 371.2731853340081,
+      "p": 0.031187054571289712,
+      "q": 6.23066077694414,
+      "leak": 3.024237636561939,
+      "risk": 14.95174340422334,
+      "score": 0.12096950546247756,
+      "stage": "ISOLATING"
+    },
+    {
+      "t": 381.6285678740094,
+      "p": 0.016326534739903656,
+      "q": 3.2617732269266635,
+      "leak": 1.5831992316615464,
+      "risk": 10.686269725718176,
+      "score": 0.06332796926646185,
+      "stage": "ISOLATING"
+    },
+    {
+      "t": 391.9469281440398,
+      "p": 0.008566799127773087,
+      "q": 1.7115056244687135,
+      "leak": 0.8307304650349335,
+      "risk": 8.458962176503404,
+      "score": 0.03322921860139734,
+      "stage": "ISOLATING"
+    },
+    {
+      "t": 402.25518175402294,
+      "p": 0.004497979585146622,
+      "q": 0.8986223727093563,
+      "leak": 0.4361732564001194,
+      "risk": 7.291072838944354,
+      "score": 0.017446930256004776,
+      "stage": "ISOLATING"
+    },
+    {
+      "t": 412.57132145402954,
+      "p": 0.0023604908474643333,
+      "q": 0.47158726400443934,
+      "leak": 0.22889898901300468,
+      "risk": 6.677541007478494,
+      "score": 0.009155959560520188,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 422.9577015940015,
+      "p": 0.001233333695803663,
+      "q": 0.24639979597180864,
+      "leak": 0.11959751353765727,
+      "risk": 6.3540086400714655,
+      "score": 0.004783900541506291,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 433.2861922339506,
+      "p": 0.000646740698376482,
+      "q": 0.1292081588858158,
+      "leak": 0.06271504597061499,
+      "risk": 6.18563653607302,
+      "score": 0.0025086018388245997,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 443.5839390539485,
+      "p": 0.00033979288241121447,
+      "q": 0.0678850315885023,
+      "leak": 0.03295003127899954,
+      "risk": 6.097532092585839,
+      "score": 0.0013180012511599818,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 453.88736549402677,
+      "p": 0.00017846136051918076,
+      "q": 0.035653645862747614,
+      "leak": 0.017305563817206524,
+      "risk": 6.051224468898932,
+      "score": 0.000692222552688261,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 464.2059841139587,
+      "p": 0.00009364007526216245,
+      "q": 0.018707747560847192,
+      "leak": 0.009080365035787156,
+      "risk": 6.02687788050593,
+      "score": 0.00036321460143148626,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 474.53412686403544,
+      "p": 0.00004910444324439526,
+      "q": 0.009810260465513445,
+      "leak": 0.004761703451111746,
+      "risk": 6.014094642215291,
+      "score": 0.00019046813804446985,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 484.86231921402384,
+      "p": 0.000025750074044179326,
+      "q": 0.0051444414535438115,
+      "leak": 0.0024970085870293776,
+      "risk": 6.007391145417607,
+      "score": 0.0000998803434811751,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 495.16549667403365,
+      "p": 0.000013524311414126765,
+      "q": 0.002701935075996277,
+      "leak": 0.0013114650341119135,
+      "risk": 6.003881936500972,
+      "score": 0.000052458601364476545,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 505.59616926404317,
+      "p": 0.000007046787748519424,
+      "q": 0.0014078323404278711,
+      "leak": 0.0006833335503749304,
+      "risk": 6.0020226673091095,
+      "score": 0.000027333342014997216,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 515.9685792740659,
+      "p": 0.0000036850947912620753,
+      "q": 0.0007362213550097455,
+      "leak": 0.0003573470632360618,
+      "risk": 6.001057747307179,
+      "score": 0.000014293882529442471,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 526.3055675939713,
+      "p": 0.0000019313794312990076,
+      "q": 0.0003858578578007012,
+      "leak": 0.00018728765659047384,
+      "risk": 6.000554371463508,
+      "score": 0.000007491506263618954,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 536.6387191039578,
+      "p": 0.000001012489864407764,
+      "q": 0.00020227882921096478,
+      "leak": 0.00009818208217066772,
+      "risk": 6.000290618963225,
+      "score": 0.000003927283286826709,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 546.9889950640375,
+      "p": 5.302112653369237e-7,
+      "q": 0.00010592749395032341,
+      "leak": 0.00005141507866014391,
+      "risk": 6.000152188632834,
+      "score": 0.0000020566031464057564,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 557.3220412040428,
+      "p": 2.7795525770031613e-7,
+      "q": 0.00005553089080406683,
+      "leak": 0.00002695357939930044,
+      "risk": 6.000079782595022,
+      "score": 0.0000010781431759720177,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 567.6290134739406,
+      "p": 1.4595150227763652e-7,
+      "q": 0.00002915871065985497,
+      "leak": 0.000014153052680618458,
+      "risk": 6.0000418930359345,
+      "score": 5.661221072247383e-7,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 577.9411605140356,
+      "p": 7.661287934982189e-8,
+      "q": 0.00001530599375078944,
+      "leak": 0.000007429222039724353,
+      "risk": 6.000021990497237,
+      "score": 2.971688815889741e-7,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 588.2790366240235,
+      "p": 4.0151023961400604e-8,
+      "q": 0.000008021514490205926,
+      "leak": 0.000003893482070677863,
+      "risk": 6.000011524706929,
+      "score": 1.5573928282711452e-7,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 598.6408749039581,
+      "p": 2.101072561624646e-8,
+      "q": 0.0000041975975542363905,
+      "leak": 0.000002037429569851848,
+      "risk": 6.000006030791527,
+      "score": 8.149718279407392e-8,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 608.9914697139652,
+      "p": 1.1002481907950137e-8,
+      "q": 0.0000021981150004467277,
+      "leak": 0.0000010669208855730294,
+      "risk": 6.000003158085821,
+      "score": 4.267683542292118e-8,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 619.3542684140443,
+      "p": 5.757169551299195e-9,
+      "q": 0.0000011501878264104915,
+      "leak": 5.58278076479075e-7,
+      "risk": 6.000001652503107,
+      "score": 2.2331123059162998e-8,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 629.6690504740563,
+      "p": 3.021556445224186e-9,
+      "q": 6.036573022805539e-7,
+      "leak": 2.930031337763958e-7,
+      "risk": 6.000000867289276,
+      "score": 1.1720125351055833e-8,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 639.9952734539875,
+      "p": 1.5846810259072201e-9,
+      "q": 3.1659321624996395e-7,
+      "leak": 1.536679903368012e-7,
+      "risk": 6.000000454857251,
+      "score": 6.146719613472048e-9,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 650.3180828239579,
+      "p": 8.312768024100752e-10,
+      "q": 1.6607543863177404e-7,
+      "leak": 8.060968330634709e-8,
+      "risk": 6.000000238604662,
+      "score": 3.2243873322538837e-9,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 660.6744424039955,
+      "p": 4.3514980938835595e-10,
+      "q": 8.693577789634247e-8,
+      "leak": 4.219688101955331e-8,
+      "risk": 6.000000124902768,
+      "score": 1.6878752407821324e-9,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 671.0149492140199,
+      "p": 2.2801437736213583e-10,
+      "q": 4.5553523958542044e-8,
+      "leak": 2.2110765866636836e-8,
+      "risk": 6.000000065447867,
+      "score": 8.844306346654734e-10,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 681.3668568640585,
+      "p": 1.1939226987470695e-10,
+      "q": 2.38526126690875e-8,
+      "leak": 1.1577579256299732e-8,
+      "risk": 6.000000034269634,
+      "score": 4.6310317025198924e-10,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 691.7072011939451,
+      "p": 6.256105355616513e-11,
+      "q": 1.249866997428931e-8,
+      "leak": 6.066603446472851e-9,
+      "risk": 6.000000017957146,
+      "score": 2.426641378589141e-10,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 702.0518067140226,
+      "p": 3.2773002823547656e-11,
+      "q": 6.547507164185333e-9,
+      "leak": 3.178028511014511e-9,
+      "risk": 6.000000009406964,
+      "score": 1.2712114044058044e-10,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 712.4163645939702,
+      "p": 1.7146948441252796e-11,
+      "q": 3.4256783965597612e-9,
+      "leak": 1.6627555099724716e-9,
+      "risk": 6.000000004921756,
+      "score": 6.651022039889886e-11,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 722.7293047840217,
+      "p": 9.000331972119859e-12,
+      "q": 1.7981183593332394e-9,
+      "leak": 8.727705474531836e-10,
+      "risk": 6.000000002583401,
+      "score": 3.4910821898127345e-11,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 733.079527523965,
+      "p": 4.7132257263348054e-12,
+      "q": 9.416250129947421e-10,
+      "leak": 4.5704587455064573e-10,
+      "risk": 6.000000001352856,
+      "score": 1.828183498202583e-11,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 743.4216356440595,
+      "p": 2.4694384674847083e-12,
+      "q": 4.933532073464346e-10,
+      "leak": 2.394637408758769e-10,
+      "risk": 6.000000000708813,
+      "score": 9.578549635035077e-12,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 753.7668944739701,
+      "p": 1.2935781092967166e-12,
+      "q": 2.584356393478851e-10,
+      "leak": 1.2543947024638872e-10,
+      "risk": 6.000000000371301,
+      "score": 5.017578809855549e-12,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 764.1105522940195,
+      "p": 6.776891974886038e-13,
+      "q": 1.353911602039561e-10,
+      "leak": 6.571615066282141e-11,
+      "risk": 6.00000000019452,
+      "score": 2.6286460265128562e-12,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 774.46191397395,
+      "p": 3.548618884149082e-13,
+      "q": 7.089557124815936e-11,
+      "leak": 3.441128678159222e-11,
+      "risk": 6.000000000101857,
+      "score": 1.3764514712636889e-12,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 784.7939845240162,
+      "p": 1.8604233543496096e-13,
+      "q": 3.716820001696505e-11,
+      "leak": 1.8040697993142575e-11,
+      "risk": 6.000000000053401,
+      "score": 7.21627919725703e-13,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 795.1540389639686,
+      "p": 9.736539452658565e-14,
+      "q": 1.945200510428977e-11,
+      "leak": 9.441612703531039e-12,
+      "risk": 6.000000000027947,
+      "score": 3.7766450814124154e-13,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 805.5280311340291,
+      "p": 5.091188251550927e-14,
+      "q": 1.0171357116930043e-11,
+      "leak": 4.936972515300191e-12,
+      "risk": 6.000000000014613,
+      "score": 1.9747890061200763e-13,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 815.8976568740131,
+      "p": 2.6628837252493784e-14,
+      "q": 5.320003895381692e-12,
+      "leak": 2.5822230712037653e-12,
+      "risk": 6.000000000007644,
+      "score": 1.0328892284815062e-13,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 826.3058816240043,
+      "p": 1.389432785585263e-14,
+      "q": 2.7758582778496635e-12,
+      "leak": 1.347345871997916e-12,
+      "risk": 6.000000000003988,
+      "score": 5.3893834879916635e-14,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 836.6290815940124,
+      "p": 7.288375566488621e-15,
+      "q": 1.4560976146674609e-12,
+      "leak": 7.06760545379135e-13,
+      "risk": 6.000000000002092,
+      "score": 2.82704218151654e-14,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 846.9506052839411,
+      "p": 3.823573513925221e-15,
+      "q": 7.638871271578139e-13,
+      "leak": 3.7077547353956403e-13,
+      "risk": 6.000000000001098,
+      "score": 1.483101894158256e-14,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 857.2839367539691,
+      "p": 2.0044149913723557e-15,
+      "q": 4.0044916197246904e-13,
+      "leak": 1.9436998265869398e-13,
+      "risk": 6.0000000000005755,
+      "score": 7.774799306347759e-15,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 867.609287214013,
+      "p": 1.0512898507514502e-15,
+      "q": 2.100304285966969e-13,
+      "leak": 1.0194455286922211e-13,
+      "risk": 6.000000000000302,
+      "score": 4.0777821147688844e-15,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 877.9426533740602,
+      "p": 5.511118226792276e-16,
+      "q": 1.1010308169463259e-13,
+      "leak": 5.344182511018924e-14,
+      "risk": 6.000000000000158,
+      "score": 2.1376730044075695e-15,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 888.275284814018,
+      "p": 2.8891954794271367e-16,
+      "q": 5.772137573762111e-14,
+      "leak": 2.8016796803607037e-14,
+      "risk": 6.000000000000083,
+      "score": 1.1206718721442815e-15,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 898.5809194539713,
+      "p": 1.5172142415960682e-16,
+      "q": 3.0311446192280785e-14,
+      "leak": 1.4712567362442398e-14,
+      "risk": 6.0000000000000435,
+      "score": 5.885026944976959e-16,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 908.9292186840705,
+      "p": 7.946187935225492e-17,
+      "q": 1.5875177112690397e-14,
+      "leak": 7.705492215037947e-15,
+      "risk": 6.000000000000023,
+      "score": 3.0821968860151785e-16,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 919.2691501240304,
+      "p": 4.1638769261119223e-17,
+      "q": 8.31874154202166e-15,
+      "leak": 4.037750113648811e-15,
+      "risk": 6.0000000000000115,
+      "score": 1.6151000454595245e-16,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 929.6070768439797,
+      "p": 2.182183920367654e-17,
+      "q": 4.359644714005689e-15,
+      "leak": 2.116084007481607e-15,
+      "risk": 6.000000000000006,
+      "score": 8.464336029926427e-17,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 939.9653948740302,
+      "p": 1.142171524787042e-17,
+      "q": 2.281870929415841e-15,
+      "leak": 1.1075743317710517e-15,
+      "risk": 6.0000000000000036,
+      "score": 4.4302973270842066e-17,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 950.2968553139483,
+      "p": 5.988255368096405e-18,
+      "q": 1.1963549734725942e-15,
+      "leak": 5.806866826793293e-16,
+      "risk": 6.000000000000002,
+      "score": 2.322746730717317e-17,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 960.6422678039371,
+      "p": 3.136827163772164e-18,
+      "q": 6.266864967543494e-16,
+      "leak": 3.041810423740007e-16,
+      "risk": 6.000000000000001,
+      "score": 1.2167241694960029e-17,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 970.9437656040373,
+      "p": 1.647679969162959e-18,
+      "q": 3.2917936938716465e-16,
+      "leak": 1.5977705635398954e-16,
+      "risk": 6.000000000000001,
+      "score": 6.3910822541595815e-18,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 981.2679995139588,
+      "p": 8.642472343788454e-19,
+      "q": 1.726623888933692e-16,
+      "leak": 8.38068567048722e-17,
+      "risk": 6,
+      "score": 3.3522742681948878e-18,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 991.5857734439592,
+      "p": 4.535012419531238e-19,
+      "q": 9.060209241862848e-17,
+      "leak": 4.397643647325433e-17,
+      "risk": 6,
+      "score": 1.7590574589301734e-18,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1001.9734567040091,
+      "p": 2.3693072631844433e-19,
+      "q": 4.733486389202729e-17,
+      "leak": 2.2975392503075146e-17,
+      "risk": 6,
+      "score": 9.190157001230058e-19,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1012.3240929840654,
+      "p": 1.2407088269118004e-19,
+      "q": 2.4787322591740637e-17,
+      "leak": 1.203126868484573e-17,
+      "risk": 6,
+      "score": 4.812507473938292e-19,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1022.6260073439444,
+      "p": 6.51689670020198e-20,
+      "q": 1.3019688205735631e-17,
+      "leak": 6.3194952345646805e-18,
+      "risk": 6,
+      "score": 2.5277980938258724e-19,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1032.9659463440623,
+      "p": 3.4149133143102996e-20,
+      "q": 6.822435377954879e-18,
+      "leak": 3.311473145733087e-18,
+      "risk": 6,
+      "score": 1.324589258293235e-19,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1043.2876634939914,
+      "p": 1.7914848247398933e-20,
+      "q": 3.579092153278641e-18,
+      "leak": 1.737219467110447e-18,
+      "risk": 6,
+      "score": 6.948877868441788e-20,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1053.7054420840407,
+      "p": 9.341984642345434e-21,
+      "q": 1.8663749459514803e-18,
+      "leak": 9.059009240832197e-19,
+      "risk": 6,
+      "score": 3.623603696332879e-20,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1064.0419818640028,
+      "p": 4.896325284811589e-21,
+      "q": 9.782052945557807e-19,
+      "leak": 4.748012087300154e-19,
+      "risk": 6,
+      "score": 1.8992048349200617e-20,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1074.3491063540712,
+      "p": 2.570986561370743e-21,
+      "q": 5.136408470176623e-19,
+      "leak": 2.49310953819611e-19,
+      "risk": 6,
+      "score": 9.97243815278444e-21,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1084.696021863939,
+      "p": 1.3466331062572744e-21,
+      "q": 2.690351554973643e-19,
+      "leak": 1.3058426255914335e-19,
+      "risk": 6,
+      "score": 5.223370502365734e-21,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1095.036498793939,
+      "p": 7.056243069720131e-22,
+      "q": 1.4097213581548987e-19,
+      "leak": 6.842504416503106e-20,
+      "risk": 6,
+      "score": 2.7370017666012424e-21,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1105.412171434017,
+      "p": 3.689287045426505e-22,
+      "q": 7.370588984696366e-20,
+      "leak": 3.5775359001457703e-20,
+      "risk": 6,
+      "score": 1.4310143600583082e-21,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1115.7340187140119,
+      "p": 1.9354072544708677e-22,
+      "q": 3.8666255065157934e-20,
+      "leak": 1.87678238342976e-20,
+      "risk": 6,
+      "score": 7.507129533719039e-22,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1126.0648715139776,
+      "p": 1.0147471536595881e-22,
+      "q": 2.027297984928332e-20,
+      "leak": 9.840097360513814e-21,
+      "risk": 6,
+      "score": 3.936038944205526e-22,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1136.4007332940212,
+      "p": 5.31872282214922e-23,
+      "q": 1.0625933781483295e-20,
+      "leak": 5.157614900893059e-21,
+      "risk": 6,
+      "score": 2.0630459603572234e-22,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1146.7227198240591,
+      "p": 2.790188190582434e-23,
+      "q": 5.5743372878049564e-21,
+      "leak": 2.705671393161395e-21,
+      "risk": 6,
+      "score": 1.082268557264558e-22,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1157.0590722540776,
+      "p": 1.4624118407878326e-23,
+      "q": 2.92165843212512e-21,
+      "leak": 1.4181143393823106e-21,
+      "risk": 6,
+      "score": 5.672457357529243e-23,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1167.3991553740295,
+      "p": 7.663102412943048e-24,
+      "q": 1.5309618779448602e-21,
+      "leak": 7.430981555849101e-22,
+      "risk": 6,
+      "score": 2.9723926223396404e-23,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1167.3991553740295,
+      "p": 7.663102412943048e-24,
+      "q": 1.5309618779448602e-21,
+      "leak": 7.430981555849101e-22,
+      "risk": 6,
+      "score": 2.9723926223396404e-23,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1167.3991553740295,
+      "p": 7.663102412943048e-24,
+      "q": 1.5309618779448602e-21,
+      "leak": 7.430981555849101e-22,
+      "risk": 6,
+      "score": 2.9723926223396404e-23,
+      "stage": "STABILIZING"
+    },
+    {
+      "t": 1167.3991553740295,
+      "p": 7.663102412943048e-24,
+      "q": 1.5309618779448602e-21,
+      "leak": 7.430981555849101e-22,
+      "risk": 6,
+      "score": 2.9723926223396404e-23,
+      "stage": "STABILIZING"
+    }
+  ],
+  "history": {
+    "event": {
+      "scenarioId": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+      "scenarioType": "WATER_SUPPLY_LEAK",
+      "scenarioName": "PIPELINE_LEAK_DEMO",
+      "targetPipelineId": "WS-003",
+      "status": "stopped",
+      "elapsedSimulationSeconds": 1167.3991553740295,
+      "targetSeverity": 0.75,
+      "leakSeverity": 0.75,
+      "leakCoefficient": 45,
+      "estimatedLeakFlow": 7.430981555849101e-22,
+      "upstreamPressure": 1.2148600012964565e-23,
+      "downstreamPressure": 7.663102412943048e-24,
+      "pipelineFlow": 1.5309618779448602e-21,
+      "pressureDropRate": 4.039241801550024e-23,
+      "flowChangeRate": -8.069741053609964e-21,
+      "detectionScore": 2.9723926223396404e-23,
+      "confidence": 2.9723926223396404e-23,
+      "confidenceMethod": "多变量软件异常匹配分数，未经概率校准",
+      "riskScore": 6,
+      "riskLevel": "low",
+      "riskBreakdown": [
+        {
+          "key": "leak_flow",
+          "normalizedValue": 2.9723926223396404e-23,
+          "weight": 0.5,
+          "points": 1.4861963111698202e-21
+        },
+        {
+          "key": "pressure_loss",
+          "normalizedValue": 2.9723926223396404e-23,
+          "weight": 0.2,
+          "points": 5.944785244679281e-22
+        },
+        {
+          "key": "affected_buildings",
+          "normalizedValue": 1.1889570489358562e-23,
+          "weight": 0.1,
+          "points": 1.1889570489358562e-22
+        },
+        {
+          "key": "service_disruption",
+          "normalizedValue": 0.4,
+          "weight": 0.15,
+          "points": 6
+        },
+        {
+          "key": "growth",
+          "normalizedValue": 0,
+          "weight": 0.05,
+          "points": 0
+        }
+      ],
+      "detectionBreakdown": {
+        "residual_flow": 2.9723926223396404e-23
+      },
+      "suspectedSegments": [
+        {
+          "pipeline_id": "WS-003",
+          "score": 0.8341697188532533,
+          "pressure_residual": 1,
+          "flow_residual": 0.6077514282505799,
+          "imbalance": 0.8386417586068987,
+          "topology_consistency": 0.5971616584749182
+        },
+        {
+          "pipeline_id": "WS-008",
+          "score": 0.22943337820793336,
+          "pressure_residual": 0.7817217258615075,
+          "flow_residual": 0.2308903303563187,
+          "imbalance": 0,
+          "topology_consistency": 1
+        },
+        {
+          "pipeline_id": "WS-009",
+          "score": 0.22943337820793336,
+          "pressure_residual": 0.7817217258615075,
+          "flow_residual": 0.2308903303563187,
+          "imbalance": 0,
+          "topology_consistency": 1
+        }
+      ],
+      "affectedBuildings": [
+        {
+          "buildingId": "B-RESEARCH",
+          "buildingName": "科研楼 B",
+          "connectionNode": "WS-BC-02",
+          "criticality": "normal"
+        },
+        {
+          "buildingId": "C-LAB",
+          "buildingName": "实验楼 C",
+          "connectionNode": "WS-BC-03",
+          "criticality": "high"
+        }
+      ],
+      "affectedNodes": [
+        "V-W-03",
+        "WS-BC-02",
+        "WS-BC-03",
+        "WS-J-03"
+      ],
+      "affectedEdges": [
+        "WS-003",
+        "WS-008",
+        "WS-009"
+      ],
+      "interruptedBuildings": [
+        {
+          "buildingId": "B-RESEARCH",
+          "buildingName": "科研楼 B",
+          "connectionNode": "WS-BC-02",
+          "criticality": "normal"
+        },
+        {
+          "buildingId": "C-LAB",
+          "buildingName": "实验楼 C",
+          "connectionNode": "WS-BC-03",
+          "criticality": "high"
+        }
+      ],
+      "estimatedServiceLoss": 0.4,
+      "currentStage": "STABILIZING",
+      "leakStatus": "CONTAINED",
+      "serviceStatus": "INTERRUPTED",
+      "eventId": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+      "detectedAt": "2026-10-03T16:36:47.458800+00:00",
+      "confirmedAt": "2026-10-03T16:36:52.612036+00:00",
+      "peakDetectionScore": 0.8126950919020196,
+      "peakRisk": 63.570000974199665,
+      "alarm": {
+        "id": "LEAK-afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+        "type": "PIPELINE_LEAK_CONFIRMED",
+        "status": "active",
+        "level": "low",
+        "peakDetectionScore": 0.8126950919020196,
+        "peakRisk": 63.570000974199665
+      },
+      "events": [
+        {
+          "sequence": 1,
+          "timestamp": "2026-10-03T16:36:37.688101+00:00",
+          "simulationTime": 0,
+          "stage": "NORMAL",
+          "message": "软件泄漏场景启动，观察全网压力与流量；注入目标仅用于演示真值"
+        },
+        {
+          "sequence": 2,
+          "timestamp": "2026-10-03T16:36:47.458777+00:00",
+          "simulationTime": 92.60486995386606,
+          "stage": "SUSPECTED",
+          "message": "多变量异常匹配进入 SUSPECTED，首位疑似 WS-003"
+        },
+        {
+          "sequence": 3,
+          "timestamp": "2026-10-03T16:36:52.612008+00:00",
+          "simulationTime": 144.12742394393734,
+          "stage": "CONFIRMED",
+          "message": "多变量异常匹配进入 CONFIRMED，首位疑似 WS-003"
+        },
+        {
+          "sequence": 4,
+          "timestamp": "2026-10-03T16:36:59.841326+00:00",
+          "simulationTime": 216.40845632391427,
+          "stage": "HIGH",
+          "message": "多变量异常匹配进入 HIGH，首位疑似 WS-003"
+        },
+        {
+          "sequence": 5,
+          "timestamp": "2026-10-03T16:37:00.877291+00:00",
+          "simulationTime": 226.73875892396512,
+          "stage": "CONFIRMED",
+          "message": "多变量异常匹配进入 CONFIRMED，首位疑似 WS-003"
+        },
+        {
+          "sequence": 6,
+          "timestamp": "2026-10-03T16:37:23.241279+00:00",
+          "simulationTime": 340.29326315394445,
+          "stage": "ISOLATING",
+          "message": "用户确认软件隔离，已关闭 V-W-03；等待管内压力和泄漏流量衰减"
+        },
+        {
+          "sequence": 7,
+          "timestamp": "2026-10-03T16:37:31.501091+00:00",
+          "simulationTime": 412.57132145402954,
+          "stage": "STABILIZING",
+          "message": "泄漏受控，仍保留停水影响；事件未关闭"
+        }
+      ],
+      "execution": {
+        "id": "8ca5cb16-ef6a-4952-b98c-eed7e455adfa",
+        "comparisonId": "7dae029b-f2df-47ad-88ee-5e2bcda7f1df",
+        "optionId": "option-1",
+        "valves": [
+          "V-W-03"
+        ],
+        "status": "applied",
+        "operator": "demo-user",
+        "timestamp": "2026-10-03T16:37:23.234244+00:00",
+        "affectedBuildings": [
+          {
+            "buildingId": "B-RESEARCH",
+            "buildingName": "科研楼 B",
+            "connectionNode": "WS-BC-02",
+            "criticality": "normal"
+          },
+          {
+            "buildingId": "C-LAB",
+            "buildingName": "实验楼 C",
+            "connectionNode": "WS-BC-03",
+            "criticality": "high"
+          }
+        ]
+      },
+      "localizationLatencyMs": 0.0725900026736781
+    },
+    "status": "STABILIZING",
+    "snapshots": [
+      {
+        "time": 0,
+        "pressure": 0.420012230881237,
+        "flow": 28.001334347195925,
+        "risk": 0,
+        "suspects": []
+      },
+      {
+        "time": 30.699037903905193,
+        "pressure": 0.42281222577130817,
+        "flow": 28.317718887188175,
+        "risk": 0,
+        "suspects": []
+      },
+      {
+        "time": 82.27645760394796,
+        "pressure": 0.4108777268500565,
+        "flow": 31.028202882748644,
+        "risk": 0,
+        "suspects": []
+      },
+      {
+        "time": 123.49794663394289,
+        "pressure": 0.33210954150109867,
+        "flow": 37.14728326374249,
+        "risk": 27.275636606148034,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.4052459980578575,
+            "pressure_residual": 0.4395134469006917,
+            "flow_residual": 0.36583795666186264,
+            "imbalance": 0.4581239251048443,
+            "topology_consistency": 0.25826356355901897
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.09871634669353299,
+            "pressure_residual": 0.3375603875210012,
+            "flow_residual": 0.09228596844298168,
+            "imbalance": 0,
+            "topology_consistency": 0.4395134469006917
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.09871634669353299,
+            "pressure_residual": 0.3375603875210012,
+            "flow_residual": 0.09228596844298168,
+            "imbalance": 0,
+            "topology_consistency": 0.4395134469006917
+          }
+        ]
+      },
+      {
+        "time": 175.0831661238766,
+        "pressure": 0.26960843382890926,
+        "flow": 40.444817397701975,
+        "risk": 48.89282296559581,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.642788733720668,
+            "pressure_residual": 0.7520189852616388,
+            "flow_residual": 0.4977393220202421,
+            "imbalance": 0.691112842831302,
+            "topology_consistency": 0.4544910185672468
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.1738702021433965,
+            "pressure_residual": 0.5846595039960428,
+            "flow_residual": 0.1933735208110599,
+            "imbalance": 0,
+            "topology_consistency": 0.7520189852616388
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.1738702021433965,
+            "pressure_residual": 0.5846595039960428,
+            "flow_residual": 0.1933735208110599,
+            "imbalance": 0,
+            "topology_consistency": 0.7520189852616388
+          }
+        ]
+      },
+      {
+        "time": 226.73875892396512,
+        "pressure": 0.22053462973702212,
+        "flow": 42.28887528003492,
+        "risk": 61.68157161215393,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8209716595345515,
+            "pressure_residual": 0.9973880057210744,
+            "flow_residual": 0.5715016373135601,
+            "imbalance": 0.8390254564990332,
+            "topology_consistency": 0.5921822354995352
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.23051373419889276,
+            "pressure_residual": 0.7694597599714587,
+            "flow_residual": 0.26752381918547313,
+            "imbalance": 0,
+            "topology_consistency": 0.9973880057210744
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.23051373419889276,
+            "pressure_residual": 0.7694597599714587,
+            "flow_residual": 0.26752381918547313,
+            "imbalance": 0,
+            "topology_consistency": 0.9973880057210744
+          }
+        ]
+      },
+      {
+        "time": 278.37804934395496,
+        "pressure": 0.21797063246374532,
+        "flow": 42.5522858824797,
+        "risk": 62.12254628730366,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8322277374559071,
+            "pressure_residual": 1,
+            "flow_residual": 0.5820380614113512,
+            "imbalance": 0.8399889327125534,
+            "topology_consistency": 0.5858950897902551
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.23010148403917652,
+            "pressure_residual": 0.7715319845452814,
+            "flow_residual": 0.2579508713012022,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.23010148403917652,
+            "pressure_residual": 0.7715319845452814,
+            "flow_residual": 0.2579508713012022,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 329.9614741239215,
+        "pressure": 0.21692339779954894,
+        "flow": 43.14704878647454,
+        "risk": 62.074630985940615,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8345245888247051,
+            "pressure_residual": 1,
+            "flow_residual": 0.6058285775711448,
+            "imbalance": 0.8395686821056588,
+            "topology_consistency": 0.592218622795663
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22884996999120205,
+            "pressure_residual": 0.7773797976887531,
+            "flow_residual": 0.23374010453451405,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22884996999120205,
+            "pressure_residual": 0.7773797976887531,
+            "flow_residual": 0.23374010453451405,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 340.29326315394445,
+        "pressure": 0.21620958266666981,
+        "flow": 43.19512005346042,
+        "risk": 61.987578759239604,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 360.94911028399724,
+        "pressure": 0.05945726277328119,
+        "flow": 11.878583603306405,
+        "risk": 23.06625287897085,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 412.57132145402954,
+        "pressure": 0.0023604908474643333,
+        "flow": 0.47158726400443934,
+        "risk": 6.677541007478494,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 453.88736549402677,
+        "pressure": 0.00017846136051918076,
+        "flow": 0.035653645862747614,
+        "risk": 6.051224468898932,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 505.59616926404317,
+        "pressure": 0.000007046787748519424,
+        "flow": 0.0014078323404278711,
+        "risk": 6.0020226673091095,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 557.3220412040428,
+        "pressure": 2.7795525770031613e-7,
+        "flow": 0.00005553089080406683,
+        "risk": 6.000079782595022,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 608.9914697139652,
+        "pressure": 1.1002481907950137e-8,
+        "flow": 0.0000021981150004467277,
+        "risk": 6.000003158085821,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 660.6744424039955,
+        "pressure": 4.3514980938835595e-10,
+        "flow": 8.693577789634247e-8,
+        "risk": 6.000000124902768,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 712.4163645939702,
+        "pressure": 1.7146948441252796e-11,
+        "flow": 3.4256783965597612e-9,
+        "risk": 6.000000004921756,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 764.1105522940195,
+        "pressure": 6.776891974886038e-13,
+        "flow": 1.353911602039561e-10,
+        "risk": 6.00000000019452,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 805.5280311340291,
+        "pressure": 5.091188251550927e-14,
+        "flow": 1.0171357116930043e-11,
+        "risk": 6.000000000014613,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 857.2839367539691,
+        "pressure": 2.0044149913723557e-15,
+        "flow": 4.0044916197246904e-13,
+        "risk": 6.0000000000005755,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 908.9292186840705,
+        "pressure": 7.946187935225492e-17,
+        "flow": 1.5875177112690397e-14,
+        "risk": 6.000000000000023,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 960.6422678039371,
+        "pressure": 3.136827163772164e-18,
+        "flow": 6.266864967543494e-16,
+        "risk": 6.000000000000001,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 1012.3240929840654,
+        "pressure": 1.2407088269118004e-19,
+        "flow": 2.4787322591740637e-17,
+        "risk": 6,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 1064.0419818640028,
+        "pressure": 4.896325284811589e-21,
+        "flow": 9.782052945557807e-19,
+        "risk": 6,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 1105.412171434017,
+        "pressure": 3.689287045426505e-22,
+        "flow": 7.370588984696366e-20,
+        "risk": 6,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 1157.0590722540776,
+        "pressure": 1.4624118407878326e-23,
+        "flow": 2.92165843212512e-21,
+        "risk": 6,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      },
+      {
+        "time": 1167.3991553740295,
+        "pressure": 7.663102412943048e-24,
+        "flow": 1.5309618779448602e-21,
+        "risk": 6,
+        "suspects": [
+          {
+            "pipeline_id": "WS-003",
+            "score": 0.8341697188532533,
+            "pressure_residual": 1,
+            "flow_residual": 0.6077514282505799,
+            "imbalance": 0.8386417586068987,
+            "topology_consistency": 0.5971616584749182
+          },
+          {
+            "pipeline_id": "WS-008",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          },
+          {
+            "pipeline_id": "WS-009",
+            "score": 0.22943337820793336,
+            "pressure_residual": 0.7817217258615075,
+            "flow_residual": 0.2308903303563187,
+            "imbalance": 0,
+            "topology_consistency": 1
+          }
+        ]
+      }
+    ],
+    "comparisons": [
+      {
+        "id": "52e9f6fc-bc47-4f30-a7f3-3a6c903e66f8",
+        "stateHash": "da886cc41288c970766a5da6a83d92cd5939681e7c7c0b39c314d7d9d4950f89",
+        "execution": null
+      },
+      {
+        "id": "a69fd5f9-2ce7-4eda-be53-16a3abf2f80a",
+        "stateHash": "da886cc41288c970766a5da6a83d92cd5939681e7c7c0b39c314d7d9d4950f89",
+        "execution": null
+      },
+      {
+        "id": "7dae029b-f2df-47ad-88ee-5e2bcda7f1df",
+        "stateHash": "da886cc41288c970766a5da6a83d92cd5939681e7c7c0b39c314d7d9d4950f89",
+        "execution": {
+          "id": "8ca5cb16-ef6a-4952-b98c-eed7e455adfa",
+          "comparisonId": "7dae029b-f2df-47ad-88ee-5e2bcda7f1df",
+          "optionId": "option-1",
+          "valves": [
+            "V-W-03"
+          ],
+          "status": "applied",
+          "operator": "demo-user",
+          "timestamp": "2026-10-03T16:37:23.234244+00:00",
+          "affectedBuildings": [
+            {
+              "buildingId": "B-RESEARCH",
+              "buildingName": "科研楼 B",
+              "connectionNode": "WS-BC-02",
+              "criticality": "normal"
+            },
+            {
+              "buildingId": "C-LAB",
+              "buildingName": "实验楼 C",
+              "connectionNode": "WS-BC-03",
+              "criticality": "high"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

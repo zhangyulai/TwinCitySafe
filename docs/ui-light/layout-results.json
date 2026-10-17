@@ -1,0 +1,387 @@
+{
+  "layouts": [
+    {
+      "route": "dashboard",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 1544,
+        "height": 512,
+        "top": 587.390625,
+        "canvasWidth": 1544,
+        "canvasHeight": 512,
+        "drawCalls": 435
+      },
+      "overflow": []
+    },
+    {
+      "route": "operation",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 1240,
+        "height": 438,
+        "top": 426.390625,
+        "canvasWidth": 1240,
+        "canvasHeight": 438,
+        "drawCalls": 4964
+      },
+      "overflow": []
+    },
+    {
+      "route": "pipeline",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 1275,
+        "height": 480,
+        "top": 622,
+        "canvasWidth": 1275,
+        "canvasHeight": 480,
+        "drawCalls": 2310
+      },
+      "overflow": []
+    },
+    {
+      "route": "risk",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 1240,
+        "height": 510,
+        "top": 431.6875,
+        "canvasWidth": 1240,
+        "canvasHeight": 510,
+        "drawCalls": 1014
+      },
+      "overflow": []
+    },
+    {
+      "route": "simulation",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 1240,
+        "height": 510,
+        "top": 513.6875,
+        "canvasWidth": 1240,
+        "canvasHeight": 510,
+        "drawCalls": 1674
+      },
+      "overflow": []
+    },
+    {
+      "route": "review",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": null,
+      "overflow": []
+    },
+    {
+      "route": "dashboard",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 1084,
+        "height": 534,
+        "top": 583.390625,
+        "canvasWidth": 1084,
+        "canvasHeight": 534,
+        "drawCalls": 2146
+      },
+      "overflow": []
+    },
+    {
+      "route": "operation",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 863,
+        "height": 393,
+        "top": 426.390625,
+        "canvasWidth": 863,
+        "canvasHeight": 393,
+        "drawCalls": 6256
+      },
+      "overflow": []
+    },
+    {
+      "route": "pipeline",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 863,
+        "height": 480,
+        "top": 622,
+        "canvasWidth": 863,
+        "canvasHeight": 480,
+        "drawCalls": 4515
+      },
+      "overflow": []
+    },
+    {
+      "route": "risk",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 863,
+        "height": 450,
+        "top": 431.6875,
+        "canvasWidth": 863,
+        "canvasHeight": 450,
+        "drawCalls": 1324
+      },
+      "overflow": []
+    },
+    {
+      "route": "simulation",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 838,
+        "height": 510,
+        "top": 513.6875,
+        "canvasWidth": 838,
+        "canvasHeight": 510,
+        "drawCalls": 2205
+      },
+      "overflow": []
+    },
+    {
+      "route": "review",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": null,
+      "overflow": []
+    },
+    {
+      "route": "dashboard",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 1010,
+        "height": 534,
+        "top": 583.390625,
+        "canvasWidth": 1010,
+        "canvasHeight": 534,
+        "drawCalls": 2028
+      },
+      "overflow": []
+    },
+    {
+      "route": "operation",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 789,
+        "height": 393,
+        "top": 426.390625,
+        "canvasWidth": 789,
+        "canvasHeight": 393,
+        "drawCalls": 6104
+      },
+      "overflow": []
+    },
+    {
+      "route": "pipeline",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 789,
+        "height": 480,
+        "top": 622,
+        "canvasWidth": 789,
+        "canvasHeight": 480,
+        "drawCalls": 4410
+      },
+      "overflow": []
+    },
+    {
+      "route": "risk",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 789,
+        "height": 450,
+        "top": 431.6875,
+        "canvasWidth": 789,
+        "canvasHeight": 450,
+        "drawCalls": 1944
+      },
+      "overflow": []
+    },
+    {
+      "route": "simulation",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 764,
+        "height": 510,
+        "top": 513.6875,
+        "canvasWidth": 764,
+        "canvasHeight": 510,
+        "drawCalls": 2323
+      },
+      "overflow": []
+    },
+    {
+      "route": "review",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": null,
+      "overflow": []
+    },
+    {
+      "route": "dashboard",
+      "width": 390,
+      "scrollWidth": 390,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 364,
+        "height": 373,
+        "top": 675.390625,
+        "canvasWidth": 364,
+        "canvasHeight": 373,
+        "drawCalls": 4329
+      },
+      "overflow": []
+    },
+    {
+      "route": "operation",
+      "width": 390,
+      "scrollWidth": 390,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 364,
+        "height": 343,
+        "top": 1081.390625,
+        "canvasWidth": 364,
+        "canvasHeight": 343,
+        "drawCalls": 6813
+      },
+      "overflow": []
+    },
+    {
+      "route": "pipeline",
+      "width": 390,
+      "scrollWidth": 390,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 364,
+        "height": 480,
+        "top": 1161.390625,
+        "canvasWidth": 364,
+        "canvasHeight": 480,
+        "drawCalls": 8677
+      },
+      "overflow": []
+    },
+    {
+      "route": "risk",
+      "width": 390,
+      "scrollWidth": 390,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 364,
+        "height": 450,
+        "top": 761.546875,
+        "canvasWidth": 364,
+        "canvasHeight": 450,
+        "drawCalls": 4486
+      },
+      "overflow": []
+    },
+    {
+      "route": "simulation",
+      "width": 390,
+      "scrollWidth": 390,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": {
+        "width": 364,
+        "height": 540,
+        "top": 1253.765625,
+        "canvasWidth": 364,
+        "canvasHeight": 540,
+        "drawCalls": 5391
+      },
+      "overflow": []
+    },
+    {
+      "route": "review",
+      "width": 390,
+      "scrollWidth": 391,
+      "scheme": "light",
+      "body": "rgb(2, 9, 22)",
+      "scene": null,
+      "overflow": []
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/dashboard-1920.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/operation-1920.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/pipeline-1920.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/risk-1920.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/simulation-1920.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/review-1920.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/dashboard-1440.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/operation-1440.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/pipeline-1440.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/risk-1440.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/simulation-1440.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/review-1440.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/dashboard-1366.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/operation-1366.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/pipeline-1366.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/risk-1366.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/simulation-1366.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/review-1366.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/dashboard-390.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/operation-390.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/pipeline-390.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/risk-390.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/simulation-390.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/ui-light/review-390.png"
+  ]
+}

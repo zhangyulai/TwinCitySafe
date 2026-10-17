@@ -1,0 +1,34 @@
+{
+  "environment": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "python": "3.13.9",
+  "scope": "Observation-only Top 3 on seeded M4 graph, isolated SQLite setup. No HTTP/database time included. Real compare latency is in browser results.",
+  "count": 500,
+  "meanMs": 0.05981010396499187,
+  "p95Ms": 0.07370099774561822,
+  "ranking": [
+    {
+      "pipeline_id": "WS-003",
+      "score": 0.8309617965831283,
+      "pressure_residual": 1.0,
+      "flow_residual": 0.5979399004524101,
+      "imbalance": 0.8345007469079736,
+      "topology_consistency": 0.6138584634395549
+    },
+    {
+      "pipeline_id": "WS-008",
+      "score": 0.232929499283958,
+      "pressure_residual": 0.7963670731920083,
+      "flow_residual": 0.23656084645556363,
+      "imbalance": 0.0,
+      "topology_consistency": 1.0
+    },
+    {
+      "pipeline_id": "WS-009",
+      "score": 0.232929499283958,
+      "pressure_residual": 0.7963670731920083,
+      "flow_residual": 0.23656084645556363,
+      "imbalance": 0.0,
+      "topology_consistency": 1.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+import {defineStore} from 'pinia';import {computed,ref,shallowRef} from 'vue';import {isAxiosError} from 'axios';
+import {emergencyApi} from '../api/emergency';import type {EmergencyPlan,EmergencyComparison,EmergencyExecution,EmergencyEvent} from '../types/emergency';
+export const useEmergencyStore=defineStore('emergency',()=>{
+ const availablePlans=shallowRef<EmergencyPlan[]>([]),comparison=shallowRef<EmergencyComparison|null>(null),selectedPlan=ref(''),execution=shallowRef<EmergencyExecution|null>(null);
+ const loading=ref(false),error=ref(''),events=shallowRef<EmergencyEvent[]>([]),scenarioId=ref<string|null>(null),previewTargets=ref<string[]>([]);
+ const baseline=computed(()=>comparison.value?.baseline??null);let generation=0,planRequest=0;
+ function reset(id:string|null){generation++;scenarioId.value=id;comparison.value=null;selectedPlan.value='';previewTargets.value=[];execution.value=null;events.value=[];error.value='';loading.value=false;}
+ function sync(value:EmergencyExecution|null){if(value?.scenario_id===scenarioId.value){execution.value=value;events.value=value.events.slice(-100);}else execution.value=null;}
+ function onEvent(event:EmergencyEvent){if(event.scenario_id!==scenarioId.value||events.value.some(e=>(e.execution_id??execution.value?.id)===event.execution_id&&e.sequence===event.sequence))return;events.value=[...events.value.slice(-99),event];}
+ function message(e:unknown){if(isAxiosError(e)){const d=e.response?.data?.detail;return typeof d==='string'?d:d?.message??d?.reasons?.join('；')??'应急请求失败，请检查服务。';}return '应急请求失败，请检查服务。';}
+ async function plans(){const g=generation,token=++planRequest;try{const value=await emergencyApi.plans();if(g===generation&&token===planRequest){availablePlans.value=value;if(!value.find(p=>p.plan_code===selectedPlan.value)?.available)previewTargets.value=[];}}catch(e){if(g===generation)error.value=message(e);}}
+ async function compare(){if(loading.value)return;const g=generation;loading.value=true;error.value='';try{const codes=availablePlans.value.filter(p=>p.available).map(p=>p.plan_code);if(!codes.length)throw new Error('no plans');const c=await emergencyApi.compare(codes);if(g!==generation||c.scenario_id!==scenarioId.value)return;comparison.value=c;select('');}catch(e){if(g===generation)error.value=message(e);}finally{if(g===generation)loading.value=false;}}
+ function select(code:string){selectedPlan.value=code;const plan=availablePlans.value.find(p=>p.plan_code===code);previewTargets.value=plan?.available?plan.actions.map(a=>a.target_id):[];}
+ async function execute(){if(!comparison.value||loading.value)return;const g=generation;loading.value=true;error.value='';try{const x=await emergencyApi.execute(selectedPlan.value,comparison.value.id);if(g===generation){execution.value=x;previewTargets.value=[];await plans();}}catch(e){if(g===generation){error.value=message(e);if(isAxiosError(e)&&e.response?.status===409&&comparison.value)comparison.value={...comparison.value,stale:true};}}finally{if(g===generation)loading.value=false;}}
+ async function cancel(){if(!execution.value||loading.value)return;const g=generation;loading.value=true;try{const x=await emergencyApi.cancel(execution.value.id);if(g===generation)execution.value=x;}catch(e){if(g===generation)error.value=message(e);}finally{if(g===generation)loading.value=false;}}
+ return {availablePlans,comparison,selectedPlan,execution,baseline,loading,error,events,scenarioId,previewTargets,reset,sync,onEvent,plans,compare,select,execute,cancel};
+});

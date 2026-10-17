@@ -1,0 +1,1113 @@
+{
+  "version": "risk-xgb-v1",
+  "feature_version": "m6-v1",
+  "dataset_generator_version": "m6-simulator-v1",
+  "trained_at": "2026-10-03T13:52:36.760399+00:00",
+  "dataset_size": 60000,
+  "training_seed": 42,
+  "feature_names": [
+    "rainfall_current",
+    "rainfall_trend",
+    "rainfall_target",
+    "planned_rain_mean_10m",
+    "planned_rain_mean_20m",
+    "planned_rain_mean_30m",
+    "water_level",
+    "water_area",
+    "flood_volume",
+    "water_growth_rate",
+    "natural_drainage",
+    "pump_total_capacity",
+    "pump_effective_capacity",
+    "p01_status",
+    "p01_efficiency",
+    "p01_rated_capacity",
+    "p02_status",
+    "p02_efficiency",
+    "p02_rated_capacity",
+    "p03_status",
+    "p03_efficiency",
+    "p03_rated_capacity",
+    "p03_fault",
+    "p03_fault_age",
+    "p03_auto_fault_remaining",
+    "people_count",
+    "vehicle_count",
+    "current_risk_score",
+    "current_stage",
+    "time_since_scenario_start"
+  ],
+  "dataset_sha256": "6a201a1d2acbf88655c8e7d7f764138f3f2f75ea6d366e999297b8f8166d135b",
+  "scenario_counts": {
+    "train": 170,
+    "validation": 40,
+    "test": 40
+  },
+  "row_counts": {
+    "train": 40800,
+    "validation": 9600,
+    "test": 9600
+  },
+  "parameters": {
+    "n_estimators": 600,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "objective": "reg:squarederror",
+    "tree_method": "hist",
+    "n_jobs": 4,
+    "random_state": 42,
+    "reg_lambda": 2.0
+  },
+  "trees": {
+    "water_10m": 600,
+    "water_20m": 600,
+    "water_30m": 600,
+    "risk_10m": 600,
+    "risk_20m": 600,
+    "risk_30m": 598
+  },
+  "sha256": {
+    "water_10m": "6f8afa5d1abcd7c6c5d834f93f0ef04c807a59f49c888d76797eda49d0d3b43a",
+    "water_20m": "e24e1cd716ff6e1f8dec5696cd315c967cbaf44ad41f6bb733c042a6b015d2e8",
+    "water_30m": "f131789d38940d2c4f9d9095d61c77753b6f2854b80afd3384fad02a2d4f756f",
+    "risk_10m": "0632c0a248f19fe9cccbc1a587b041c15342ec8c4c28371bee4496cf6394d939",
+    "risk_20m": "8f365b5473bcd37fff3a9690c31db4d2a8eb0d9274d7b8fd2065054e47112002",
+    "risk_30m": "482246597612c03b1b37c07c681dbad18575ddceeacc865e7f3d7d13ec5c947d"
+  },
+  "xgboost_version": "3.4.1",
+  "feature_median": [
+    60.47584533691406,
+    1.1842379282265398e-15,
+    60.88890075683594,
+    63.84999084472656,
+    66.72822570800781,
+    68.02598571777344,
+    13.382621765136719,
+    818.75927734375,
+    200.73934936523438,
+    0.5119678974151611,
+    0.001500000013038516,
+    0.03394133597612381,
+    0.02887028083205223,
+    1.0,
+    100.0,
+    121.67204284667969,
+    1.0,
+    100.0,
+    119.21937561035156,
+    2.0,
+    95.34149932861328,
+    117.01466369628906,
+    0.0,
+    0.0,
+    -1.0,
+    42.5,
+    62.0,
+    52.17850112915039,
+    2.0,
+    1195.0
+  ],
+  "feature_std": [
+    31.792139053344727,
+    0.05914410203695297,
+    31.632488250732422,
+    30.590620040893555,
+    30.827533721923828,
+    31.044767379760742,
+    9.96408462524414,
+    400.68292236328125,
+    149.46180725097656,
+    0.3613409698009491,
+    0.0010000000474974513,
+    0.027389854192733765,
+    0.027172669768333435,
+    0.40003204345703125,
+    1.8911064863204956,
+    21.384796142578125,
+    0.30001869797706604,
+    1.58950674533844,
+    21.69040298461914,
+    0.6000393629074097,
+    28.30445671081543,
+    21.105527877807617,
+    1.0063707828521729,
+    658.1605224609375,
+    8.85555362701416,
+    28.493925094604492,
+    35.148555755615234,
+    22.70647621154785,
+    1.1523356437683105,
+    692.8101806640625
+  ],
+  "feature_min": [
+    4.810762882232666,
+    0.0,
+    4.810762882232666,
+    4.836786270141602,
+    4.836786270141602,
+    4.836786270141602,
+    0.0,
+    0.0,
+    0.0,
+    -0.378612756729126,
+    0.001500000013038516,
+    0.0,
+    0.0,
+    1.0,
+    75.171875,
+    86.53726959228516,
+    1.0,
+    75.416748046875,
+    85.27921295166016,
+    0.0,
+    0.0,
+    85.37579345703125,
+    0.0,
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    5.284659385681152,
+    0.0,
+    0.0
+  ],
+  "feature_max": [
+    116.87769317626953,
+    0.48884111642837524,
+    116.87769317626953,
+    116.87769317626953,
+    116.87769317626953,
+    116.87769317626953,
+    54.02920150756836,
+    1500.0,
+    810.43798828125,
+    1.2797348499298096,
+    0.001500000013038516,
+    0.12329864501953125,
+    0.11864586174488068,
+    2.0,
+    100.0,
+    159.5507049560547,
+    2.0,
+    100.0,
+    159.81939697265625,
+    2.0,
+    99.93355560302734,
+    159.17019653320312,
+    3.0,
+    1800.0,
+    180.0,
+    99.0,
+    118.0,
+    100.0,
+    4.0,
+    2390.0
+  ],
+  "metrics": {
+    "water_10m": {
+      "mae": 0.2916005849838257,
+      "rmse": 0.3735974431037903,
+      "r2": 0.9989901781082153
+    },
+    "water_20m": {
+      "mae": 0.4818006455898285,
+      "rmse": 0.6338656544685364,
+      "r2": 0.998011589050293
+    },
+    "water_30m": {
+      "mae": 0.7329612970352173,
+      "rmse": 0.9526486992835999,
+      "r2": 0.9968525767326355
+    },
+    "risk_10m": {
+      "mae": 0.996355414390564,
+      "rmse": 1.3376532793045044,
+      "r2": 0.9960619807243347,
+      "risk_level_accuracy": 0.9653125
+    },
+    "risk_20m": {
+      "mae": 1.3904186487197876,
+      "rmse": 1.8153774738311768,
+      "r2": 0.9926336407661438,
+      "risk_level_accuracy": 0.9565625
+    },
+    "risk_30m": {
+      "mae": 1.4197661876678467,
+      "rmse": 1.888012409210205,
+      "r2": 0.9916701316833496,
+      "risk_level_accuracy": 0.9647916666666667
+    }
+  },
+  "scope": "Trained and tested on independent software simulation scenarios; no real-city generalization validation",
+  "global_importance": {
+    "water_10m": [
+      {
+        "feature": "flood_volume",
+        "gain": 35630.1796875,
+        "importance": 0.41903619662389363
+      },
+      {
+        "feature": "water_level",
+        "gain": 16699.853515625,
+        "importance": 0.19640212771137625
+      },
+      {
+        "feature": "water_area",
+        "gain": 15819.546875,
+        "importance": 0.1860490969440442
+      },
+      {
+        "feature": "current_risk_score",
+        "gain": 6471.9248046875,
+        "importance": 0.07611442823970703
+      },
+      {
+        "feature": "current_stage",
+        "gain": 6132.28271484375,
+        "importance": 0.0721199962500349
+      },
+      {
+        "feature": "planned_rain_mean_20m",
+        "gain": 915.4625244140625,
+        "importance": 0.010766488907625639
+      },
+      {
+        "feature": "water_growth_rate",
+        "gain": 887.7725219726562,
+        "importance": 0.01044083482983765
+      },
+      {
+        "feature": "planned_rain_mean_30m",
+        "gain": 713.1944580078125,
+        "importance": 0.008387672915432388
+      },
+      {
+        "feature": "planned_rain_mean_10m",
+        "gain": 680.47119140625,
+        "importance": 0.008002824079471029
+      },
+      {
+        "feature": "p02_status",
+        "gain": 282.4708251953125,
+        "importance": 0.0033220573481582013
+      },
+      {
+        "feature": "rainfall_target",
+        "gain": 225.7340545654297,
+        "importance": 0.002654792664623385
+      },
+      {
+        "feature": "rainfall_current",
+        "gain": 224.4160919189453,
+        "importance": 0.0026392924886624726
+      },
+      {
+        "feature": "pump_total_capacity",
+        "gain": 80.06595611572266,
+        "importance": 0.0009416324594500545
+      },
+      {
+        "feature": "rainfall_trend",
+        "gain": 51.85486602783203,
+        "importance": 0.0006098500211708843
+      },
+      {
+        "feature": "pump_effective_capacity",
+        "gain": 42.60963439941406,
+        "importance": 0.0005011195367204136
+      },
+      {
+        "feature": "p01_status",
+        "gain": 32.50563049316406,
+        "importance": 0.0003822892808900356
+      },
+      {
+        "feature": "people_count",
+        "gain": 26.634321212768555,
+        "importance": 0.00031323851741822976
+      },
+      {
+        "feature": "vehicle_count",
+        "gain": 23.062530517578125,
+        "importance": 0.0002712317242676946
+      },
+      {
+        "feature": "p03_auto_fault_remaining",
+        "gain": 21.7829647064209,
+        "importance": 0.0002561831223369724
+      },
+      {
+        "feature": "p03_rated_capacity",
+        "gain": 18.480112075805664,
+        "importance": 0.00021733923166673317
+      },
+      {
+        "feature": "p03_efficiency",
+        "gain": 15.633749961853027,
+        "importance": 0.0001838639934022599
+      },
+      {
+        "feature": "p02_efficiency",
+        "gain": 10.850898742675781,
+        "importance": 0.00012761426911010013
+      },
+      {
+        "feature": "time_since_scenario_start",
+        "gain": 5.825206279754639,
+        "importance": 6.850855946916153e-05
+      },
+      {
+        "feature": "p02_rated_capacity",
+        "gain": 5.364028453826904,
+        "importance": 6.308478098028033e-05
+      },
+      {
+        "feature": "p01_rated_capacity",
+        "gain": 4.508366584777832,
+        "importance": 5.3021590214834796e-05
+      },
+      {
+        "feature": "p03_fault",
+        "gain": 2.659327745437622,
+        "importance": 3.1275581369451245e-05
+      },
+      {
+        "feature": "p03_fault_age",
+        "gain": 2.5621278285980225,
+        "importance": 3.0132441373474355e-05
+      },
+      {
+        "feature": "p01_efficiency",
+        "gain": 1.1738991737365723,
+        "importance": 1.3805887292650341e-05
+      }
+    ],
+    "water_20m": [
+      {
+        "feature": "current_risk_score",
+        "gain": 53264.41796875,
+        "importance": 0.38251049329749287
+      },
+      {
+        "feature": "current_stage",
+        "gain": 29241.564453125,
+        "importance": 0.20999394474408012
+      },
+      {
+        "feature": "flood_volume",
+        "gain": 13400.9775390625,
+        "importance": 0.09623712648362795
+      },
+      {
+        "feature": "water_area",
+        "gain": 11938.8544921875,
+        "importance": 0.08573710734796565
+      },
+      {
+        "feature": "planned_rain_mean_10m",
+        "gain": 11214.7919921875,
+        "importance": 0.08053736022568023
+      },
+      {
+        "feature": "water_level",
+        "gain": 7689.94140625,
+        "importance": 0.055224170147869796
+      },
+      {
+        "feature": "planned_rain_mean_20m",
+        "gain": 3589.1416015625,
+        "importance": 0.025774886441708434
+      },
+      {
+        "feature": "water_growth_rate",
+        "gain": 3548.205078125,
+        "importance": 0.025480906888920504
+      },
+      {
+        "feature": "planned_rain_mean_30m",
+        "gain": 1744.9580078125,
+        "importance": 0.012531156329228424
+      },
+      {
+        "feature": "rainfall_current",
+        "gain": 502.1304016113281,
+        "importance": 0.003605974775368878
+      },
+      {
+        "feature": "pump_total_capacity",
+        "gain": 482.9062194824219,
+        "importance": 0.00346791917146304
+      },
+      {
+        "feature": "p02_status",
+        "gain": 453.04217529296875,
+        "importance": 0.0032534549811011394
+      },
+      {
+        "feature": "pump_effective_capacity",
+        "gain": 413.2427978515625,
+        "importance": 0.0029676416731067275
+      },
+      {
+        "feature": "rainfall_target",
+        "gain": 408.8136901855469,
+        "importance": 0.0029358346953380168
+      },
+      {
+        "feature": "p01_status",
+        "gain": 384.7330627441406,
+        "importance": 0.0027629032519318475
+      },
+      {
+        "feature": "rainfall_trend",
+        "gain": 322.6925048828125,
+        "importance": 0.0023173682156546983
+      },
+      {
+        "feature": "p03_efficiency",
+        "gain": 188.9007110595703,
+        "importance": 0.001356562353014652
+      },
+      {
+        "feature": "people_count",
+        "gain": 136.41806030273438,
+        "importance": 0.0009796660046431113
+      },
+      {
+        "feature": "p02_efficiency",
+        "gain": 97.80572509765625,
+        "importance": 0.0007023772638682123
+      },
+      {
+        "feature": "vehicle_count",
+        "gain": 67.84972381591797,
+        "importance": 0.0004872526973288637
+      },
+      {
+        "feature": "time_since_scenario_start",
+        "gain": 33.694705963134766,
+        "importance": 0.00024197351798783056
+      },
+      {
+        "feature": "p03_auto_fault_remaining",
+        "gain": 29.46843910217285,
+        "importance": 0.00021162321128323397
+      },
+      {
+        "feature": "p03_rated_capacity",
+        "gain": 27.922693252563477,
+        "importance": 0.00020052266743060939
+      },
+      {
+        "feature": "p02_rated_capacity",
+        "gain": 22.638591766357422,
+        "importance": 0.00016257567874280402
+      },
+      {
+        "feature": "p01_rated_capacity",
+        "gain": 15.305270195007324,
+        "importance": 0.00010991252088361188
+      },
+      {
+        "feature": "p03_fault",
+        "gain": 12.075614929199219,
+        "importance": 8.671923208000769e-05
+      },
+      {
+        "feature": "p03_fault_age",
+        "gain": 11.230443954467773,
+        "importance": 8.06497624641955e-05
+      },
+      {
+        "feature": "p01_efficiency",
+        "gain": 5.836843013763428,
+        "importance": 4.191641973455078e-05
+      }
+    ],
+    "water_30m": [
+      {
+        "feature": "current_risk_score",
+        "gain": 74556.140625,
+        "importance": 0.37403801507988166
+      },
+      {
+        "feature": "water_growth_rate",
+        "gain": 26617.5703125,
+        "importance": 0.13353672926839064
+      },
+      {
+        "feature": "planned_rain_mean_10m",
+        "gain": 22157.123046875,
+        "importance": 0.11115927212512987
+      },
+      {
+        "feature": "planned_rain_mean_20m",
+        "gain": 21834.48046875,
+        "importance": 0.10954061820218708
+      },
+      {
+        "feature": "flood_volume",
+        "gain": 15392.0068359375,
+        "importance": 0.07721960440478517
+      },
+      {
+        "feature": "water_area",
+        "gain": 9735.322265625,
+        "importance": 0.04884078743711597
+      },
+      {
+        "feature": "current_stage",
+        "gain": 9479.8349609375,
+        "importance": 0.047559042385369316
+      },
+      {
+        "feature": "water_level",
+        "gain": 7634.17529296875,
+        "importance": 0.03829961891021509
+      },
+      {
+        "feature": "p02_status",
+        "gain": 3616.53466796875,
+        "importance": 0.01814366244463328
+      },
+      {
+        "feature": "planned_rain_mean_30m",
+        "gain": 3470.584228515625,
+        "importance": 0.017411448944639186
+      },
+      {
+        "feature": "pump_total_capacity",
+        "gain": 1445.239013671875,
+        "importance": 0.007250567524797144
+      },
+      {
+        "feature": "p01_status",
+        "gain": 739.6741333007812,
+        "importance": 0.003710844503302856
+      },
+      {
+        "feature": "rainfall_trend",
+        "gain": 635.2081909179688,
+        "importance": 0.0031867530816605968
+      },
+      {
+        "feature": "pump_effective_capacity",
+        "gain": 551.6620483398438,
+        "importance": 0.0027676134497598517
+      },
+      {
+        "feature": "rainfall_current",
+        "gain": 346.25018310546875,
+        "importance": 0.0017370900656087322
+      },
+      {
+        "feature": "p03_efficiency",
+        "gain": 213.00650024414062,
+        "importance": 0.0010686246348394685
+      },
+      {
+        "feature": "people_count",
+        "gain": 172.99295043945312,
+        "importance": 0.0008678820988151892
+      },
+      {
+        "feature": "time_since_scenario_start",
+        "gain": 139.6951904296875,
+        "importance": 0.0007008317665923497
+      },
+      {
+        "feature": "p03_fault",
+        "gain": 134.51052856445312,
+        "importance": 0.0006748210233232385
+      },
+      {
+        "feature": "vehicle_count",
+        "gain": 129.76724243164062,
+        "importance": 0.0006510246020600084
+      },
+      {
+        "feature": "rainfall_target",
+        "gain": 89.97847747802734,
+        "importance": 0.00045140978105438496
+      },
+      {
+        "feature": "p03_rated_capacity",
+        "gain": 76.84268188476562,
+        "importance": 0.00038550928152462314
+      },
+      {
+        "feature": "p03_auto_fault_remaining",
+        "gain": 44.32244873046875,
+        "importance": 0.000222359695762811
+      },
+      {
+        "feature": "p02_rated_capacity",
+        "gain": 42.01225280761719,
+        "importance": 0.00021076975709129013
+      },
+      {
+        "feature": "p01_rated_capacity",
+        "gain": 24.470481872558594,
+        "importance": 0.00012276507864988543
+      },
+      {
+        "feature": "p03_fault_age",
+        "gain": 20.475271224975586,
+        "importance": 0.00010272165032968517
+      },
+      {
+        "feature": "p02_efficiency",
+        "gain": 17.462438583374023,
+        "importance": 8.760667882518309e-05
+      },
+      {
+        "feature": "p01_efficiency",
+        "gain": 10.36626148223877,
+        "importance": 5.200612365543326e-05
+      }
+    ],
+    "risk_10m": [
+      {
+        "feature": "current_risk_score",
+        "gain": 92886.1171875,
+        "importance": 0.3160809826742679
+      },
+      {
+        "feature": "water_growth_rate",
+        "gain": 53304.23828125,
+        "importance": 0.18138831212667142
+      },
+      {
+        "feature": "planned_rain_mean_10m",
+        "gain": 40657.74609375,
+        "importance": 0.13835372526867554
+      },
+      {
+        "feature": "planned_rain_mean_20m",
+        "gain": 38123.10546875,
+        "importance": 0.12972862903541482
+      },
+      {
+        "feature": "p03_status",
+        "gain": 17616.671875,
+        "importance": 0.05994754788231671
+      },
+      {
+        "feature": "planned_rain_mean_30m",
+        "gain": 11248.2509765625,
+        "importance": 0.03827652968701253
+      },
+      {
+        "feature": "pump_total_capacity",
+        "gain": 10838.40234375,
+        "importance": 0.03688186100530222
+      },
+      {
+        "feature": "pump_effective_capacity",
+        "gain": 7413.44287109375,
+        "importance": 0.025227110128468126
+      },
+      {
+        "feature": "p01_status",
+        "gain": 5669.21728515625,
+        "importance": 0.019291707143586783
+      },
+      {
+        "feature": "current_stage",
+        "gain": 5600.345703125,
+        "importance": 0.019057344916098836
+      },
+      {
+        "feature": "rainfall_trend",
+        "gain": 3186.126953125,
+        "importance": 0.01084203074433438
+      },
+      {
+        "feature": "p03_efficiency",
+        "gain": 1277.4229736328125,
+        "importance": 0.004346926333259211
+      },
+      {
+        "feature": "time_since_scenario_start",
+        "gain": 1275.4656982421875,
+        "importance": 0.004340265945813108
+      },
+      {
+        "feature": "water_level",
+        "gain": 742.2194213867188,
+        "importance": 0.00252568899610987
+      },
+      {
+        "feature": "water_area",
+        "gain": 688.6205444335938,
+        "importance": 0.0023432980618071403
+      },
+      {
+        "feature": "people_count",
+        "gain": 558.1870727539062,
+        "importance": 0.0018994476657473076
+      },
+      {
+        "feature": "rainfall_target",
+        "gain": 522.85205078125,
+        "importance": 0.0017792065704565138
+      },
+      {
+        "feature": "vehicle_count",
+        "gain": 370.08544921875,
+        "importance": 0.001259359051755609
+      },
+      {
+        "feature": "flood_volume",
+        "gain": 341.77838134765625,
+        "importance": 0.0011630332917794283
+      },
+      {
+        "feature": "p03_auto_fault_remaining",
+        "gain": 266.5462951660156,
+        "importance": 0.0009070269858970648
+      },
+      {
+        "feature": "p03_fault_age",
+        "gain": 249.9279022216797,
+        "importance": 0.0008504764686468971
+      },
+      {
+        "feature": "p02_efficiency",
+        "gain": 223.31661987304688,
+        "importance": 0.0007599212755818327
+      },
+      {
+        "feature": "p01_efficiency",
+        "gain": 219.60533142089844,
+        "importance": 0.000747292179475094
+      },
+      {
+        "feature": "p03_fault",
+        "gain": 210.7188720703125,
+        "importance": 0.0007170525603686325
+      },
+      {
+        "feature": "rainfall_current",
+        "gain": 143.6965789794922,
+        "importance": 0.0004889832546136478
+      },
+      {
+        "feature": "p03_rated_capacity",
+        "gain": 80.71510314941406,
+        "importance": 0.00027466439434239797
+      },
+      {
+        "feature": "p01_rated_capacity",
+        "gain": 61.76725769042969,
+        "importance": 0.00021018701286087436
+      },
+      {
+        "feature": "p02_rated_capacity",
+        "gain": 58.4764289855957,
+        "importance": 0.00019898869386195518
+      },
+      {
+        "feature": "p02_status",
+        "gain": 33.03096389770508,
+        "importance": 0.00011240064547417528
+      }
+    ],
+    "risk_20m": [
+      {
+        "feature": "planned_rain_mean_20m",
+        "gain": 182149.390625,
+        "importance": 0.41332304804713793
+      },
+      {
+        "feature": "planned_rain_mean_30m",
+        "gain": 56350.15625,
+        "importance": 0.12786657292273046
+      },
+      {
+        "feature": "p03_status",
+        "gain": 47792.6484375,
+        "importance": 0.10844836240545498
+      },
+      {
+        "feature": "planned_rain_mean_10m",
+        "gain": 45669.1015625,
+        "importance": 0.10362973049000179
+      },
+      {
+        "feature": "water_growth_rate",
+        "gain": 27228.611328125,
+        "importance": 0.06178561778118193
+      },
+      {
+        "feature": "current_risk_score",
+        "gain": 18062.791015625,
+        "importance": 0.04098705910132156
+      },
+      {
+        "feature": "pump_effective_capacity",
+        "gain": 16761.138671875,
+        "importance": 0.03803342355870224
+      },
+      {
+        "feature": "pump_total_capacity",
+        "gain": 13614.0634765625,
+        "importance": 0.030892259332476302
+      },
+      {
+        "feature": "p01_status",
+        "gain": 11204.5009765625,
+        "importance": 0.025424617011287055
+      },
+      {
+        "feature": "p03_efficiency",
+        "gain": 5692.51025390625,
+        "importance": 0.01291712083752198
+      },
+      {
+        "feature": "current_stage",
+        "gain": 5577.1845703125,
+        "importance": 0.012655430348755962
+      },
+      {
+        "feature": "rainfall_trend",
+        "gain": 1784.1708984375,
+        "importance": 0.004048539231719914
+      },
+      {
+        "feature": "p02_status",
+        "gain": 1437.012451171875,
+        "importance": 0.003260787007642773
+      },
+      {
+        "feature": "water_area",
+        "gain": 1140.1485595703125,
+        "importance": 0.002587160331699053
+      },
+      {
+        "feature": "water_level",
+        "gain": 1005.8318481445312,
+        "importance": 0.0022823764815874392
+      },
+      {
+        "feature": "people_count",
+        "gain": 963.9178466796875,
+        "importance": 0.0021872676108859873
+      },
+      {
+        "feature": "p03_fault",
+        "gain": 931.8135986328125,
+        "importance": 0.0021144184752810587
+      },
+      {
+        "feature": "time_since_scenario_start",
+        "gain": 809.0835571289062,
+        "importance": 0.0018359264382377901
+      },
+      {
+        "feature": "vehicle_count",
+        "gain": 773.3235473632812,
+        "importance": 0.0017547818558496296
+      },
+      {
+        "feature": "flood_volume",
+        "gain": 350.88043212890625,
+        "importance": 0.0007961979406573512
+      },
+      {
+        "feature": "p03_auto_fault_remaining",
+        "gain": 258.2648010253906,
+        "importance": 0.0005860398126879654
+      },
+      {
+        "feature": "p02_efficiency",
+        "gain": 242.43458557128906,
+        "importance": 0.0005501187872028868
+      },
+      {
+        "feature": "p01_efficiency",
+        "gain": 237.74647521972656,
+        "importance": 0.0005394807935568998
+      },
+      {
+        "feature": "p03_rated_capacity",
+        "gain": 175.764404296875,
+        "importance": 0.0003988345998463251
+      },
+      {
+        "feature": "p01_rated_capacity",
+        "gain": 140.9130859375,
+        "importance": 0.0003197519683682213
+      },
+      {
+        "feature": "p02_rated_capacity",
+        "gain": 109.32036590576172,
+        "importance": 0.0002480635630718177
+      },
+      {
+        "feature": "rainfall_target",
+        "gain": 106.23262786865234,
+        "importance": 0.0002410570433536344
+      },
+      {
+        "feature": "rainfall_current",
+        "gain": 76.46129608154297,
+        "importance": 0.00017350162877635496
+      },
+      {
+        "feature": "p03_fault_age",
+        "gain": 49.55817413330078,
+        "importance": 0.00011245459300271379
+      }
+    ],
+    "risk_30m": [
+      {
+        "feature": "planned_rain_mean_20m",
+        "gain": 201262.5625,
+        "importance": 0.5393189674751296
+      },
+      {
+        "feature": "planned_rain_mean_30m",
+        "gain": 39789.43359375,
+        "importance": 0.10662289089259454
+      },
+      {
+        "feature": "planned_rain_mean_10m",
+        "gain": 35473.13671875,
+        "importance": 0.09505660283074434
+      },
+      {
+        "feature": "pump_effective_capacity",
+        "gain": 23613.501953125,
+        "importance": 0.06327659418443175
+      },
+      {
+        "feature": "p01_status",
+        "gain": 15958.4873046875,
+        "importance": 0.04276361578984183
+      },
+      {
+        "feature": "water_growth_rate",
+        "gain": 11360.041015625,
+        "importance": 0.030441258001085016
+      },
+      {
+        "feature": "p03_efficiency",
+        "gain": 11031.4287109375,
+        "importance": 0.02956068266376323
+      },
+      {
+        "feature": "pump_total_capacity",
+        "gain": 9750.671875,
+        "importance": 0.02612866606929834
+      },
+      {
+        "feature": "p03_status",
+        "gain": 6406.8115234375,
+        "importance": 0.017168195280372
+      },
+      {
+        "feature": "current_risk_score",
+        "gain": 5158.0654296875,
+        "importance": 0.01382195718445264
+      },
+      {
+        "feature": "p02_status",
+        "gain": 2885.257568359375,
+        "importance": 0.0077315627573179765
+      },
+      {
+        "feature": "people_count",
+        "gain": 1606.7274169921875,
+        "importance": 0.00430551296168759
+      },
+      {
+        "feature": "p03_fault_age",
+        "gain": 1405.2596435546875,
+        "importance": 0.003765644094869272
+      },
+      {
+        "feature": "current_stage",
+        "gain": 1265.7174072265625,
+        "importance": 0.0033917157602558496
+      },
+      {
+        "feature": "water_area",
+        "gain": 1145.727783203125,
+        "importance": 0.0030701821410262457
+      },
+      {
+        "feature": "vehicle_count",
+        "gain": 1099.24365234375,
+        "importance": 0.002945619613611059
+      },
+      {
+        "feature": "water_level",
+        "gain": 791.5358276367188,
+        "importance": 0.0021210615624582805
+      },
+      {
+        "feature": "flood_volume",
+        "gain": 472.1958923339844,
+        "importance": 0.0012653331942922169
+      },
+      {
+        "feature": "rainfall_trend",
+        "gain": 434.4366760253906,
+        "importance": 0.0011641506330683884
+      },
+      {
+        "feature": "time_since_scenario_start",
+        "gain": 368.9872131347656,
+        "importance": 0.0009887671126087715
+      },
+      {
+        "feature": "p03_fault",
+        "gain": 333.0145263671875,
+        "importance": 0.0008923718762378916
+      },
+      {
+        "feature": "p02_efficiency",
+        "gain": 301.70306396484375,
+        "importance": 0.0008084672227185944
+      },
+      {
+        "feature": "p03_auto_fault_remaining",
+        "gain": 252.88189697265625,
+        "importance": 0.0006776421897562051
+      },
+      {
+        "feature": "rainfall_target",
+        "gain": 246.26193237304688,
+        "importance": 0.0006599028127541696
+      },
+      {
+        "feature": "p01_efficiency",
+        "gain": 234.036376953125,
+        "importance": 0.0006271422543871249
+      },
+      {
+        "feature": "p03_rated_capacity",
+        "gain": 210.160888671875,
+        "importance": 0.0005631636210642568
+      },
+      {
+        "feature": "p02_rated_capacity",
+        "gain": 135.30352783203125,
+        "importance": 0.0003625699584646477
+      },
+      {
+        "feature": "rainfall_current",
+        "gain": 124.23480224609375,
+        "importance": 0.0003329093321657385
+      },
+      {
+        "feature": "p01_rated_capacity",
+        "gain": 62.26512908935547,
+        "importance": 0.00016685052954235765
+      }
+    ]
+  }
+}

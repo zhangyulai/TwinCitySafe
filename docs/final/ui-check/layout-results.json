@@ -1,0 +1,204 @@
+{
+  "scope": "Read-only current-page layout at three competition resolutions; no scenario mutations.",
+  "checks": [
+    {
+      "route": "dashboard",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "bodyHeight": 1197,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 1021.671875,
+      "overflow": []
+    },
+    {
+      "route": "operation",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "bodyHeight": 1551,
+      "chartErrors": [],
+      "canvas": 4,
+      "sceneWidth": 1236,
+      "overflow": []
+    },
+    {
+      "route": "pipeline",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "bodyHeight": 1963,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 1271,
+      "overflow": []
+    },
+    {
+      "route": "risk",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "bodyHeight": 1777,
+      "chartErrors": [],
+      "canvas": 3,
+      "sceneWidth": 1236,
+      "overflow": []
+    },
+    {
+      "route": "simulation",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "bodyHeight": 1560,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 1236,
+      "overflow": []
+    },
+    {
+      "route": "review",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "bodyHeight": 4260,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 1350,
+      "overflow": []
+    },
+    {
+      "route": "dashboard",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "bodyHeight": 1180,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 870,
+      "overflow": []
+    },
+    {
+      "route": "operation",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "bodyHeight": 1621,
+      "chartErrors": [],
+      "canvas": 4,
+      "sceneWidth": 875,
+      "overflow": []
+    },
+    {
+      "route": "pipeline",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "bodyHeight": 1941,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 875,
+      "overflow": []
+    },
+    {
+      "route": "risk",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "bodyHeight": 1657,
+      "chartErrors": [],
+      "canvas": 3,
+      "sceneWidth": 875,
+      "overflow": []
+    },
+    {
+      "route": "simulation",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "bodyHeight": 1450,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 850,
+      "overflow": []
+    },
+    {
+      "route": "review",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "bodyHeight": 4292,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 936,
+      "overflow": []
+    },
+    {
+      "route": "dashboard",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1366,
+      "bodyHeight": 1180,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 796,
+      "overflow": []
+    },
+    {
+      "route": "operation",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1366,
+      "bodyHeight": 1621,
+      "chartErrors": [],
+      "canvas": 4,
+      "sceneWidth": 801,
+      "overflow": []
+    },
+    {
+      "route": "pipeline",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1366,
+      "bodyHeight": 1941,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 801,
+      "overflow": []
+    },
+    {
+      "route": "risk",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1366,
+      "bodyHeight": 1657,
+      "chartErrors": [],
+      "canvas": 3,
+      "sceneWidth": 801,
+      "overflow": []
+    },
+    {
+      "route": "simulation",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1366,
+      "bodyHeight": 1450,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 776,
+      "overflow": []
+    },
+    {
+      "route": "review",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1366,
+      "bodyHeight": 4311,
+      "chartErrors": [],
+      "canvas": 2,
+      "sceneWidth": 862,
+      "overflow": []
+    }
+  ],
+  "errors": []
+}

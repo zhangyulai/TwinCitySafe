@@ -1,0 +1,92 @@
+[
+  {
+    "test": "web3d",
+    "exitCode": 0,
+    "seconds": 61.05,
+    "log": "M10-web3d-regression.log"
+  },
+  {
+    "test": "realtime",
+    "exitCode": 0,
+    "seconds": 77.18,
+    "log": "M10-realtime-regression.log"
+  },
+  {
+    "test": "operation",
+    "exitCode": 0,
+    "seconds": 40.52,
+    "log": "M10-operation-regression.log"
+  },
+  {
+    "test": "operation-state",
+    "exitCode": 0,
+    "seconds": 1.58,
+    "log": "M10-operation-state-regression.log"
+  },
+  {
+    "test": "pipeline",
+    "exitCode": 0,
+    "seconds": 52.73,
+    "log": "M10-pipeline-regression.log"
+  },
+  {
+    "test": "flood",
+    "exitCode": 0,
+    "seconds": 196.43,
+    "log": "M10-flood-regression.log"
+  },
+  {
+    "test": "flood-state",
+    "exitCode": 0,
+    "seconds": 2.18,
+    "log": "M10-flood-state-regression.log"
+  },
+  {
+    "test": "risk",
+    "exitCode": 0,
+    "seconds": 118.36,
+    "log": "M10-risk-regression.log"
+  },
+  {
+    "test": "emergency",
+    "exitCode": 0,
+    "seconds": 288.44,
+    "log": "M10-emergency-regression.log"
+  },
+  {
+    "test": "leak",
+    "exitCode": 0,
+    "seconds": 138.2,
+    "log": "M10-leak-regression.log"
+  },
+  {
+    "test": "leak-state",
+    "exitCode": 0,
+    "seconds": 2.47,
+    "log": "M10-leak-state-regression.log"
+  },
+  {
+    "test": "review-state",
+    "exitCode": 0,
+    "seconds": 1.1,
+    "log": "M10-review-state-regression.log"
+  },
+  {
+    "test": "incident-lifecycle",
+    "exitCode": 0,
+    "seconds": 329.25,
+    "log": "M10-incident-lifecycle-regression.log"
+  },
+  {
+    "test": "review",
+    "exitCode": 0,
+    "seconds": 171.18,
+    "log": "M10-review-regression.log"
+  },
+  {
+    "test": "review-legacy",
+    "exitCode": 0,
+    "seconds": 3.09,
+    "log": "M10-review-legacy-regression.log"
+  }
+]

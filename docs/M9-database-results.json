@@ -1,0 +1,75 @@
+{
+  "records": [
+    {
+      "incident_id": "fdf4ffe4-caee-56c2-9769-93b4c65c6ec8",
+      "type": "FLOOD",
+      "status": "CLOSED",
+      "closed_at": "2026-10-04T01:32:41.942802+00:00",
+      "snapshots": 102,
+      "source_snapshots": 102,
+      "full_m9_snapshots": 56,
+      "timeline_events": 103,
+      "comparisons": 1,
+      "executions": 1,
+      "work_orders": 1,
+      "report_id": "24c3c101-3861-4d79-9e4e-4dde011e3dbe",
+      "replay_latency_ms": 23.105
+    },
+    {
+      "incident_id": "c6f2a669-ec95-5cc0-ace6-5df329a9b847",
+      "type": "PIPELINE_LEAK",
+      "status": "CLOSED",
+      "closed_at": "2026-10-04T01:33:51.431723+00:00",
+      "snapshots": 31,
+      "source_snapshots": 31,
+      "full_m9_snapshots": 22,
+      "timeline_events": 23,
+      "comparisons": 1,
+      "executions": 1,
+      "work_orders": 1,
+      "report_id": "36fd2df4-4006-44e1-bbe5-9042cad2d35e",
+      "replay_latency_ms": 11.399
+    }
+  ],
+  "read_apis_unchanged_database": true,
+  "archive_hashes": {
+    "incidents": {
+      "count": 25,
+      "sha256": "c8b0cf3bcd18c447a268b03a411327a12e049b541253fb282e74adcfab348265"
+    },
+    "incident_timeline_events": {
+      "count": 1802,
+      "sha256": "bdf87d8d25da8140bebb1cc1d748541ebc47a25979e6d1b24f3c2452e447df54"
+    },
+    "incident_snapshots": {
+      "count": 237,
+      "sha256": "37b2c1f8f911e80f088e30c8d40c6c4dfc181f569a395f7adb09fd063ae210f5"
+    },
+    "work_orders": {
+      "count": 9,
+      "sha256": "e166804c72edb780f64413a8fa703d2484d559db80a0cbd4e82dc55e23db1f97"
+    },
+    "review_reports": {
+      "count": 2,
+      "sha256": "4a4e3b07fcf01478da5dc15f8451ab2b91768baae69f973f565b143f3ec1cff5"
+    }
+  },
+  "assets": {
+    "pipelines": 32,
+    "pump_ratings": [
+      {
+        "id": "P01",
+        "rated_capacity": 120.0
+      },
+      {
+        "id": "P02",
+        "rated_capacity": 120.0
+      },
+      {
+        "id": "P03",
+        "rated_capacity": 120.0
+      }
+    ]
+  },
+  "alembic_head": "9fdda90bd972"
+}

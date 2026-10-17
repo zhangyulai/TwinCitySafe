@@ -1,0 +1,785 @@
+{
+  "readOnly": true,
+  "readiness": {
+    "ready": true,
+    "core_ready": true,
+    "degraded": false,
+    "demo_enabled": true,
+    "checked_at": "2026-10-04T14:40:59.261525+00:00",
+    "database": {
+      "available": true,
+      "status": "ready",
+      "message": "数据库只读检查通过"
+    },
+    "websocket": {
+      "available": true,
+      "status": "ready",
+      "message": "服务端实时发布任务运行中；浏览器连接须由客户端确认",
+      "active_connections": 2,
+      "publisher_running": true,
+      "path": "/ws/realtime"
+    },
+    "anomaly_model": {
+      "available": true,
+      "status": "ready",
+      "message": "设备异常模型已加载",
+      "model": "Isolation Forest",
+      "version": "pump-if-m3-v1"
+    },
+    "risk_model": {
+      "available": true,
+      "status": "ready",
+      "message": "六个风险模型已加载并校验",
+      "model": "XGBoost",
+      "model_count": 6,
+      "dataset_size": 60000
+    },
+    "pipeline_graph": {
+      "available": true,
+      "status": "ready",
+      "message": "数据库管网拓扑有效",
+      "node_count": 34,
+      "edge_count": 32,
+      "valve_count": 10,
+      "device_count": 3,
+      "validation": {
+        "nodeCount": 34,
+        "edgeCount": 32,
+        "isolatedNodes": [],
+        "invalidEdges": [],
+        "duplicateIds": [],
+        "sourceNodes": [
+          "FS-SOURCE-01",
+          "WS-SOURCE-01"
+        ],
+        "sinkNodes": [
+          "DS-OUTLET-01"
+        ]
+      },
+      "runtime_loaded": true
+    },
+    "backend": {
+      "available": true,
+      "status": "ready",
+      "message": "API 已响应",
+      "version": "1.0.0"
+    }
+  },
+  "normalState": {
+    "running": true,
+    "speed": 1.0,
+    "simulationTime": 717.3220583679786,
+    "timestamp": "2026-10-04T14:40:58.943710Z",
+    "sessionId": "998a48e7-5eef-4de1-bc6e-aad6fcb3df6d",
+    "revision": 1703,
+    "weather": {
+      "condition": "clear",
+      "rainfall": 0.0,
+      "temperature": 26.221207036376537,
+      "humidity": 57.78835847333045,
+      "windSpeed": 2.3392425021291463
+    },
+    "environment": {
+      "b2WaterLevel": 0.7805361652466221,
+      "b2WaterArea": 0.0,
+      "smoke": 0.0,
+      "airQuality": 91.7868512082951
+    },
+    "devices": [
+      {
+        "startupProgress": 1.0,
+        "id": "P01",
+        "name": "P01 备用排水泵",
+        "fault": "normal",
+        "runtimeHours": 482.37863093253316,
+        "analysis": {
+          "healthScore": 95.0,
+          "healthGrade": "优秀",
+          "healthTarget": 95.0,
+          "modelAvailable": true,
+          "modelVersion": "pump-if-m3-v1",
+          "evaluated": false,
+          "anomalyScore": null,
+          "rawScore": null,
+          "isAnomaly": false,
+          "level": "not_applicable",
+          "contributions": [],
+          "explanation": "设备待机、离线或启动过渡中，运行工况异常模型暂不评估。",
+          "advice": {
+            "priority": "P3",
+            "title": "计划维护",
+            "message": "建议确认设备状态，按计划检查备用泵；进入稳定运行后再评估。"
+          },
+          "activeAlarmId": null
+        },
+        "status": "standby",
+        "temperature": 28.093583096154898,
+        "vibration": 0.2,
+        "current": 0.0,
+        "rpm": 0.0,
+        "efficiency": 100.0,
+        "health": 95.0
+      },
+      {
+        "startupProgress": 1.0,
+        "id": "P02",
+        "name": "P02 备用排水泵",
+        "fault": "normal",
+        "runtimeHours": 602.3533140992284,
+        "analysis": {
+          "healthScore": 95.0,
+          "healthGrade": "优秀",
+          "healthTarget": 95.0,
+          "modelAvailable": true,
+          "modelVersion": "pump-if-m3-v1",
+          "evaluated": false,
+          "anomalyScore": null,
+          "rawScore": null,
+          "isAnomaly": false,
+          "level": "not_applicable",
+          "contributions": [],
+          "explanation": "设备待机、离线或启动过渡中，运行工况异常模型暂不评估。",
+          "advice": {
+            "priority": "P3",
+            "title": "计划维护",
+            "message": "建议确认设备状态，按计划检查备用泵；进入稳定运行后再评估。"
+          },
+          "activeAlarmId": null
+        },
+        "status": "standby",
+        "temperature": 28.161112733639047,
+        "vibration": 0.2,
+        "current": 0.0,
+        "rpm": 0.0,
+        "efficiency": 100.0,
+        "health": 95.0
+      },
+      {
+        "startupProgress": 1.0,
+        "id": "P03",
+        "name": "P03 主排水泵",
+        "fault": "normal",
+        "runtimeHours": 4186.445872967982,
+        "analysis": {
+          "healthScore": 95.81349870587721,
+          "healthGrade": "优秀",
+          "healthTarget": 95.81355412703202,
+          "modelAvailable": true,
+          "modelVersion": "pump-if-m3-v1",
+          "evaluated": true,
+          "anomalyScore": 0.02,
+          "rawScore": 0.3853417165093837,
+          "isAnomaly": false,
+          "level": "normal",
+          "contributions": [
+            {
+              "feature": "vibration",
+              "label": "振动",
+              "deviation": 0.0,
+              "contribution": 0.0
+            },
+            {
+              "feature": "temperature",
+              "label": "温度",
+              "deviation": 0.0,
+              "contribution": 0.0
+            },
+            {
+              "feature": "efficiency",
+              "label": "效率",
+              "deviation": 0.0,
+              "contribution": 0.0
+            },
+            {
+              "feature": "current",
+              "label": "电流",
+              "deviation": 0.0,
+              "contribution": 0.0
+            },
+            {
+              "feature": "rpm",
+              "label": "转速",
+              "deviation": 0.0,
+              "contribution": 0.0
+            }
+          ],
+          "explanation": "当前参数接近正常运行基线。贡献比例来自偏离度分析，不代表模型因果归因。",
+          "advice": {
+            "priority": "P3",
+            "title": "计划维护",
+            "message": "设备运行参数接近正常基线，建议按计划维护。"
+          },
+          "activeAlarmId": null
+        },
+        "status": "running",
+        "temperature": 42.1933620158776,
+        "vibration": 1.8449860337377448,
+        "current": 18.169241607351015,
+        "rpm": 1455.8296236760582,
+        "efficiency": 96.07249109930724,
+        "health": 95.81349870587721
+      }
+    ],
+    "pipelines": [
+      {
+        "inletPressure": 0.07841772911448881,
+        "outletPressure": 0.07841772911448881,
+        "inletFlow": 20.272202662574614,
+        "outletFlow": 20.272202662574614,
+        "id": "DS-001",
+        "type": "drain",
+        "pressure": 0.07841772911448881,
+        "flow": 20.272202662574614,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.07841772911448881,
+        "outletPressure": 0.07841772911448881,
+        "inletFlow": 20.272202662574614,
+        "outletFlow": 20.272202662574614,
+        "id": "DS-002",
+        "type": "drain",
+        "pressure": 0.07841772911448881,
+        "flow": 20.272202662574614,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.07841772911448881,
+        "outletPressure": 0.07841772911448881,
+        "inletFlow": 20.272202662574614,
+        "outletFlow": 20.272202662574614,
+        "id": "DS-003",
+        "type": "drain",
+        "pressure": 0.07841772911448881,
+        "flow": 20.272202662574614,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.07841772911448881,
+        "outletPressure": 0.07841772911448881,
+        "inletFlow": 20.272202662574614,
+        "outletFlow": 20.272202662574614,
+        "id": "DS-004",
+        "type": "drain",
+        "pressure": 0.07841772911448881,
+        "flow": 20.272202662574614,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.07841772911448881,
+        "outletPressure": 0.07841772911448881,
+        "inletFlow": 20.272202662574614,
+        "outletFlow": 20.272202662574614,
+        "id": "DS-005",
+        "type": "drain",
+        "pressure": 0.07841772911448881,
+        "flow": 20.272202662574614,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.07841772911448881,
+        "outletPressure": 0.07841772911448881,
+        "inletFlow": 20.272202662574614,
+        "outletFlow": 20.272202662574614,
+        "id": "DS-006",
+        "type": "drain",
+        "pressure": 0.07841772911448881,
+        "flow": 20.272202662574614,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.07841772911448881,
+        "outletPressure": 0.07841772911448881,
+        "inletFlow": 20.272202662574614,
+        "outletFlow": 20.272202662574614,
+        "id": "DS-007",
+        "type": "drain",
+        "pressure": 0.07841772911448881,
+        "flow": 20.272202662574614,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.07841772911448881,
+        "outletPressure": 0.07841772911448881,
+        "inletFlow": 20.272202662574614,
+        "outletFlow": 20.272202662574614,
+        "id": "DS-008",
+        "type": "drain",
+        "pressure": 0.07841772911448881,
+        "flow": 20.272202662574614,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.07841772911448881,
+        "outletPressure": 0.07841772911448881,
+        "inletFlow": 20.272202662574614,
+        "outletFlow": 20.272202662574614,
+        "id": "DS-009",
+        "type": "drain",
+        "pressure": 0.07841772911448881,
+        "flow": 20.272202662574614,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.07841772911448881,
+        "outletPressure": 0.07841772911448881,
+        "inletFlow": 20.272202662574614,
+        "outletFlow": 20.272202662574614,
+        "id": "DS-010",
+        "type": "drain",
+        "pressure": 0.07841772911448881,
+        "flow": 20.272202662574614,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.07841772911448881,
+        "outletPressure": 0.07841772911448881,
+        "inletFlow": 20.272202662574614,
+        "outletFlow": 20.272202662574614,
+        "id": "DS-011",
+        "type": "drain",
+        "pressure": 0.07841772911448881,
+        "flow": 20.272202662574614,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.47642696403720525,
+        "outletPressure": 0.47642696403720525,
+        "inletFlow": 1.9654488713401175,
+        "outletFlow": 1.9654488713401175,
+        "id": "FS-001",
+        "type": "fire",
+        "pressure": 0.47642696403720525,
+        "flow": 1.9654488713401175,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.47642696403720525,
+        "outletPressure": 0.47642696403720525,
+        "inletFlow": 1.9654488713401175,
+        "outletFlow": 1.9654488713401175,
+        "id": "FS-002",
+        "type": "fire",
+        "pressure": 0.47642696403720525,
+        "flow": 1.9654488713401175,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.47642696403720525,
+        "outletPressure": 0.47642696403720525,
+        "inletFlow": 1.9654488713401175,
+        "outletFlow": 1.9654488713401175,
+        "id": "FS-003",
+        "type": "fire",
+        "pressure": 0.47642696403720525,
+        "flow": 1.9654488713401175,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.47642696403720525,
+        "outletPressure": 0.47642696403720525,
+        "inletFlow": 1.9654488713401175,
+        "outletFlow": 1.9654488713401175,
+        "id": "FS-004",
+        "type": "fire",
+        "pressure": 0.47642696403720525,
+        "flow": 1.9654488713401175,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.47642696403720525,
+        "outletPressure": 0.47642696403720525,
+        "inletFlow": 1.9654488713401175,
+        "outletFlow": 1.9654488713401175,
+        "id": "FS-005",
+        "type": "fire",
+        "pressure": 0.47642696403720525,
+        "flow": 1.9654488713401175,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.47642696403720525,
+        "outletPressure": 0.47642696403720525,
+        "inletFlow": 1.9654488713401175,
+        "outletFlow": 1.9654488713401175,
+        "id": "FS-006",
+        "type": "fire",
+        "pressure": 0.47642696403720525,
+        "flow": 1.9654488713401175,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.47642696403720525,
+        "outletPressure": 0.47642696403720525,
+        "inletFlow": 1.9654488713401175,
+        "outletFlow": 1.9654488713401175,
+        "id": "FS-007",
+        "type": "fire",
+        "pressure": 0.47642696403720525,
+        "flow": 1.9654488713401175,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.47642696403720525,
+        "outletPressure": 0.47642696403720525,
+        "inletFlow": 1.9654488713401175,
+        "outletFlow": 1.9654488713401175,
+        "id": "FS-008",
+        "type": "fire",
+        "pressure": 0.47642696403720525,
+        "flow": 1.9654488713401175,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.47642696403720525,
+        "outletPressure": 0.47642696403720525,
+        "inletFlow": 1.9654488713401175,
+        "outletFlow": 1.9654488713401175,
+        "id": "FS-009",
+        "type": "fire",
+        "pressure": 0.47642696403720525,
+        "flow": 1.9654488713401175,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.47642696403720525,
+        "outletPressure": 0.47642696403720525,
+        "inletFlow": 1.9654488713401175,
+        "outletFlow": 1.9654488713401175,
+        "id": "FS-010",
+        "type": "fire",
+        "pressure": 0.47642696403720525,
+        "flow": 1.9654488713401175,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42336440626428445,
+        "outletPressure": 0.42336440626428445,
+        "inletFlow": 27.815205940136103,
+        "outletFlow": 27.815205940136103,
+        "id": "WS-001",
+        "type": "water",
+        "pressure": 0.42336440626428445,
+        "flow": 27.815205940136103,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42336440626428445,
+        "outletPressure": 0.42336440626428445,
+        "inletFlow": 27.815205940136103,
+        "outletFlow": 27.815205940136103,
+        "id": "WS-002",
+        "type": "water",
+        "pressure": 0.42336440626428445,
+        "flow": 27.815205940136103,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42336440626428445,
+        "outletPressure": 0.42336440626428445,
+        "inletFlow": 27.815205940136103,
+        "outletFlow": 27.815205940136103,
+        "id": "WS-003",
+        "type": "water",
+        "pressure": 0.42336440626428445,
+        "flow": 27.815205940136103,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42336440626428445,
+        "outletPressure": 0.42336440626428445,
+        "inletFlow": 27.815205940136103,
+        "outletFlow": 27.815205940136103,
+        "id": "WS-004",
+        "type": "water",
+        "pressure": 0.42336440626428445,
+        "flow": 27.815205940136103,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42336440626428445,
+        "outletPressure": 0.42336440626428445,
+        "inletFlow": 27.815205940136103,
+        "outletFlow": 27.815205940136103,
+        "id": "WS-005",
+        "type": "water",
+        "pressure": 0.42336440626428445,
+        "flow": 27.815205940136103,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42336440626428445,
+        "outletPressure": 0.42336440626428445,
+        "inletFlow": 27.815205940136103,
+        "outletFlow": 27.815205940136103,
+        "id": "WS-006",
+        "type": "water",
+        "pressure": 0.42336440626428445,
+        "flow": 27.815205940136103,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42336440626428445,
+        "outletPressure": 0.42336440626428445,
+        "inletFlow": 27.815205940136103,
+        "outletFlow": 27.815205940136103,
+        "id": "WS-007",
+        "type": "water",
+        "pressure": 0.42336440626428445,
+        "flow": 27.815205940136103,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42336440626428445,
+        "outletPressure": 0.42336440626428445,
+        "inletFlow": 27.815205940136103,
+        "outletFlow": 27.815205940136103,
+        "id": "WS-008",
+        "type": "water",
+        "pressure": 0.42336440626428445,
+        "flow": 27.815205940136103,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42336440626428445,
+        "outletPressure": 0.42336440626428445,
+        "inletFlow": 27.815205940136103,
+        "outletFlow": 27.815205940136103,
+        "id": "WS-009",
+        "type": "water",
+        "pressure": 0.42336440626428445,
+        "flow": 27.815205940136103,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42336440626428445,
+        "outletPressure": 0.42336440626428445,
+        "inletFlow": 27.815205940136103,
+        "outletFlow": 27.815205940136103,
+        "id": "WS-010",
+        "type": "water",
+        "pressure": 0.42336440626428445,
+        "flow": 27.815205940136103,
+        "status": "normal"
+      },
+      {
+        "inletPressure": 0.42336440626428445,
+        "outletPressure": 0.42336440626428445,
+        "inletFlow": 27.815205940136103,
+        "outletFlow": 27.815205940136103,
+        "id": "WS-011",
+        "type": "water",
+        "pressure": 0.42336440626428445,
+        "flow": 27.815205940136103,
+        "status": "normal"
+      }
+    ],
+    "valves": [
+      {
+        "id": "V-D-01",
+        "status": "open",
+        "openPercentage": 100.0
+      },
+      {
+        "id": "V-D-02",
+        "status": "open",
+        "openPercentage": 100.0
+      },
+      {
+        "id": "V-D-03",
+        "status": "open",
+        "openPercentage": 100.0
+      },
+      {
+        "id": "V-F-01",
+        "status": "open",
+        "openPercentage": 100.0
+      },
+      {
+        "id": "V-F-02",
+        "status": "open",
+        "openPercentage": 100.0
+      },
+      {
+        "id": "V-F-03",
+        "status": "open",
+        "openPercentage": 100.0
+      },
+      {
+        "id": "V-F-04",
+        "status": "open",
+        "openPercentage": 100.0
+      },
+      {
+        "id": "V-W-01",
+        "status": "open",
+        "openPercentage": 100.0
+      },
+      {
+        "id": "V-W-02",
+        "status": "open",
+        "openPercentage": 100.0
+      },
+      {
+        "id": "V-W-03",
+        "status": "open",
+        "openPercentage": 100.0
+      }
+    ],
+    "system": {
+      "onlineDevices": 1268,
+      "alerts": 0,
+      "eventCount": 0
+    },
+    "flood": {
+      "rainfallRecession": false,
+      "entranceClosed": false,
+      "vehicleEntryRate": 0.0,
+      "exposureRemaining": null,
+      "exposureTarget": 0,
+      "scenarioId": null,
+      "running": false,
+      "scenario": "normal",
+      "status": "idle",
+      "startedAt": null,
+      "simulationStartedAt": 0.0,
+      "elapsedSimulationSeconds": 0.0,
+      "durationMinutes": 30,
+      "autoFault": false,
+      "faultTriggered": false,
+      "rainfall": 0.0,
+      "rainfallTarget": 8.0,
+      "surfaceInflow": 0.0,
+      "naturalDrainage": 0.0,
+      "pumpCapacity": 0.03333333333333333,
+      "pumpEfficiency": 96.07249109930726,
+      "effectivePumpCapacity": 0.032024163699769084,
+      "outflow": 0.0,
+      "waterLevel": 0.7805361652466221,
+      "waterArea": 0.0,
+      "floodVolume": 11.70804247869933,
+      "effectiveArea": 1500.0,
+      "growthRate": 0.0,
+      "riskScore": 9.696127306259609,
+      "riskLevel": "low",
+      "stage": "normal",
+      "riskBreakdown": {
+        "factors": [
+          {
+            "key": "water",
+            "label": "积水水位",
+            "weight": 0.35,
+            "normalizedValue": 0.026017872174887404,
+            "points": 0.9106255261210592,
+            "contribution": 9.39164160451131
+          },
+          {
+            "key": "rainfall",
+            "label": "降雨强度",
+            "weight": 0.2,
+            "normalizedValue": 0.0,
+            "points": 0.0,
+            "contribution": 0.0
+          },
+          {
+            "key": "pump",
+            "label": "泵站能力",
+            "weight": 0.2,
+            "normalizedValue": 0.039275089006927444,
+            "points": 0.7855017801385489,
+            "contribution": 8.101190870621574
+          },
+          {
+            "key": "trend",
+            "label": "上涨趋势",
+            "weight": 0.15,
+            "normalizedValue": 0.0,
+            "points": 0.0,
+            "contribution": 0.0
+          },
+          {
+            "key": "exposure",
+            "label": "人员 / 车辆暴露",
+            "weight": 0.1,
+            "normalizedValue": 0.8,
+            "points": 8.0,
+            "contribution": 82.50716752486711
+          }
+        ],
+        "method": "Flood scenario risk score · 场景规则模型"
+      },
+      "peopleCount": 32,
+      "vehicleCount": 48,
+      "peakWaterLevel": 0.0,
+      "peakRisk": 9.766526394450278,
+      "alarm": null,
+      "requiresEmergency": false
+    },
+    "emergency": null,
+    "leak": {
+      "scenarioId": null,
+      "scenarioType": "WATER_SUPPLY_LEAK",
+      "scenarioName": "PIPELINE_LEAK_DEMO",
+      "targetPipelineId": null,
+      "status": "idle",
+      "elapsedSimulationSeconds": 0.0,
+      "targetSeverity": 0.0,
+      "leakSeverity": 0.0,
+      "leakCoefficient": 0.0,
+      "estimatedLeakFlow": 0.0,
+      "upstreamPressure": 0.0,
+      "downstreamPressure": 0.0,
+      "pipelineFlow": 0.0,
+      "pressureDropRate": 0.0,
+      "flowChangeRate": 0.0,
+      "detectionScore": 0.0,
+      "confidence": 0.0,
+      "confidenceMethod": "多变量软件异常匹配分数，未经概率校准",
+      "riskScore": 0.0,
+      "riskLevel": "low",
+      "riskBreakdown": [],
+      "detectionBreakdown": {},
+      "suspectedSegments": [],
+      "affectedBuildings": [],
+      "affectedNodes": [],
+      "affectedEdges": [],
+      "interruptedBuildings": [],
+      "estimatedServiceLoss": 0.0,
+      "currentStage": "NORMAL",
+      "leakStatus": "MONITORING",
+      "serviceStatus": "AVAILABLE",
+      "eventId": null,
+      "detectedAt": null,
+      "confirmedAt": null,
+      "peakDetectionScore": 0.0,
+      "peakRisk": 0.0,
+      "alarm": null,
+      "events": [],
+      "execution": null,
+      "localizationLatencyMs": 0.0
+    }
+  },
+  "archives": [
+    {
+      "id": "ae4f9617-3568-5be0-9170-83f76971d53f",
+      "type": "FLOOD",
+      "status": "CLOSED",
+      "snapshotCount": 84,
+      "timelineCount": 119,
+      "workOrder": "COMPLETED",
+      "detailUnchangedByGet": true,
+      "detailHash": "c203b126323838f7637649a96e315f556019a86660091c4eb0a0190621a0eb28"
+    },
+    {
+      "id": "873f9e08-5e5d-5005-9cbb-6bea95c1081b",
+      "type": "PIPELINE_LEAK",
+      "status": "CLOSED",
+      "snapshotCount": 30,
+      "timelineCount": 22,
+      "workOrder": "COMPLETED",
+      "detailUnchangedByGet": true,
+      "detailHash": "98003071bc42b0298845a2d39064ee36494df3e4f88c07b0dd5ec8ddbfe1a96d"
+    }
+  ],
+  "success": true
+}

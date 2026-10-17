@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "name": "32 assets, automatic underground, one socket, live detail and shader flow"
+    },
+    {
+      "name": "type/search filters, upstream/downstream/building impact, three computed isolation candidates"
+    },
+    {
+      "name": "real 2D edge/node clicks focus 3D; real 3D pipe click selects 2D"
+    },
+    {
+      "name": "valve close yields isolated geometry and smooth flow decline; reopening recovers",
+      "detail": {
+        "before": 27.897825634413827,
+        "first": 27.897825634413827,
+        "later": 2.867445047453345,
+        "recovered": 25.366250272121203
+      }
+    },
+    {
+      "name": "50 pipe selections preserve geometry/material/texture counts",
+      "detail": {
+        "before": {
+          "geometry": 67,
+          "material": 93,
+          "texture": 0
+        },
+        "after": {
+          "geometry": 67,
+          "material": 93,
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "1440 layout has no overflow; navigation disposes scenes/charts and retains one realtime socket"
+    }
+  ],
+  "errors": [],
+  "performance": {
+    "pipelineFPS": 33
+  },
+  "screenshots": [
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M4-pipeline-options.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M4-valve-closed.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M4-pipeline-normal.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M4-pipeline-1440.png"
+  ]
+}

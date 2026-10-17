@@ -1,0 +1,85 @@
+{
+  "samples": [
+    {
+      "fps": 27,
+      "drawCalls": 59,
+      "triangles": 17652,
+      "geometries": 32,
+      "textures": 1,
+      "materialCount": 98,
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "width": 1256,
+      "height": 615,
+      "view": {
+        "width": 1256,
+        "height": 615
+      },
+      "labels": 4
+    },
+    {
+      "fps": 26,
+      "drawCalls": 59,
+      "triangles": 17652,
+      "geometries": 32,
+      "textures": 1,
+      "materialCount": 98,
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "width": 1256,
+      "height": 615,
+      "view": {
+        "width": 1256,
+        "height": 615
+      },
+      "labels": 4
+    },
+    {
+      "fps": 28,
+      "drawCalls": 59,
+      "triangles": 17652,
+      "geometries": 32,
+      "textures": 1,
+      "materialCount": 98,
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "width": 1256,
+      "height": 615,
+      "view": {
+        "width": 1256,
+        "height": 615
+      },
+      "labels": 4
+    },
+    {
+      "fps": 27,
+      "drawCalls": 59,
+      "triangles": 17652,
+      "geometries": 32,
+      "textures": 1,
+      "materialCount": 98,
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "width": 1256,
+      "height": 615,
+      "view": {
+        "width": 1256,
+        "height": 615
+      },
+      "labels": 4
+    },
+    {
+      "fps": 27,
+      "drawCalls": 59,
+      "triangles": 17652,
+      "geometries": 32,
+      "textures": 1,
+      "materialCount": 98,
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "width": 1256,
+      "height": 615,
+      "view": {
+        "width": 1256,
+        "height": 615
+      },
+      "labels": 4
+    }
+  ],
+  "errors": []
+}

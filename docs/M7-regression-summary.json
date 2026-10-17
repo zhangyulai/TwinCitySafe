@@ -1,0 +1,47 @@
+{
+  "M7": {
+    "exit_code": 0,
+    "elapsed_seconds": 288.77,
+    "log": "M7-emergency-regression.log"
+  },
+  "M1": {
+    "exit_code": 0,
+    "elapsed_seconds": 62.39,
+    "log": "M7-web3d-regression.log"
+  },
+  "M2": {
+    "exit_code": 0,
+    "elapsed_seconds": 76.79,
+    "log": "M7-realtime-regression.log"
+  },
+  "M3": {
+    "exit_code": 0,
+    "elapsed_seconds": 40.08,
+    "log": "M7-operation-regression.log"
+  },
+  "M3-state": {
+    "exit_code": 0,
+    "elapsed_seconds": 1.46,
+    "log": "M7-operation-state-regression.log"
+  },
+  "M4": {
+    "exit_code": 0,
+    "elapsed_seconds": 51.53,
+    "log": "M7-pipeline-regression.log"
+  },
+  "M5": {
+    "exit_code": 0,
+    "elapsed_seconds": 196.03,
+    "log": "M7-flood-regression.log"
+  },
+  "M5-state": {
+    "exit_code": 0,
+    "elapsed_seconds": 2.2,
+    "log": "M7-flood-state-regression.log"
+  },
+  "M6": {
+    "exit_code": 0,
+    "elapsed_seconds": 118.18,
+    "log": "M7-risk-regression.log"
+  }
+}

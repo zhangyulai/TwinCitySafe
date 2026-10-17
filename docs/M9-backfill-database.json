@@ -1,0 +1,98 @@
+{
+  "recorded_at": "2026-10-04T01:27:59.055902+00:00",
+  "runs": [
+    {
+      "run": 1,
+      "stdout": "{\"incidents_created\": 0, \"incidents_total\": 23, \"timeline_total\": 1685, \"reconciliation\": {\"derived_aliases_merged\": 9, \"exact_times_enriched\": 0, \"source_tables_modified\": false}}",
+      "stderr": ""
+    },
+    {
+      "run": 2,
+      "stdout": "{\"incidents_created\": 0, \"incidents_total\": 23, \"timeline_total\": 1676, \"reconciliation\": {\"derived_aliases_merged\": 0, \"exact_times_enriched\": 0, \"source_tables_modified\": false}}",
+      "stderr": ""
+    }
+  ],
+  "source_tables_before": {
+    "flood_scenarios": {
+      "count": 20,
+      "sha256": "91f644b90180e3c07c41604b9ea1c256d193a153d7520fb6687ecf145349ee7a"
+    },
+    "flood_snapshots": {
+      "count": 974,
+      "sha256": "e22dbf8804b533fd010e161745c9f663625ccb5e7798ae5248c8ffe91b36a016"
+    },
+    "pipeline_leak_events": {
+      "count": 3,
+      "sha256": "2b22f65eef2600e5ea30f624773031006df92406f9c97a357adfdfe0e02c7cec"
+    },
+    "pipeline_leak_snapshots": {
+      "count": 79,
+      "sha256": "28ec8fc80544ad5ccb439c4f989ff45b20776e59d5288f6913537b79196f67d2"
+    },
+    "pipeline_leak_isolations": {
+      "count": 9,
+      "sha256": "6415fa8db26cdccc2c85cda12bb472f6dbf467d781f216e9a4b6745d3a4f4688"
+    },
+    "emergency_comparisons": {
+      "count": 12,
+      "sha256": "3545ff38faf18cf044257f9777fbf9aa2d19eef4becdcb216469da2a1ba5f625"
+    },
+    "emergency_executions": {
+      "count": 8,
+      "sha256": "bb22dd18e726ed83e0ff817e7862a9334d7d9c9c3ddf3c65b4274ec774032068"
+    },
+    "emergency_execution_steps": {
+      "count": 20,
+      "sha256": "341a87da7e3e7fc1e73399240ade021960b20ddb77d8c27511a2544ab75d8422"
+    },
+    "risk_predictions": {
+      "count": 1344,
+      "sha256": "45da336c4fa23b2687447356b05eda838cd2e9c0fc8de55a1faba47823376e8f"
+    }
+  },
+  "source_tables_after": {
+    "flood_scenarios": {
+      "count": 20,
+      "sha256": "91f644b90180e3c07c41604b9ea1c256d193a153d7520fb6687ecf145349ee7a"
+    },
+    "flood_snapshots": {
+      "count": 974,
+      "sha256": "e22dbf8804b533fd010e161745c9f663625ccb5e7798ae5248c8ffe91b36a016"
+    },
+    "pipeline_leak_events": {
+      "count": 3,
+      "sha256": "2b22f65eef2600e5ea30f624773031006df92406f9c97a357adfdfe0e02c7cec"
+    },
+    "pipeline_leak_snapshots": {
+      "count": 79,
+      "sha256": "28ec8fc80544ad5ccb439c4f989ff45b20776e59d5288f6913537b79196f67d2"
+    },
+    "pipeline_leak_isolations": {
+      "count": 9,
+      "sha256": "6415fa8db26cdccc2c85cda12bb472f6dbf467d781f216e9a4b6745d3a4f4688"
+    },
+    "emergency_comparisons": {
+      "count": 12,
+      "sha256": "3545ff38faf18cf044257f9777fbf9aa2d19eef4becdcb216469da2a1ba5f625"
+    },
+    "emergency_executions": {
+      "count": 8,
+      "sha256": "bb22dd18e726ed83e0ff817e7862a9334d7d9c9c3ddf3c65b4274ec774032068"
+    },
+    "emergency_execution_steps": {
+      "count": 20,
+      "sha256": "341a87da7e3e7fc1e73399240ade021960b20ddb77d8c27511a2544ab75d8422"
+    },
+    "risk_predictions": {
+      "count": 1344,
+      "sha256": "45da336c4fa23b2687447356b05eda838cd2e9c0fc8de55a1faba47823376e8f"
+    }
+  },
+  "original_sources_unchanged": true,
+  "archive_counts_after": {
+    "incidents": 23,
+    "timeline_events": 1676,
+    "valve_closed": 4,
+    "stable_fallback": 0
+  }
+}

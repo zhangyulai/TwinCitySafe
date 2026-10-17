@@ -1,0 +1,135 @@
+{
+  "comparison_id": "50c7db6c-aac9-43e0-bf9f-2de0fbee4638",
+  "baseline_hash_matches": true,
+  "comparison_count": 6,
+  "templates": [
+    {
+      "code": "FLOOD-A",
+      "enabled": true,
+      "actions": [
+        {
+          "action_type": "START_PUMP",
+          "target_id": "P01",
+          "parameters": {},
+          "delay_seconds": 0.0,
+          "duration_seconds": 0,
+          "priority": 0
+        }
+      ]
+    },
+    {
+      "code": "FLOOD-B",
+      "enabled": true,
+      "actions": [
+        {
+          "action_type": "START_PUMP",
+          "target_id": "P01",
+          "parameters": {},
+          "delay_seconds": 0.0,
+          "duration_seconds": 0,
+          "priority": 0
+        },
+        {
+          "action_type": "START_PUMP",
+          "target_id": "P02",
+          "parameters": {},
+          "delay_seconds": 10.0,
+          "duration_seconds": 0,
+          "priority": 0
+        }
+      ]
+    },
+    {
+      "code": "FLOOD-C",
+      "enabled": true,
+      "actions": [
+        {
+          "action_type": "START_PUMP",
+          "target_id": "P01",
+          "parameters": {},
+          "delay_seconds": 0.0,
+          "duration_seconds": 0,
+          "priority": 0
+        },
+        {
+          "action_type": "START_PUMP",
+          "target_id": "P02",
+          "parameters": {},
+          "delay_seconds": 10.0,
+          "duration_seconds": 0,
+          "priority": 0
+        },
+        {
+          "action_type": "CLOSE_ENTRANCE",
+          "target_id": "B2-EAST",
+          "parameters": {},
+          "delay_seconds": 20.0,
+          "duration_seconds": 0,
+          "priority": 0
+        }
+      ]
+    }
+  ],
+  "executions": [
+    {
+      "id": "b301b434-59ce-4f27-a2d9-25b6eae8fb4e",
+      "plan_code": "FLOOD-B",
+      "status": "completed",
+      "phase": "STABILIZING",
+      "operator": "demo-user",
+      "event_count": 8,
+      "steps": [
+        {
+          "index": 0,
+          "status": "completed",
+          "message": "P01 已运行"
+        },
+        {
+          "index": 1,
+          "status": "completed",
+          "message": "P02 已运行"
+        }
+      ]
+    },
+    {
+      "id": "bd9f75a9-f8d2-4b73-a48d-de1dd0f95099",
+      "plan_code": "FLOOD-C",
+      "status": "completed",
+      "phase": "COMPLETED",
+      "operator": "demo-user",
+      "event_count": 9,
+      "steps": [
+        {
+          "index": 0,
+          "status": "completed",
+          "message": "P01 已运行"
+        },
+        {
+          "index": 1,
+          "status": "completed",
+          "message": "P02 已运行"
+        },
+        {
+          "index": 2,
+          "status": "completed",
+          "message": "B2-EAST CLOSE_ENTRANCE 已完成"
+        }
+      ]
+    }
+  ],
+  "device_ratings": [
+    {
+      "id": "P01",
+      "rated_capacity": 120.0
+    },
+    {
+      "id": "P02",
+      "rated_capacity": 120.0
+    },
+    {
+      "id": "P03",
+      "rated_capacity": 120.0
+    }
+  ],
+  "pipeline_count": 32
+}

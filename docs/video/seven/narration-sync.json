@@ -1,0 +1,225 @@
+{
+  "voice": "zh-CN-XiaoxiaoNeural (standard synthetic voice)",
+  "timing": "TTS word boundaries aligned to actual recorded UI events",
+  "subtitleCount": 118,
+  "cues": [
+    {
+      "id": "intro",
+      "start": 0.004,
+      "end": 15.870666666666667,
+      "tempo": 1.0,
+      "text": "欢迎体验孪城智安。这段七分钟实录，将依次介绍六个业务板块，并演示暴雨和管网泄漏。首先是综合态势，集中展示园区状态、设备在线情况、天气水位和当前告警。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "dashboard",
+      "start": 17,
+      "end": 32.242666666666665,
+      "tempo": 1.0,
+      "text": "中间是可旋转观察的三维园区，右侧展示事故与水位趋势。打开系统状态，可以检查数据库、实时连接和算法模型是否就绪。下方提供演示入口与最近事件档案。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "pipeline",
+      "start": 34,
+      "end": 49.818666666666665,
+      "tempo": 1.0,
+      "text": "第二个板块是地下管网。这里独立管理给水、排水、消防管段及阀门。选择给水，搜索三号管段，三维场景与资产详情同步定位，右侧显示压力、流量和静态属性。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "trace",
+      "start": 52.002,
+      "end": 64.19666666666667,
+      "tempo": 1.0,
+      "text": "点击上游追踪，检查水源与沿途阀门；再做下游追踪和影响分析，识别科研楼与实验楼等关联建筑。这些结果来自管网拓扑关系。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "topology",
+      "start": 67,
+      "end": 79.19466666666666,
+      "tempo": 1.0,
+      "text": "继续查看二维拓扑图和隔离候选。它们帮助理解管段连接与隔离范围；预览不会执行关阀。稍后再通过泄漏场景演示实际隔离。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "flood",
+      "start": 82.001,
+      "end": 97.29166666666667,
+      "tempo": 1.0,
+      "text": "现在进入暴雨内涝演示。点击启动，以十倍仿真速度观察降雨增强、水位上涨和风险变化。三维水面与热区跟随后端计算更新，旁边展示参数、风险分解与预测。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "operation",
+      "start": 107.001,
+      "end": 121.88366666666667,
+      "tempo": 1.0,
+      "text": "第三个板块是智慧运维。查看三号排水泵，观察轴承退化带来的温度、振动和效率变化。健康评估、异常检测与维护建议结合展示，帮助定位需要关注的设备。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "trends",
+      "start": 125.001,
+      "end": 135.75566666666668,
+      "tempo": 1.0,
+      "text": "下方趋势图记录设备的实际仿真观测。切换指标，可以分别查看温度、振动、电流和效率，避免把不同单位混在一起。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "risk",
+      "start": 138.001,
+      "end": 152.93166666666667,
+      "tempo": 1.0,
+      "text": "第四个板块是风险研判。这里展示未来十分钟、二十分钟和三十分钟的水位与风险预测。因素解释帮助理解模型主要参考了哪些输入；模型贡献不等于因果关系。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "comparison",
+      "start": 158,
+      "end": 166.64266666666666,
+      "tempo": 1.0,
+      "text": "物理模型与机器学习结果并列对照。系统明确显示两者差异，模型一致度不是统计置信度。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "charts",
+      "start": 168.002,
+      "end": 180.77266666666668,
+      "tempo": 1.0,
+      "text": "水位和风险使用独立图表。历史实线表示已发生的观测，未来虚线和点线表示预测。随着新观测到达，可以回看预测与实际结果的误差。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "emergency",
+      "start": 184.001,
+      "end": 197.97166666666666,
+      "tempo": 1.0,
+      "text": "第五个板块是应急推演。暂停时钟后，从同一基线比较不处置与三个候选方案。关注未来水位、风险、影响范围及资源需求，再由操作者选择方案。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "execute",
+      "start": 202,
+      "end": 213.11466666666666,
+      "tempo": 1.0,
+      "text": "这里选择方案乙，查看预览并确认仿真执行。恢复时钟后，备用泵按启动过程逐步投入，操作与状态变化写入事件流。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "effect",
+      "start": 215.133,
+      "end": 226.17566666666667,
+      "tempo": 1.0,
+      "text": "排水能力增加，不代表积水立即消失。应结合降雨、入流和排水观察后续变化，不能把全部风险下降都归因于处置。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "switch",
+      "start": 230.002,
+      "end": 235.40466666666669,
+      "tempo": 1.0,
+      "text": "重置本次暴雨演练，保留中止档案，然后切换到管网泄漏。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "leak",
+      "start": 239.001,
+      "end": 252.39566666666667,
+      "tempo": 1.0,
+      "text": "在地下管网的泄漏事故模式中启动演示。压力与流量随事故演化，系统结合异常观测和拓扑关系，逐步形成疑似管段排名，而不是直接宣告定位成功。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "leak_details",
+      "start": 260,
+      "end": 271.6666666666667,
+      "tempo": 1.0,
+      "text": "左侧显示疑似位置及受影响建筑，右侧显示异常指标与规则风险。排名随当前数据更新，确认异常后才能进入隔离方案比较。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "isolate",
+      "start": 275.007,
+      "end": 286.04966666666667,
+      "tempo": 1.0,
+      "text": "暂停时钟，比较阀门隔离候选，预览影响范围。选择三号阀门对应方案，人工确认执行，再恢复时钟，观察实际响应。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "isolated",
+      "start": 294.001,
+      "end": 304.5396666666666,
+      "tempo": 1.0,
+      "text": "隔离后，泄漏流量逐步衰减，风险随之变化。科研楼和实验楼的供水影响依然保留，泄漏受控并不等于恢复供水。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "stable",
+      "start": 309.001,
+      "end": 320.47566666666665,
+      "tempo": 1.0,
+      "text": "等待事故进入稳定阶段后，我们暂停仿真，进入第六个板块：事件复盘与工单中心。接下来处理的就是本次录制产生的泄漏工单。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "workorder",
+      "start": 325.001,
+      "end": 338.32366666666667,
+      "tempo": 1.0,
+      "text": "填写接单班组，点击接单，再开始处理。记录已执行的隔离动作和仍存在的供水影响，最后完成工单。每次流转都会保存状态，便于后续追溯。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "close",
+      "start": 344.638,
+      "end": 359.23266666666666,
+      "tempo": 1.0,
+      "text": "填写关闭说明，人工确认关闭事件。业务关闭保留阀门、供水影响及历史记录，不表示现场物理状态恢复。这里生成报告，记录本次处置事实和遗留事项。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "archive",
+      "start": 362.001,
+      "end": 370.33166666666665,
+      "tempo": 1.0,
+      "text": "下面查看历史回放，先选择已有的暴雨档案。回放使用保存的观测，不重新推进实时事故。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "review_flood",
+      "start": 376.571,
+      "end": 389.8002916666667,
+      "tempo": 1.0270188679245322,
+      "text": "点击峰值节点，以五倍速度播放。三维水位、历史风险和时间轴同步变化。暂停后查看历史曲线，可以追溯事故发展、风险峰值与处置节点。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "review_leak",
+      "start": 390.001,
+      "end": 402.79566666666665,
+      "tempo": 1.0,
+      "text": "再打开刚刚关闭的泄漏档案，跳转处置节点并播放。历史阀门、泄漏状态与供水影响一并保留；时间轴记录从发现异常到完成关闭的过程。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "report",
+      "start": 407.176,
+      "end": 413.8020833333333,
+      "tempo": 1.043635269334935,
+      "text": "复盘报告汇总事件概况、处置效果和遗留影响，内容来自已保存的事实。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "ending",
+      "start": 414.002,
+      "end": 419.7406666666667,
+      "tempo": 1.0,
+      "text": "以上就是六大板块：从监测、预测、推演，到处置和复盘。",
+      "subtitlesExactlyMatch": true
+    }
+  ],
+  "pointerSamples": 140,
+  "allPointerSamplesVisible": true
+}

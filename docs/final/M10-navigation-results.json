@@ -1,0 +1,1822 @@
+{
+  "checks": [
+    {
+      "name": "10 complete six-route cycles release every old WebGL context, all review canvases and RAFs; one WebSocket remains",
+      "details": {
+        "initial": {
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 0,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        "final": {
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 50,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        }
+      }
+    },
+    {
+      "name": "six pages fit 1920/1440/1366 widths; 18 actual screenshots saved",
+      "details": {
+        "layouts": 18
+      }
+    }
+  ],
+  "cycles": [
+    {
+      "cycle": 1,
+      "observations": [
+        {
+          "route": "dashboard",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 1,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "operation",
+          "raf": 4,
+          "activeContexts": 1,
+          "totalContexts": 2,
+          "canvas": 4,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "pipeline",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 3,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "risk",
+          "raf": 3,
+          "activeContexts": 1,
+          "totalContexts": 4,
+          "canvas": 3,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "simulation",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 5,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "review",
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 5,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "observations": [
+        {
+          "route": "dashboard",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 6,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "operation",
+          "raf": 4,
+          "activeContexts": 1,
+          "totalContexts": 7,
+          "canvas": 4,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "pipeline",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 8,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "risk",
+          "raf": 3,
+          "activeContexts": 1,
+          "totalContexts": 9,
+          "canvas": 3,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "simulation",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 10,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "review",
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 10,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        }
+      ]
+    },
+    {
+      "cycle": 3,
+      "observations": [
+        {
+          "route": "dashboard",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 11,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "operation",
+          "raf": 4,
+          "activeContexts": 1,
+          "totalContexts": 12,
+          "canvas": 4,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "pipeline",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 13,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "risk",
+          "raf": 3,
+          "activeContexts": 1,
+          "totalContexts": 14,
+          "canvas": 3,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "simulation",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 15,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "review",
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 15,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        }
+      ]
+    },
+    {
+      "cycle": 4,
+      "observations": [
+        {
+          "route": "dashboard",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 16,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "operation",
+          "raf": 4,
+          "activeContexts": 1,
+          "totalContexts": 17,
+          "canvas": 4,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "pipeline",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 18,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "risk",
+          "raf": 3,
+          "activeContexts": 1,
+          "totalContexts": 19,
+          "canvas": 3,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "simulation",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 20,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "review",
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 20,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        }
+      ]
+    },
+    {
+      "cycle": 5,
+      "observations": [
+        {
+          "route": "dashboard",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 21,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "operation",
+          "raf": 4,
+          "activeContexts": 1,
+          "totalContexts": 22,
+          "canvas": 4,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "pipeline",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 23,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "risk",
+          "raf": 3,
+          "activeContexts": 1,
+          "totalContexts": 24,
+          "canvas": 3,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "simulation",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 25,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "review",
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 25,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        }
+      ]
+    },
+    {
+      "cycle": 6,
+      "observations": [
+        {
+          "route": "dashboard",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 26,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "operation",
+          "raf": 4,
+          "activeContexts": 1,
+          "totalContexts": 27,
+          "canvas": 4,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "pipeline",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 28,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "risk",
+          "raf": 3,
+          "activeContexts": 1,
+          "totalContexts": 29,
+          "canvas": 3,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "simulation",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 30,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "review",
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 30,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        }
+      ]
+    },
+    {
+      "cycle": 7,
+      "observations": [
+        {
+          "route": "dashboard",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 31,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "operation",
+          "raf": 4,
+          "activeContexts": 1,
+          "totalContexts": 32,
+          "canvas": 4,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "pipeline",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 33,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "risk",
+          "raf": 3,
+          "activeContexts": 1,
+          "totalContexts": 34,
+          "canvas": 3,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "simulation",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 35,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "review",
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 35,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        }
+      ]
+    },
+    {
+      "cycle": 8,
+      "observations": [
+        {
+          "route": "dashboard",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 36,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "operation",
+          "raf": 4,
+          "activeContexts": 1,
+          "totalContexts": 37,
+          "canvas": 4,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "pipeline",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 38,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "risk",
+          "raf": 3,
+          "activeContexts": 1,
+          "totalContexts": 39,
+          "canvas": 3,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "simulation",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 40,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "review",
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 40,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        }
+      ]
+    },
+    {
+      "cycle": 9,
+      "observations": [
+        {
+          "route": "dashboard",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 41,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "operation",
+          "raf": 4,
+          "activeContexts": 1,
+          "totalContexts": 42,
+          "canvas": 4,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "pipeline",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 43,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "risk",
+          "raf": 3,
+          "activeContexts": 1,
+          "totalContexts": 44,
+          "canvas": 3,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "simulation",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 45,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "review",
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 45,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        }
+      ]
+    },
+    {
+      "cycle": 10,
+      "observations": [
+        {
+          "route": "dashboard",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 46,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "operation",
+          "raf": 4,
+          "activeContexts": 1,
+          "totalContexts": 47,
+          "canvas": 4,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "pipeline",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 48,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "risk",
+          "raf": 3,
+          "activeContexts": 1,
+          "totalContexts": 49,
+          "canvas": 3,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "simulation",
+          "raf": 2,
+          "activeContexts": 1,
+          "totalContexts": 50,
+          "canvas": 2,
+          "sceneCanvas": 1,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        },
+        {
+          "route": "review",
+          "raf": 0,
+          "activeContexts": 0,
+          "totalContexts": 50,
+          "canvas": 0,
+          "sceneCanvas": 0,
+          "sockets": 1,
+          "openSockets": 1,
+          "connectingSockets": 0
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "route": "dashboard",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scrollHeight": 1718,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 648,
+          "right": 742,
+          "top": 64,
+          "bottom": 96
+        },
+        {
+          "label": "智慧运维",
+          "left": 747,
+          "right": 848,
+          "top": 64,
+          "bottom": 96
+        },
+        {
+          "label": "地下管网",
+          "left": 853,
+          "right": 954,
+          "top": 64,
+          "bottom": 96
+        },
+        {
+          "label": "风险研判",
+          "left": 959,
+          "right": 1060,
+          "top": 64,
+          "bottom": 96
+        },
+        {
+          "label": "应急推演",
+          "left": 1065,
+          "right": 1166,
+          "top": 64,
+          "bottom": 96
+        },
+        {
+          "label": "事件复盘",
+          "left": 1171,
+          "right": 1272,
+          "top": 64,
+          "bottom": 96
+        }
+      ],
+      "scene": {
+        "width": 1544,
+        "height": 512.21875,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "route": "operation",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scrollHeight": 1728,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 648,
+          "right": 749,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "智慧运维",
+          "left": 754,
+          "right": 848,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "地下管网",
+          "left": 853,
+          "right": 954,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "风险研判",
+          "left": 959,
+          "right": 1060,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "应急推演",
+          "left": 1065,
+          "right": 1166,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "事件复盘",
+          "left": 1171,
+          "right": 1272,
+          "top": 84,
+          "bottom": 116
+        }
+      ],
+      "scene": {
+        "width": 1240,
+        "height": 438,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "route": "pipeline",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scrollHeight": 2159,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 648,
+          "right": 749,
+          "top": 33,
+          "bottom": 65
+        },
+        {
+          "label": "智慧运维",
+          "left": 754,
+          "right": 855,
+          "top": 33,
+          "bottom": 65
+        },
+        {
+          "label": "地下管网",
+          "left": 860,
+          "right": 954,
+          "top": 33,
+          "bottom": 65
+        },
+        {
+          "label": "风险研判",
+          "left": 959,
+          "right": 1060,
+          "top": 33,
+          "bottom": 65
+        },
+        {
+          "label": "应急推演",
+          "left": 1065,
+          "right": 1166,
+          "top": 33,
+          "bottom": 65
+        },
+        {
+          "label": "事件复盘",
+          "left": 1171,
+          "right": 1272,
+          "top": 33,
+          "bottom": 65
+        }
+      ],
+      "scene": {
+        "width": 1275,
+        "height": 480,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "route": "risk",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scrollHeight": 1932,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 648,
+          "right": 749,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "智慧运维",
+          "left": 754,
+          "right": 855,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "地下管网",
+          "left": 860,
+          "right": 961,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "风险研判",
+          "left": 966,
+          "right": 1060,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "应急推演",
+          "left": 1065,
+          "right": 1166,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "事件复盘",
+          "left": 1171,
+          "right": 1272,
+          "top": 84,
+          "bottom": 116
+        }
+      ],
+      "scene": {
+        "width": 1240,
+        "height": 510,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "route": "simulation",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scrollHeight": 1745,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 648,
+          "right": 749,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "智慧运维",
+          "left": 754,
+          "right": 855,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "地下管网",
+          "left": 860,
+          "right": 961,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "风险研判",
+          "left": 966,
+          "right": 1067,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "应急推演",
+          "left": 1072,
+          "right": 1166,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "事件复盘",
+          "left": 1171,
+          "right": 1272,
+          "top": 84,
+          "bottom": 116
+        }
+      ],
+      "scene": {
+        "width": 1240,
+        "height": 510,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "route": "review",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "scrollHeight": 1407,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 648,
+          "right": 749,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "智慧运维",
+          "left": 754,
+          "right": 855,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "地下管网",
+          "left": 860,
+          "right": 961,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "风险研判",
+          "left": 966,
+          "right": 1067,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "应急推演",
+          "left": 1072,
+          "right": 1173,
+          "top": 84,
+          "bottom": 116
+        },
+        {
+          "label": "事件复盘",
+          "left": 1178,
+          "right": 1272,
+          "top": 84,
+          "bottom": 116
+        }
+      ],
+      "scene": null
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "route": "dashboard",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollHeight": 1724,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 408,
+          "right": 502,
+          "top": -114,
+          "bottom": -82
+        },
+        {
+          "label": "智慧运维",
+          "left": 507,
+          "right": 608,
+          "top": -114,
+          "bottom": -82
+        },
+        {
+          "label": "地下管网",
+          "left": 613,
+          "right": 714,
+          "top": -114,
+          "bottom": -82
+        },
+        {
+          "label": "风险研判",
+          "left": 719,
+          "right": 820,
+          "top": -114,
+          "bottom": -82
+        },
+        {
+          "label": "应急推演",
+          "left": 825,
+          "right": 926,
+          "top": -114,
+          "bottom": -82
+        },
+        {
+          "label": "事件复盘",
+          "left": 931,
+          "right": 1032,
+          "top": -114,
+          "bottom": -82
+        }
+      ],
+      "scene": {
+        "width": 1084,
+        "height": 533.8125,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "route": "operation",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollHeight": 1794,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 408,
+          "right": 509,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "智慧运维",
+          "left": 514,
+          "right": 608,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "地下管网",
+          "left": 613,
+          "right": 714,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "风险研判",
+          "left": 719,
+          "right": 820,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "应急推演",
+          "left": 825,
+          "right": 926,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "事件复盘",
+          "left": 931,
+          "right": 1032,
+          "top": 103,
+          "bottom": 135
+        }
+      ],
+      "scene": {
+        "width": 863,
+        "height": 393,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "route": "pipeline",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollHeight": 2153,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 408,
+          "right": 509,
+          "top": -128,
+          "bottom": -96
+        },
+        {
+          "label": "智慧运维",
+          "left": 514,
+          "right": 615,
+          "top": -128,
+          "bottom": -96
+        },
+        {
+          "label": "地下管网",
+          "left": 620,
+          "right": 714,
+          "top": -128,
+          "bottom": -96
+        },
+        {
+          "label": "风险研判",
+          "left": 719,
+          "right": 820,
+          "top": -128,
+          "bottom": -96
+        },
+        {
+          "label": "应急推演",
+          "left": 825,
+          "right": 926,
+          "top": -128,
+          "bottom": -96
+        },
+        {
+          "label": "事件复盘",
+          "left": 931,
+          "right": 1032,
+          "top": -128,
+          "bottom": -96
+        }
+      ],
+      "scene": {
+        "width": 863,
+        "height": 480,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "route": "risk",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollHeight": 1820,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 408,
+          "right": 509,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "智慧运维",
+          "left": 514,
+          "right": 615,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "地下管网",
+          "left": 620,
+          "right": 721,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "风险研判",
+          "left": 726,
+          "right": 820,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "应急推演",
+          "left": 825,
+          "right": 926,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "事件复盘",
+          "left": 931,
+          "right": 1032,
+          "top": 103,
+          "bottom": 135
+        }
+      ],
+      "scene": {
+        "width": 863,
+        "height": 450,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "route": "simulation",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollHeight": 1643,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 408,
+          "right": 509,
+          "top": -46,
+          "bottom": -14
+        },
+        {
+          "label": "智慧运维",
+          "left": 514,
+          "right": 615,
+          "top": -46,
+          "bottom": -14
+        },
+        {
+          "label": "地下管网",
+          "left": 620,
+          "right": 721,
+          "top": -46,
+          "bottom": -14
+        },
+        {
+          "label": "风险研判",
+          "left": 726,
+          "right": 827,
+          "top": -46,
+          "bottom": -14
+        },
+        {
+          "label": "应急推演",
+          "left": 832,
+          "right": 926,
+          "top": -46,
+          "bottom": -14
+        },
+        {
+          "label": "事件复盘",
+          "left": 931,
+          "right": 1032,
+          "top": -46,
+          "bottom": -14
+        }
+      ],
+      "scene": {
+        "width": 838,
+        "height": 510,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "route": "review",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollHeight": 1325,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 408,
+          "right": 509,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "智慧运维",
+          "left": 514,
+          "right": 615,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "地下管网",
+          "left": 620,
+          "right": 721,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "风险研判",
+          "left": 726,
+          "right": 827,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "应急推演",
+          "left": 832,
+          "right": 933,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "事件复盘",
+          "left": 938,
+          "right": 1032,
+          "top": 103,
+          "bottom": 135
+        }
+      ],
+      "scene": null
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "dashboard",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scrollHeight": 1724,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 371,
+          "right": 465,
+          "top": -246,
+          "bottom": -214
+        },
+        {
+          "label": "智慧运维",
+          "left": 470,
+          "right": 571,
+          "top": -246,
+          "bottom": -214
+        },
+        {
+          "label": "地下管网",
+          "left": 576,
+          "right": 677,
+          "top": -246,
+          "bottom": -214
+        },
+        {
+          "label": "风险研判",
+          "left": 682,
+          "right": 783,
+          "top": -246,
+          "bottom": -214
+        },
+        {
+          "label": "应急推演",
+          "left": 788,
+          "right": 889,
+          "top": -246,
+          "bottom": -214
+        },
+        {
+          "label": "事件复盘",
+          "left": 894,
+          "right": 995,
+          "top": -246,
+          "bottom": -214
+        }
+      ],
+      "scene": {
+        "width": 1010,
+        "height": 533.8125,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "operation",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scrollHeight": 1794,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 371,
+          "right": 472,
+          "top": 52,
+          "bottom": 84
+        },
+        {
+          "label": "智慧运维",
+          "left": 477,
+          "right": 571,
+          "top": 52,
+          "bottom": 84
+        },
+        {
+          "label": "地下管网",
+          "left": 576,
+          "right": 677,
+          "top": 52,
+          "bottom": 84
+        },
+        {
+          "label": "风险研判",
+          "left": 682,
+          "right": 783,
+          "top": 52,
+          "bottom": 84
+        },
+        {
+          "label": "应急推演",
+          "left": 788,
+          "right": 889,
+          "top": 52,
+          "bottom": 84
+        },
+        {
+          "label": "事件复盘",
+          "left": 894,
+          "right": 995,
+          "top": 52,
+          "bottom": 84
+        }
+      ],
+      "scene": {
+        "width": 789,
+        "height": 393,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "pipeline",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scrollHeight": 2153,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 371,
+          "right": 472,
+          "top": -260,
+          "bottom": -228
+        },
+        {
+          "label": "智慧运维",
+          "left": 477,
+          "right": 578,
+          "top": -260,
+          "bottom": -228
+        },
+        {
+          "label": "地下管网",
+          "left": 583,
+          "right": 677,
+          "top": -260,
+          "bottom": -228
+        },
+        {
+          "label": "风险研判",
+          "left": 682,
+          "right": 783,
+          "top": -260,
+          "bottom": -228
+        },
+        {
+          "label": "应急推演",
+          "left": 788,
+          "right": 889,
+          "top": -260,
+          "bottom": -228
+        },
+        {
+          "label": "事件复盘",
+          "left": 894,
+          "right": 995,
+          "top": -260,
+          "bottom": -228
+        }
+      ],
+      "scene": {
+        "width": 789,
+        "height": 480,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "risk",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scrollHeight": 1820,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 371,
+          "right": 472,
+          "top": -11,
+          "bottom": 21
+        },
+        {
+          "label": "智慧运维",
+          "left": 477,
+          "right": 578,
+          "top": -11,
+          "bottom": 21
+        },
+        {
+          "label": "地下管网",
+          "left": 583,
+          "right": 684,
+          "top": -11,
+          "bottom": 21
+        },
+        {
+          "label": "风险研判",
+          "left": 689,
+          "right": 783,
+          "top": -11,
+          "bottom": 21
+        },
+        {
+          "label": "应急推演",
+          "left": 788,
+          "right": 889,
+          "top": -11,
+          "bottom": 21
+        },
+        {
+          "label": "事件复盘",
+          "left": 894,
+          "right": 995,
+          "top": -11,
+          "bottom": 21
+        }
+      ],
+      "scene": {
+        "width": 789,
+        "height": 450,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "simulation",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scrollHeight": 1643,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 371,
+          "right": 472,
+          "top": -178,
+          "bottom": -146
+        },
+        {
+          "label": "智慧运维",
+          "left": 477,
+          "right": 578,
+          "top": -178,
+          "bottom": -146
+        },
+        {
+          "label": "地下管网",
+          "left": 583,
+          "right": 684,
+          "top": -178,
+          "bottom": -146
+        },
+        {
+          "label": "风险研判",
+          "left": 689,
+          "right": 790,
+          "top": -178,
+          "bottom": -146
+        },
+        {
+          "label": "应急推演",
+          "left": 795,
+          "right": 889,
+          "top": -178,
+          "bottom": -146
+        },
+        {
+          "label": "事件复盘",
+          "left": 894,
+          "right": 995,
+          "top": -178,
+          "bottom": -146
+        }
+      ],
+      "scene": {
+        "width": 764,
+        "height": 510,
+        "quality": "medium"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "review",
+      "width": 1366,
+      "scrollWidth": 1366,
+      "scrollHeight": 1193,
+      "navigation": [
+        {
+          "label": "综合态势",
+          "left": 371,
+          "right": 472,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "智慧运维",
+          "left": 477,
+          "right": 578,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "地下管网",
+          "left": 583,
+          "right": 684,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "风险研判",
+          "left": 689,
+          "right": 790,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "应急推演",
+          "left": 795,
+          "right": 896,
+          "top": 103,
+          "bottom": 135
+        },
+        {
+          "label": "事件复盘",
+          "left": 901,
+          "right": 995,
+          "top": 103,
+          "bottom": 135
+        }
+      ],
+      "scene": null
+    }
+  ],
+  "screenshots": [
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1920-dashboard.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1920-operation.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1920-pipeline.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1920-risk.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1920-simulation.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1920-review.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1440-dashboard.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1440-operation.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1440-pipeline.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1440-risk.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1440-simulation.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1440-review.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1366-dashboard.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1366-operation.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1366-pipeline.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1366-risk.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1366-simulation.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/final/screenshots/layout-1366-review.png"
+  ],
+  "errors": [],
+  "warnings": [],
+  "currentRoute": "review"
+}

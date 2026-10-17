@@ -1,0 +1,59 @@
+{
+  "milestone": 6,
+  "backend": {
+    "passed": 66,
+    "seconds": 22.56
+  },
+  "build": {
+    "passed": true,
+    "seconds": 6.74
+  },
+  "migration": "b655e1756d27",
+  "browser": {
+    "M1": {
+      "checks": 16,
+      "errors": []
+    },
+    "M2": {
+      "checks": 12,
+      "errors": []
+    },
+    "M3": {
+      "checks": 8,
+      "errors": []
+    },
+    "M4": {
+      "checks": 6,
+      "errors": []
+    },
+    "M5": {
+      "checks": 6,
+      "errors": []
+    },
+    "M6": {
+      "checks": 7,
+      "errors": []
+    }
+  },
+  "performance": {
+    "six_model_prediction": {
+      "samples": 200,
+      "mean_ms": 0.8836333751969505,
+      "p95_ms": 1.2796932940545958,
+      "max_ms": 2.4950119986897334
+    },
+    "risk_30m_native_treeshap": {
+      "samples": 100,
+      "mean_ms": 0.8404354701633565,
+      "p95_ms": 0.8901796543796081,
+      "max_ms": 1.5841159911360592
+    },
+    "environment": {
+      "python": "3.13.9",
+      "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+      "xgboost": "3.4.1",
+      "inference_threads": 1,
+      "scope": "CPU loaded-model calls; excludes HTTP and M5 physical rollout"
+    }
+  }
+}

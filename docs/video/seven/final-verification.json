@@ -1,0 +1,33 @@
+{
+  "file": "TwinCitySafe-7min-all-modules-demo.mp4",
+  "media": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "nb_frames": "10500"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "nb_frames": "19689"
+      }
+    ],
+    "format": {
+      "duration": "420.000000",
+      "size": "68905121"
+    }
+  },
+  "fullDecodePassed": true,
+  "meanVolumeDb": -18.1,
+  "peakVolumeDb": -2.0,
+  "sameBasenameExternalSubtitle": false,
+  "narrationCues": 27,
+  "subtitleCount": 118,
+  "exactTextMatches": true,
+  "allTempoOne": true
+}

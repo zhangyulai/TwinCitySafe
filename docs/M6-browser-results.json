@@ -1,0 +1,100 @@
+{
+  "checks": [
+    {
+      "name": "idle state, actual loaded models, 10/20/30 physical and ML curves, TreeSHAP and one socket",
+      "detail": {
+        "first": [
+          {
+            "minute": 10,
+            "waterLevel": 5.987585067749023,
+            "riskScore": 51.86257553100586,
+            "riskLevel": "elevated"
+          },
+          {
+            "minute": 20,
+            "waterLevel": 16.587697982788086,
+            "riskScore": 73.02334594726562,
+            "riskLevel": "high"
+          },
+          {
+            "minute": 30,
+            "waterLevel": 29.407114028930664,
+            "riskScore": 81.47695922851562,
+            "riskLevel": "extreme"
+          }
+        ]
+      }
+    },
+    {
+      "name": "real extreme-rain 10x evolution changes predictions; real P03 fault, comparison gaps and stable scene resources",
+      "detail": {
+        "water": 12.546376894560874,
+        "risk": 66.25615434659193,
+        "predictions": [
+          {
+            "minute": 10,
+            "waterLevel": 22.385961532592773,
+            "riskScore": 78.71309661865234,
+            "riskLevel": "high"
+          },
+          {
+            "minute": 20,
+            "waterLevel": 32.85881805419922,
+            "riskScore": 81.19780731201172,
+            "riskLevel": "extreme"
+          },
+          {
+            "minute": 30,
+            "waterLevel": 43.50410079956055,
+            "riskScore": 83.10514831542969,
+            "riskLevel": "extreme"
+          }
+        ],
+        "resources": {
+          "geometry": 34,
+          "material": 95,
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "earlier predictions matched to subsequent actual simulation and persisted",
+      "detail": {
+        "evaluation": {
+          "samples": 5,
+          "waterMae": 0.2543157783017646,
+          "riskMae": 0.6547809404302314,
+          "physicalWaterMae": 0.000575985448567451,
+          "physicalRiskMae": 0.018290816574875635,
+          "pending": 25,
+          "source": "real_engine_observations",
+          "message": "相邻真实观测线性插值到预测时刻；包含后续人工操作带来的差异。"
+        },
+        "persisted": 30
+      }
+    },
+    {
+      "name": "prediction/explanation never advance paused engine; five-second cache reuses immutable result"
+    },
+    {
+      "name": "Dashboard predicted risk, 1440 layout and route changes retain one realtime socket"
+    },
+    {
+      "name": "missing-model response fixture keeps real physical forecast visible; backend missing-file path covered by pytest"
+    },
+    {
+      "name": "leaving Risk disposes Three.js and both chart instances"
+    }
+  ],
+  "errors": [],
+  "performance": {
+    "fps": 36,
+    "averageInferenceMs": 1.9502390291017946
+  },
+  "screenshots": [
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M6-risk-idle.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M6-risk-active.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M6-risk-1440.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M6-model-fallback.png"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "renderer": {
+    "vendor": "Google Inc. (Google)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "activeContexts": 1
+  },
+  "checks": [
+    {
+      "name": "M0 backend Online before scene mount",
+      "detail": {
+        "baselineRAF": 0
+      }
+    },
+    {
+      "name": "real WebGL canvas, building labels, pipeline and device inventory",
+      "detail": {
+        "renderer": {
+          "vendor": "Google Inc. (Google)",
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "activeContexts": 1
+        },
+        "stats": {
+          "drawCalls": 59,
+          "triangles": 17652,
+          "geometries": 32,
+          "textures": 1
+        }
+      }
+    },
+    {
+      "name": "OrbitControls rotation, wheel zoom, pan and reset"
+    },
+    {
+      "name": "mesh hover, click, metadata and camera tween",
+      "detail": {
+        "id": "A-OFFICE",
+        "cameraMoved": 119.15246838274605,
+        "targetMoved": 37.47442481952762,
+        "tweenSamples": 10,
+        "activeSamples": 6
+      }
+    },
+    {
+      "name": "explicit focus button retains selection and refocuses camera"
+    },
+    {
+      "name": "mesh hover, click, metadata and camera tween",
+      "detail": {
+        "id": "B-RESEARCH",
+        "cameraMoved": 103.22811715005315,
+        "targetMoved": 34.5764733959765,
+        "tweenSamples": 8,
+        "activeSamples": 5
+      }
+    },
+    {
+      "name": "mesh hover, click, metadata and camera tween",
+      "detail": {
+        "id": "A-OFFICE",
+        "cameraMoved": 78.9941018324445,
+        "targetMoved": 52.15361924162119,
+        "tweenSamples": 8,
+        "activeSamples": 5
+      }
+    },
+    {
+      "name": "different building selection, detail close and blank-area deselection"
+    },
+    {
+      "name": "underground mode and transparent buildings",
+      "detail": {
+        "parking": {
+          "id": "B2-PARKING",
+          "name": "B2 地下停车场",
+          "screen": {
+            "x": 933.0250711437938,
+            "y": 668.5680077727427
+          },
+          "visible": true,
+          "opacity": 1
+        },
+        "pipelineCount": 32
+      }
+    },
+    {
+      "name": "risk mode activates; screenshot captures risk coloring"
+    },
+    {
+      "name": "cruise starts, moves through stops to underground parking and stops"
+    },
+    {
+      "name": "recorded browser frame sampling",
+      "detail": {
+        "samples": 78,
+        "averageFPS": 30.79109426811941,
+        "meanFrameMs": 32.476923076923036,
+        "environment": "Headless software renderer; not a desktop GPU acceptance benchmark"
+      }
+    },
+    {
+      "name": "1440×900 layout, resize and no horizontal overflow",
+      "detail": {
+        "x": 297,
+        "y": 317,
+        "width": 836,
+        "height": 615
+      }
+    },
+    {
+      "name": "unmount cancels RAF, disposes WebGL context and clears diagnostics",
+      "detail": {
+        "pendingRAF": 0,
+        "canvasCount": 0,
+        "activeContexts": 0,
+        "debugRemoved": true
+      }
+    },
+    {
+      "name": "three dashboard reentries, one canvas/context each, M0 backend Online"
+    },
+    {
+      "name": "WebGL context loss shows recovery UI; retry creates one fresh canvas and clears selection",
+      "detail": {
+        "canvasCount": 1,
+        "selected": "",
+        "debugSelected": null,
+        "oldContextLost": true,
+        "oldCanvasDetached": true,
+        "currentContextActive": true,
+        "activeContexts": 1
+      }
+    }
+  ],
+  "screenshots": [
+    "/tmp/m5-m1/M1-above.png",
+    "/tmp/m5-m1/M1-underground.png",
+    "/tmp/m5-m1/M1-risk.png",
+    "/tmp/m5-m1/M1-1440.png"
+  ],
+  "warnings": [
+    "[.WebGL-0x88c00c85a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x88c00c85a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x88c00c85a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x88c00c85a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "errors": [],
+  "performance": {
+    "samples": 78,
+    "averageFPS": 30.79109426811941,
+    "meanFrameMs": 32.476923076923036,
+    "environment": "Headless software renderer; not a desktop GPU acceptance benchmark"
+  }
+}

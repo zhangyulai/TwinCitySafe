@@ -1,0 +1,3147 @@
+{
+  "source": "Continuous Playwright browser screencast, no screenshot montage, no time compression",
+  "work": "/tmp/twincity-live-recording-nuWYlw",
+  "actions": [
+    {
+      "t": 0,
+      "action": "孪城智安 · TwinCitySafe",
+      "detail": "监测、预测、推演、处置、复盘：五分钟真实页面操作"
+    },
+    {
+      "t": 21.886,
+      "action": "点击",
+      "detail": "系统状态"
+    },
+    {
+      "t": 29.037,
+      "action": "点击",
+      "detail": "×"
+    },
+    {
+      "t": 37.909,
+      "action": "点击",
+      "detail": "地下管网"
+    },
+    {
+      "t": 42.182,
+      "action": "点击",
+      "detail": "给水"
+    },
+    {
+      "t": 44.581,
+      "action": "点击",
+      "detail": "搜索管段"
+    },
+    {
+      "t": 45.002,
+      "action": "填写",
+      "detail": "WS-003"
+    },
+    {
+      "t": 47.146,
+      "action": "点击",
+      "detail": "WS-003\n给水\n0.424 MPa · 28.7 m³/h\n"
+    },
+    {
+      "t": 53.877,
+      "action": "点击",
+      "detail": "上游追踪"
+    },
+    {
+      "t": 58.11,
+      "action": "点击",
+      "detail": "下游追踪"
+    },
+    {
+      "t": 61.733,
+      "action": "点击",
+      "detail": "影响分析"
+    },
+    {
+      "t": 73.029,
+      "action": "点击",
+      "detail": "隔离方案"
+    },
+    {
+      "t": 84.804,
+      "action": "选择",
+      "detail": "flood"
+    },
+    {
+      "t": 86.991,
+      "action": "确认操作",
+      "detail": "启动暴雨内涝软件演示？系统将以 10× 仿真时间运行，处置方案仍需人工选择与确认。"
+    },
+    {
+      "t": 87.71,
+      "action": "点击",
+      "detail": "启动演示"
+    },
+    {
+      "t": 109.938,
+      "action": "点击",
+      "detail": "智慧运维"
+    },
+    {
+      "t": 114.298,
+      "action": "点击",
+      "detail": "P03\n\nP03 主排水泵\n\n预警\nHI 79.9"
+    },
+    {
+      "t": 140.513,
+      "action": "点击",
+      "detail": "风险研判"
+    },
+    {
+      "t": 191.072,
+      "action": "点击",
+      "detail": "应急推演"
+    },
+    {
+      "t": 194.872,
+      "action": "点击",
+      "detail": "暂停"
+    },
+    {
+      "t": 197.844,
+      "action": "点击",
+      "detail": "进入应急方案推演"
+    },
+    {
+      "t": 200.367,
+      "action": "点击",
+      "detail": "从当前状态推演 30 分钟"
+    },
+    {
+      "t": 203.698,
+      "action": "点击",
+      "detail": "选择并预览"
+    },
+    {
+      "t": 208.614,
+      "action": "确认操作",
+      "detail": "当前操作仅作用于软件仿真环境，不控制真实设备。"
+    },
+    {
+      "t": 209.353,
+      "action": "点击",
+      "detail": "确认仿真执行 FLOOD-B"
+    },
+    {
+      "t": 214.33,
+      "action": "点击",
+      "detail": "继续"
+    },
+    {
+      "t": 233.623,
+      "action": "确认操作",
+      "detail": "将重置当前软件演示状态，但不会删除历史事故档案。"
+    },
+    {
+      "t": 234.353,
+      "action": "点击",
+      "detail": "重置演示"
+    },
+    {
+      "t": 241.788,
+      "action": "选择",
+      "detail": "leak"
+    },
+    {
+      "t": 244.611,
+      "action": "确认操作",
+      "detail": "启动管网泄漏软件演示？系统将以 10× 仿真时间运行，处置方案仍需人工选择与确认。"
+    },
+    {
+      "t": 245.333,
+      "action": "点击",
+      "detail": "启动演示"
+    },
+    {
+      "t": 278.03,
+      "action": "点击",
+      "detail": "暂停"
+    },
+    {
+      "t": 281.094,
+      "action": "点击",
+      "detail": "比较阀门隔离候选"
+    },
+    {
+      "t": 284.151,
+      "action": "点击",
+      "detail": "预览此隔离范围"
+    },
+    {
+      "t": 288.912,
+      "action": "确认操作",
+      "detail": "仅作用于软件仿真，不控制真实阀门。"
+    },
+    {
+      "t": 289.64,
+      "action": "点击",
+      "detail": "模拟执行隔离"
+    },
+    {
+      "t": 292.947,
+      "action": "点击",
+      "detail": "继续"
+    },
+    {
+      "t": 312.074,
+      "action": "点击",
+      "detail": "暂停"
+    },
+    {
+      "t": 315.184,
+      "action": "点击",
+      "detail": "事件复盘"
+    },
+    {
+      "t": 318.182,
+      "action": "点击",
+      "detail": "INC-20261012-15024E7732F75B75B76"
+    },
+    {
+      "t": 331.879,
+      "action": "点击",
+      "detail": "接单班组"
+    },
+    {
+      "t": 332.342,
+      "action": "填写",
+      "detail": "管网演示班组"
+    },
+    {
+      "t": 333.854,
+      "action": "点击",
+      "detail": "接单"
+    },
+    {
+      "t": 337.372,
+      "action": "点击",
+      "detail": "开始处理"
+    },
+    {
+      "t": 340.316,
+      "action": "点击",
+      "detail": "工单处理结果"
+    },
+    {
+      "t": 342.84,
+      "action": "填写",
+      "detail": "已执行 V-W-03 隔离，泄漏受控；科研楼与实验楼仍有供水影响。"
+    },
+    {
+      "t": 344.401,
+      "action": "点击",
+      "detail": "完成工单"
+    },
+    {
+      "t": 347.252,
+      "action": "点击",
+      "detail": "事件关闭说明"
+    },
+    {
+      "t": 349.573,
+      "action": "填写",
+      "detail": "软件演练已稳定；保留关闭阀门及两栋建筑的供水影响，待后续修复。"
+    },
+    {
+      "t": 350.906,
+      "action": "确认操作",
+      "detail": "确认关闭该软件仿真事件？关闭后事件将进入历史复盘，不再作为当前活动事故。"
+    },
+    {
+      "t": 351.629,
+      "action": "点击",
+      "detail": "人工确认关闭事件"
+    },
+    {
+      "t": 354.469,
+      "action": "点击",
+      "detail": "生成复盘报告"
+    },
+    {
+      "t": 372.892,
+      "action": "点击",
+      "detail": "事件复盘"
+    },
+    {
+      "t": 375.864,
+      "action": "点击",
+      "detail": "INC-20261007-BF1611E72B3A52258F6"
+    },
+    {
+      "t": 380.286,
+      "action": "点击",
+      "detail": "峰值"
+    },
+    {
+      "t": 382.139,
+      "action": "选择",
+      "detail": "5"
+    },
+    {
+      "t": 383.802,
+      "action": "点击",
+      "detail": "播放"
+    },
+    {
+      "t": 386.438,
+      "action": "点击",
+      "detail": "暂停"
+    },
+    {
+      "t": 392.848,
+      "action": "点击",
+      "detail": "事件复盘"
+    },
+    {
+      "t": 396.253,
+      "action": "点击",
+      "detail": "INC-20261012-15024E7732F75B75B76"
+    },
+    {
+      "t": 399.519,
+      "action": "点击",
+      "detail": "处置"
+    },
+    {
+      "t": 401.616,
+      "action": "选择",
+      "detail": "5"
+    },
+    {
+      "t": 403.649,
+      "action": "点击",
+      "detail": "播放"
+    },
+    {
+      "t": 407.176,
+      "action": "点击",
+      "detail": "暂停"
+    }
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "t": 3.012,
+      "simulationTime": 57.71349677499887,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7945271826573777,
+        "risk": 9.680141719400085
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 6.013,
+      "simulationTime": 60.758091882998954,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7942963648801898,
+        "risk": 9.68043670467053
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 9.019,
+      "simulationTime": 63.81476211200055,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7940715554712449,
+        "risk": 9.680942715150035
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 12.011,
+      "simulationTime": 66.87014784900018,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7938536741744854,
+        "risk": 9.681652031743996
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 15.016,
+      "simulationTime": 69.93027592499853,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7936421663578129,
+        "risk": 9.68255968990646
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 18.015,
+      "simulationTime": 72.98713796700031,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7934374194102449,
+        "risk": 9.683656410426384
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 21.01,
+      "simulationTime": 76.0416047449981,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7932391533733083,
+        "risk": 9.684934654573802
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 24.015,
+      "simulationTime": 79.09072013300107,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7930473030053673,
+        "risk": 9.68638479894076
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 27.011,
+      "simulationTime": 82.1548963239984,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7928603502787743,
+        "risk": 9.688009317268865
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 30.011,
+      "simulationTime": 85.2117476079984,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7926793950112797,
+        "risk": 9.689788245772501
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 33.012,
+      "simulationTime": 88.271328259998,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7925035187604066,
+        "risk": 9.691718053686674
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 36.013,
+      "simulationTime": 91.32527472999935,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7923328659425924,
+        "risk": 9.693783712811712
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 39.01,
+      "simulationTime": 93.35937675799865,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7922217482570694,
+        "risk": 9.6952319726187
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 42.013,
+      "simulationTime": 96.40724538900027,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7920588013046683,
+        "risk": 9.697502826193254
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 45.011,
+      "simulationTime": 99.46516844499999,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7918992733319706,
+        "risk": 9.69989332373001
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 48.012,
+      "simulationTime": 102.51958387500049,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7917435161212031,
+        "risk": 9.70238215754568
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 51.012,
+      "simulationTime": 105.57190591099778,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7915910771914231,
+        "risk": 9.704958916586813
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 54.012,
+      "simulationTime": 108.62343646699802,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7914415183912548,
+        "risk": 9.707612998203551
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 57.011,
+      "simulationTime": 111.67014130399902,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7912946674382032,
+        "risk": 9.710328858805793
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 60.022,
+      "simulationTime": 114.72206480900051,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.791149686195832,
+        "risk": 9.713103502763838
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 63.013,
+      "simulationTime": 117.77280339400018,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7910065410995906,
+        "risk": 9.715918956513576
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 66.017,
+      "simulationTime": 120.82572945799984,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7908647475461137,
+        "risk": 9.718766029245039
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 69.013,
+      "simulationTime": 123.88164296999828,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7907239628713573,
+        "risk": 9.721633091789514
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 72.011,
+      "simulationTime": 126.93915061399831,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7905839658281278,
+        "risk": 9.724506361957419
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 75.011,
+      "simulationTime": 129.99281898899798,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7904447412129959,
+        "risk": 9.72736822704809
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 78.012,
+      "simulationTime": 133.04763912300064,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7903058240584087,
+        "risk": 9.730211028927343
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 81.013,
+      "simulationTime": 136.09713122600115,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7901673016250442,
+        "risk": 9.733016512513728
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 84.012,
+      "simulationTime": 139.15024456899874,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7900285901545435,
+        "risk": 9.735780930225788
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 87.015,
+      "simulationTime": 142.20308992900047,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7898897216000224,
+        "risk": 9.738488812515211
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 90.026,
+      "simulationTime": 21.743180030025528,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 0.7883238476036707,
+        "risk": 11.80643402732698
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 93.024,
+      "simulationTime": 42.429778450022965,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 0.7917675820023198,
+        "risk": 12.657022023193718
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 96.013,
+      "simulationTime": 73.51404421002374,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 0.8300565527926305,
+        "risk": 14.664272933276662
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 99.011,
+      "simulationTime": 104.5860225499932,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 0.9092672981274049,
+        "risk": 17.358908659190124
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 102.013,
+      "simulationTime": 135.7395823200211,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 1.0295204300333909,
+        "risk": 20.03055370047316
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 105.013,
+      "simulationTime": 166.8867338500068,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 1.1845033269301282,
+        "risk": 22.398608714544974
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 108.012,
+      "simulationTime": 197.96405309000136,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 1.3702613440217533,
+        "risk": 24.94998935977195
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 111.011,
+      "simulationTime": 229.07320479000379,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 1.5896481101246303,
+        "risk": 28.376363480360105
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 114.016,
+      "simulationTime": 260.00700209999354,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 1.841417999668207,
+        "risk": 31.877213450963907
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 117.017,
+      "simulationTime": 291.48966122000303,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 2.1234803580840076,
+        "risk": 34.62966029085748
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 120.013,
+      "simulationTime": 312.26335741001066,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 2.320435929443089,
+        "risk": 35.796642863669824
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 123.012,
+      "simulationTime": 343.5993670999965,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 2.6323262253618886,
+        "risk": 37.32577574486942
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 126.013,
+      "simulationTime": 374.72268248002644,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 2.9594800769940153,
+        "risk": 38.79876944259568
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 129.015,
+      "simulationTime": 405.93145491999513,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 3.304888268388786,
+        "risk": 40.36068610695135
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 132.017,
+      "simulationTime": 436.97445171001374,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 3.665543873543626,
+        "risk": 41.93055919240787
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 135.016,
+      "simulationTime": 468.34713807002305,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 4.045510636417808,
+        "risk": 43.42598176077529
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 138.016,
+      "simulationTime": 499.4685146200233,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 4.436814067327146,
+        "risk": 44.88595250897436
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 141.016,
+      "simulationTime": 530.590982560027,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 4.842367984152448,
+        "risk": 46.34755216515645
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 144.015,
+      "simulationTime": 561.5840520699921,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 5.260377915478822,
+        "risk": 47.82427599620769
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 147.015,
+      "simulationTime": 582.3786597900096,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 5.548749655552313,
+        "risk": 48.829165264345406
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 150.021,
+      "simulationTime": 613.6805300600097,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 5.994650185168608,
+        "risk": 50.31584075996426
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 153.017,
+      "simulationTime": 644.8536939000023,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 6.44976970961907,
+        "risk": 51.63730063449721
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 156.016,
+      "simulationTime": 676.011092100018,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 6.913450200997396,
+        "risk": 52.852846106478665
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 159.015,
+      "simulationTime": 707.1778442600037,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 7.385848328533079,
+        "risk": 54.05300607810443
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 162.016,
+      "simulationTime": 738.3207428399994,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 7.866438803124992,
+        "risk": 55.26662211444022
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 165.023,
+      "simulationTime": 769.5665295100059,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 8.357208888393316,
+        "risk": 56.61569356299231
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 168.023,
+      "simulationTime": 800.739582560012,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 8.855412333351506,
+        "risk": 58.02882445455677
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 171.031,
+      "simulationTime": 832.0514610800053,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 9.364457725927618,
+        "risk": 59.45800527499729
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 174.018,
+      "simulationTime": 852.9932746100155,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 9.709737161366858,
+        "risk": 60.42425288461666
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 177.019,
+      "simulationTime": 884.2470219399943,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 10.232225194635545,
+        "risk": 61.87645388156286
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 180.019,
+      "simulationTime": 915.669499350009,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 10.765864001826067,
+        "risk": 63.10959905895703
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 183.021,
+      "simulationTime": 946.8212152699963,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 11.298240053489398,
+        "risk": 64.06963346485746
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 186.025,
+      "simulationTime": 977.9331034500145,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 11.830229611114603,
+        "risk": 65.0027307317144
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 189.022,
+      "simulationTime": 1009.0582623700221,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 12.362468052990936,
+        "risk": 65.93430630593573
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 192.021,
+      "simulationTime": 1040.1179362499934,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 12.893588343687288,
+        "risk": 66.86377864056033
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 195.022,
+      "simulationTime": 1060.8122336300275,
+      "running": false,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 13.24746082002822,
+        "risk": 67.48305626376282
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 198.022,
+      "simulationTime": 1060.8122336300275,
+      "running": false,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 13.24746082002822,
+        "risk": 67.48305626376282
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 201.022,
+      "simulationTime": 1060.8122336300275,
+      "running": false,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 13.24746082002822,
+        "risk": 67.48305626376282
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 204.026,
+      "simulationTime": 1060.8122336300275,
+      "running": false,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 13.24746082002822,
+        "risk": 67.48305626376282
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 207.024,
+      "simulationTime": 1060.8122336300275,
+      "running": false,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 13.24746082002822,
+        "risk": 67.48305626376282
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 210.025,
+      "simulationTime": 1060.8122336300275,
+      "running": false,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 13.24746082002822,
+        "risk": 67.48305626376282
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 213.029,
+      "simulationTime": 1060.8122336300275,
+      "running": false,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 13.24746082002822,
+        "risk": 67.48305626376282
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 216.048,
+      "simulationTime": 1077.1033529100223,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 13.520436946607806,
+        "risk": 63.1607646124952
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 219.024,
+      "simulationTime": 1097.8476104500105,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 13.842904308406304,
+        "risk": 63.66077822442412
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 222.028,
+      "simulationTime": 1128.9617319600438,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 14.270815208739451,
+        "risk": 62.761357972069284
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 225.024,
+      "simulationTime": 1160.8546540300097,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 14.680470439607301,
+        "risk": 61.9907282436993
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 228.025,
+      "simulationTime": 1192.9809681000238,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 15.093002661172747,
+        "risk": 62.421876539532064
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 231.026,
+      "simulationTime": 1224.9924059400446,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 15.50387652428059,
+        "risk": 62.921347728041155
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 234.022,
+      "simulationTime": 1256.654484960034,
+      "running": true,
+      "flood": {
+        "id": "7b1bb6ec-d200-4d6c-be4b-746f484bb03b",
+        "water": 15.910058734224652,
+        "risk": 63.41321816061795
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 237.039,
+      "simulationTime": 2.5889361359986656,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7997376257824061,
+        "risk": 9.7265776245409
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 240.024,
+      "simulationTime": 4.632893231999332,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7995273208977042,
+        "risk": 9.72181606313536
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 243.028,
+      "simulationTime": 7.688869827998134,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.799209984641305,
+        "risk": 9.715505499687186
+      },
+      "leak": {
+        "id": null,
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 246.022,
+      "simulationTime": 0,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.8,
+        "risk": 0
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 249.025,
+      "simulationTime": 28.531241599994267,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7970835163142987,
+        "risk": 9.689403628877995
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 252.026,
+      "simulationTime": 59.37631110999072,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.794399923216037,
+        "risk": 9.680281006211626
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0,
+        "risk": 0
+      }
+    },
+    {
+      "t": 255.037,
+      "simulationTime": 90.36115567996625,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7923861358544161,
+        "risk": 9.69313272754408
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 6.961587434602716,
+        "risk": 15.870420500455019
+      }
+    },
+    {
+      "t": 258.029,
+      "simulationTime": 121.52162890997776,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7908324175358458,
+        "risk": 9.71943917244634
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 11.202801890227295,
+        "risk": 26.610630134288872
+      }
+    },
+    {
+      "t": 261.032,
+      "simulationTime": 152.57680667997278,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7894147682624567,
+        "risk": 9.747133735102786
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 14.924124027291565,
+        "risk": 41.06278944428312
+      }
+    },
+    {
+      "t": 264.028,
+      "simulationTime": 183.62682151997518,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7879827867885094,
+        "risk": 9.764384415481835
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 18.10138942620406,
+        "risk": 51.746629865575116
+      }
+    },
+    {
+      "t": 267.028,
+      "simulationTime": 214.68833791997963,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7866796412895092,
+        "risk": 9.763812913322623
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 20.67134263206666,
+        "risk": 61.09446196902266
+      }
+    },
+    {
+      "t": 270.029,
+      "simulationTime": 245.9331873799972,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7857206297105302,
+        "risk": 9.74513570630769
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 21.008688119034396,
+        "risk": 61.884150688200485
+      }
+    },
+    {
+      "t": 273.03,
+      "simulationTime": 266.6303332299875,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7852949313811859,
+        "risk": 9.72600538487314
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 20.99117459800008,
+        "risk": 62.03888771175596
+      }
+    },
+    {
+      "t": 276.031,
+      "simulationTime": 297.7314485299938,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7847943938693873,
+        "risk": 9.695251012374568
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 21.00933696912063,
+        "risk": 62.180148451598406
+      }
+    },
+    {
+      "t": 279.028,
+      "simulationTime": 318.4831805299842,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7844112568749292,
+        "risk": 9.678540313249492
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 21.006664331614818,
+        "risk": 62.149785535176385
+      }
+    },
+    {
+      "t": 282.028,
+      "simulationTime": 318.4831805299842,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7844112568749292,
+        "risk": 9.678540313249492
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 21.006664331614818,
+        "risk": 62.149785535176385
+      }
+    },
+    {
+      "t": 285.028,
+      "simulationTime": 318.4831805299842,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7844112568749292,
+        "risk": 9.678540313249492
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 21.006664331614818,
+        "risk": 62.149785535176385
+      }
+    },
+    {
+      "t": 288.029,
+      "simulationTime": 318.4831805299842,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7844112568749292,
+        "risk": 9.678540313249492
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 21.006664331614818,
+        "risk": 62.149785535176385
+      }
+    },
+    {
+      "t": 291.03,
+      "simulationTime": 318.4831805299842,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7844112568749292,
+        "risk": 9.678540313249492
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 21.006664331614818,
+        "risk": 62.149785535176385
+      }
+    },
+    {
+      "t": 294.03,
+      "simulationTime": 322.0584506599704,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7843346912611309,
+        "risk": 9.676253929034692
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 16.80010864544744,
+        "risk": 55.51086272071868
+      }
+    },
+    {
+      "t": 297.032,
+      "simulationTime": 353.0481769799732,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7835345914269662,
+        "risk": 9.666100735702031
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 2.421839700991769,
+        "risk": 13.168645514935637
+      }
+    },
+    {
+      "t": 300.034,
+      "simulationTime": 384.1453601299873,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7826423890225954,
+        "risk": 9.674980120861093
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.34678631747667554,
+        "risk": 7.026487499730959
+      }
+    },
+    {
+      "t": 303.035,
+      "simulationTime": 415.2861289399884,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7819996004923633,
+        "risk": 9.699428272176593
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.049521689229492606,
+        "risk": 6.146584200119298
+      }
+    },
+    {
+      "t": 306.037,
+      "simulationTime": 446.4490360399571,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7818017817654324,
+        "risk": 9.729590417187287
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.0070620052866569505,
+        "risk": 6.020903535648505
+      }
+    },
+    {
+      "t": 309.033,
+      "simulationTime": 477.6102209999579,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7818940943792297,
+        "risk": 9.75306810460444
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.001007180644183038,
+        "risk": 6.002981254706782
+      }
+    },
+    {
+      "t": 312.035,
+      "simulationTime": 508.65389313996224,
+      "running": true,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 315.033,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 318.032,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 321.038,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 324.035,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 327.036,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 330.043,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 333.037,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 336.036,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 339.038,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 342.042,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 345.039,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 348.042,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 351.039,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": "7cff0195-b111-4958-a245-da1cebf7628a",
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 354.039,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 357.041,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 360.04,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 363.042,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 366.046,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 369.047,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 372.043,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 375.047,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 378.044,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 381.044,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 384.055,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 387.045,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 390.048,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 393.045,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 396.052,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 399.045,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 402.048,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 405.047,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 408.045,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 411.05,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 414.046,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 417.046,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    },
+    {
+      "t": 420.049,
+      "simulationTime": 508.65389313996224,
+      "running": false,
+      "flood": {
+        "id": null,
+        "water": 0.7819163862489755,
+        "risk": 9.76007198682486
+      },
+      "leak": {
+        "id": null,
+        "flow": 0.000144702622379392,
+        "risk": 6.000428319762243
+      }
+    }
+  ],
+  "speechCues": [
+    {
+      "id": "intro",
+      "t": 0.004
+    },
+    {
+      "id": "dashboard",
+      "t": 17
+    },
+    {
+      "id": "pipeline",
+      "t": 34
+    },
+    {
+      "id": "trace",
+      "t": 52.002
+    },
+    {
+      "id": "topology",
+      "t": 67
+    },
+    {
+      "id": "flood",
+      "t": 82.001
+    },
+    {
+      "id": "operation",
+      "t": 107.001
+    },
+    {
+      "id": "trends",
+      "t": 125.001
+    },
+    {
+      "id": "risk",
+      "t": 138.001
+    },
+    {
+      "id": "comparison",
+      "t": 158
+    },
+    {
+      "id": "charts",
+      "t": 168.002
+    },
+    {
+      "id": "emergency",
+      "t": 184.001
+    },
+    {
+      "id": "execute",
+      "t": 202
+    },
+    {
+      "id": "effect",
+      "t": 215.133
+    },
+    {
+      "id": "switch",
+      "t": 230.002
+    },
+    {
+      "id": "leak",
+      "t": 239.001
+    },
+    {
+      "id": "leak_details",
+      "t": 260
+    },
+    {
+      "id": "isolate",
+      "t": 275.007
+    },
+    {
+      "id": "isolated",
+      "t": 294.001
+    },
+    {
+      "id": "stable",
+      "t": 309.001
+    },
+    {
+      "id": "workorder",
+      "t": 325.001
+    },
+    {
+      "id": "close",
+      "t": 344.638
+    },
+    {
+      "id": "archive",
+      "t": 362.001
+    },
+    {
+      "id": "review_flood",
+      "t": 376.571
+    },
+    {
+      "id": "review_leak",
+      "t": 390.001
+    },
+    {
+      "id": "report",
+      "t": 407.176
+    },
+    {
+      "id": "ending",
+      "t": 414.002
+    }
+  ],
+  "pointerChecks": [
+    {
+      "t": 3.23,
+      "visible": true
+    },
+    {
+      "t": 6.015,
+      "visible": true
+    },
+    {
+      "t": 9.016,
+      "visible": true
+    },
+    {
+      "t": 12.013,
+      "visible": true
+    },
+    {
+      "t": 15.009,
+      "visible": true
+    },
+    {
+      "t": 18.011,
+      "visible": true
+    },
+    {
+      "t": 21.01,
+      "visible": true
+    },
+    {
+      "t": 24.011,
+      "visible": true
+    },
+    {
+      "t": 27.009,
+      "visible": true
+    },
+    {
+      "t": 30.012,
+      "visible": true
+    },
+    {
+      "t": 33.009,
+      "visible": true
+    },
+    {
+      "t": 36.019,
+      "visible": true
+    },
+    {
+      "t": 39.015,
+      "visible": true
+    },
+    {
+      "t": 42.01,
+      "visible": true
+    },
+    {
+      "t": 45.008,
+      "visible": true
+    },
+    {
+      "t": 48.009,
+      "visible": true
+    },
+    {
+      "t": 51.013,
+      "visible": true
+    },
+    {
+      "t": 54.009,
+      "visible": true
+    },
+    {
+      "t": 57.008,
+      "visible": true
+    },
+    {
+      "t": 60.016,
+      "visible": true
+    },
+    {
+      "t": 63.011,
+      "visible": true
+    },
+    {
+      "t": 66.013,
+      "visible": true
+    },
+    {
+      "t": 69.012,
+      "visible": true
+    },
+    {
+      "t": 72.009,
+      "visible": true
+    },
+    {
+      "t": 75.011,
+      "visible": true
+    },
+    {
+      "t": 78.009,
+      "visible": true
+    },
+    {
+      "t": 81.01,
+      "visible": true
+    },
+    {
+      "t": 84.011,
+      "visible": true
+    },
+    {
+      "t": 87.705,
+      "visible": true
+    },
+    {
+      "t": 90.016,
+      "visible": true
+    },
+    {
+      "t": 93.024,
+      "visible": true
+    },
+    {
+      "t": 96.011,
+      "visible": true
+    },
+    {
+      "t": 99.009,
+      "visible": true
+    },
+    {
+      "t": 102.011,
+      "visible": true
+    },
+    {
+      "t": 105.008,
+      "visible": true
+    },
+    {
+      "t": 108.008,
+      "visible": true
+    },
+    {
+      "t": 111.031,
+      "visible": true
+    },
+    {
+      "t": 114.018,
+      "visible": true
+    },
+    {
+      "t": 117.019,
+      "visible": true
+    },
+    {
+      "t": 120.011,
+      "visible": true
+    },
+    {
+      "t": 123.014,
+      "visible": true
+    },
+    {
+      "t": 126.01,
+      "visible": true
+    },
+    {
+      "t": 129.015,
+      "visible": true
+    },
+    {
+      "t": 132.018,
+      "visible": true
+    },
+    {
+      "t": 135.013,
+      "visible": true
+    },
+    {
+      "t": 138.013,
+      "visible": true
+    },
+    {
+      "t": 141.036,
+      "visible": true
+    },
+    {
+      "t": 144.016,
+      "visible": true
+    },
+    {
+      "t": 147.012,
+      "visible": true
+    },
+    {
+      "t": 150.014,
+      "visible": true
+    },
+    {
+      "t": 153.015,
+      "visible": true
+    },
+    {
+      "t": 156.014,
+      "visible": true
+    },
+    {
+      "t": 159.014,
+      "visible": true
+    },
+    {
+      "t": 162.014,
+      "visible": true
+    },
+    {
+      "t": 165.026,
+      "visible": true
+    },
+    {
+      "t": 168.025,
+      "visible": true
+    },
+    {
+      "t": 171.022,
+      "visible": true
+    },
+    {
+      "t": 174.014,
+      "visible": true
+    },
+    {
+      "t": 177.015,
+      "visible": true
+    },
+    {
+      "t": 180.017,
+      "visible": true
+    },
+    {
+      "t": 183.027,
+      "visible": true
+    },
+    {
+      "t": 186.02,
+      "visible": true
+    },
+    {
+      "t": 189.022,
+      "visible": true
+    },
+    {
+      "t": 192.019,
+      "visible": true
+    },
+    {
+      "t": 195.021,
+      "visible": true
+    },
+    {
+      "t": 198.02,
+      "visible": true
+    },
+    {
+      "t": 201.021,
+      "visible": true
+    },
+    {
+      "t": 204.467,
+      "visible": true
+    },
+    {
+      "t": 207.022,
+      "visible": true
+    },
+    {
+      "t": 210.027,
+      "visible": true
+    },
+    {
+      "t": 213.023,
+      "visible": true
+    },
+    {
+      "t": 216.021,
+      "visible": true
+    },
+    {
+      "t": 219.023,
+      "visible": true
+    },
+    {
+      "t": 222.023,
+      "visible": true
+    },
+    {
+      "t": 225.024,
+      "visible": true
+    },
+    {
+      "t": 228.022,
+      "visible": true
+    },
+    {
+      "t": 231.021,
+      "visible": true
+    },
+    {
+      "t": 234.334,
+      "visible": true
+    },
+    {
+      "t": 237.023,
+      "visible": true
+    },
+    {
+      "t": 240.022,
+      "visible": true
+    },
+    {
+      "t": 243.025,
+      "visible": true
+    },
+    {
+      "t": 246.337,
+      "visible": true
+    },
+    {
+      "t": 249.021,
+      "visible": true
+    },
+    {
+      "t": 252.026,
+      "visible": true
+    },
+    {
+      "t": 255.037,
+      "visible": true
+    },
+    {
+      "t": 258.027,
+      "visible": true
+    },
+    {
+      "t": 261.029,
+      "visible": true
+    },
+    {
+      "t": 264.028,
+      "visible": true
+    },
+    {
+      "t": 267.025,
+      "visible": true
+    },
+    {
+      "t": 270.028,
+      "visible": true
+    },
+    {
+      "t": 273.026,
+      "visible": true
+    },
+    {
+      "t": 276.028,
+      "visible": true
+    },
+    {
+      "t": 279.039,
+      "visible": true
+    },
+    {
+      "t": 282.026,
+      "visible": true
+    },
+    {
+      "t": 285.025,
+      "visible": true
+    },
+    {
+      "t": 288.026,
+      "visible": true
+    },
+    {
+      "t": 291.027,
+      "visible": true
+    },
+    {
+      "t": 294.027,
+      "visible": true
+    },
+    {
+      "t": 297.028,
+      "visible": true
+    },
+    {
+      "t": 300.03,
+      "visible": true
+    },
+    {
+      "t": 303.031,
+      "visible": true
+    },
+    {
+      "t": 306.037,
+      "visible": true
+    },
+    {
+      "t": 309.031,
+      "visible": true
+    },
+    {
+      "t": 312.04,
+      "visible": true
+    },
+    {
+      "t": 315.032,
+      "visible": true
+    },
+    {
+      "t": 318.183,
+      "visible": true
+    },
+    {
+      "t": 321.031,
+      "visible": true
+    },
+    {
+      "t": 324.031,
+      "visible": true
+    },
+    {
+      "t": 327.033,
+      "visible": true
+    },
+    {
+      "t": 330.035,
+      "visible": true
+    },
+    {
+      "t": 333.034,
+      "visible": true
+    },
+    {
+      "t": 336.035,
+      "visible": true
+    },
+    {
+      "t": 339.036,
+      "visible": true
+    },
+    {
+      "t": 342.043,
+      "visible": true
+    },
+    {
+      "t": 345.036,
+      "visible": true
+    },
+    {
+      "t": 348.042,
+      "visible": true
+    },
+    {
+      "t": 351.629,
+      "visible": true
+    },
+    {
+      "t": 354.037,
+      "visible": true
+    },
+    {
+      "t": 357.043,
+      "visible": true
+    },
+    {
+      "t": 360.045,
+      "visible": true
+    },
+    {
+      "t": 363.04,
+      "visible": true
+    },
+    {
+      "t": 366.041,
+      "visible": true
+    },
+    {
+      "t": 369.041,
+      "visible": true
+    },
+    {
+      "t": 372.041,
+      "visible": true
+    },
+    {
+      "t": 375.05,
+      "visible": true
+    },
+    {
+      "t": 378.042,
+      "visible": true
+    },
+    {
+      "t": 381.042,
+      "visible": true
+    },
+    {
+      "t": 384.044,
+      "visible": true
+    },
+    {
+      "t": 387.042,
+      "visible": true
+    },
+    {
+      "t": 390.048,
+      "visible": true
+    },
+    {
+      "t": 393.042,
+      "visible": true
+    },
+    {
+      "t": 396.052,
+      "visible": true
+    },
+    {
+      "t": 399.043,
+      "visible": true
+    },
+    {
+      "t": 402.046,
+      "visible": true
+    },
+    {
+      "t": 405.044,
+      "visible": true
+    },
+    {
+      "t": 408.047,
+      "visible": true
+    },
+    {
+      "t": 411.046,
+      "visible": true
+    },
+    {
+      "t": 414.047,
+      "visible": true
+    },
+    {
+      "t": 417.045,
+      "visible": true
+    },
+    {
+      "t": 420.045,
+      "visible": true
+    }
+  ],
+  "archives": {
+    "flood": "bf1611e7-2b3a-5225-8f68-86d83fd20ad5",
+    "leak": "c2428f00-9618-5ea6-bd89-0b9eeaf50079"
+  },
+  "startedAt": "2026-10-12T14:46:23.691Z",
+  "isolation": {
+    "flow": 0.000144702622379392,
+    "status": "INTERRUPTED",
+    "stage": "STABILIZING"
+  },
+  "currentLeakIncident": "15024e77-32f7-5b75-b762-42c427a3c16d",
+  "completedWorkOrder": {
+    "id": "80cca2fe-2036-491d-961b-a4a67257b425",
+    "work_order_code": "WO-20261012-80CCA2FE2036491D961BA4A67257B425",
+    "incident_id": "15024e77-32f7-5b75-b762-42c427a3c16d",
+    "title": "地下供水管网泄漏应急处置",
+    "description": "",
+    "category": "EMERGENCY",
+    "priority": "HIGH",
+    "status": "COMPLETED",
+    "assignee": "管网演示班组",
+    "created_at": "2026-10-12T14:51:14.019053+00:00",
+    "accepted_at": "2026-10-12T14:51:57.544365+00:00",
+    "completed_at": "2026-10-12T14:52:08.078262+00:00",
+    "result": "已执行 V-W-03 隔离，泄漏受控；科研楼与实验楼仍有供水影响。",
+    "created_by": "demo-user"
+  },
+  "replay": {
+    "start": 1748.9,
+    "end": 1758.1
+  },
+  "modules": [
+    "综合态势",
+    "地下管网",
+    "智慧运维",
+    "风险研判",
+    "应急推演",
+    "事件复盘"
+  ],
+  "success": true,
+  "finishedAt": "2026-10-12T14:53:24.694Z",
+  "storySeconds": 421.003,
+  "rawVideo": "/tmp/twincity-live-recording-nuWYlw/page@917aff968ac45497cd76d1d329d2514c.webm",
+  "rawDuration": 425.2,
+  "trimStart": 4.197000000000003,
+  "output": "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/video/seven/narrated-capture.mp4"
+}

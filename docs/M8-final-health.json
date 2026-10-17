@@ -1,0 +1,31 @@
+{
+  "health": {
+    "status": "ok",
+    "service": "TwinCitySafe",
+    "version": "2.0"
+  },
+  "running": true,
+  "speed": 1.0,
+  "floodActive": false,
+  "leakActive": false,
+  "pipelineCount": 32,
+  "valveCount": 10,
+  "closedValves": [],
+  "devices": [
+    {
+      "id": "P01",
+      "status": "standby",
+      "fault": "normal"
+    },
+    {
+      "id": "P02",
+      "status": "standby",
+      "fault": "normal"
+    },
+    {
+      "id": "P03",
+      "status": "running",
+      "fault": "normal"
+    }
+  ]
+}

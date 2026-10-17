@@ -1,0 +1,140 @@
+{
+  "checks": [
+    {
+      "name": "isolated production backend, real database and same-origin browser WebSocket ready",
+      "detail": {
+        "ready": true,
+        "core_ready": true,
+        "degraded": false,
+        "demo_enabled": true,
+        "checked_at": "2026-10-04T13:41:12.092642+00:00",
+        "database": {
+          "available": true,
+          "status": "ready",
+          "message": "数据库只读检查通过"
+        },
+        "websocket": {
+          "available": true,
+          "status": "ready",
+          "message": "服务端实时发布任务运行中；浏览器连接须由客户端确认",
+          "active_connections": 1,
+          "publisher_running": true,
+          "path": "/ws/realtime"
+        },
+        "anomaly_model": {
+          "available": true,
+          "status": "ready",
+          "message": "设备异常模型已加载",
+          "model": "Isolation Forest",
+          "version": "pump-if-m3-v1"
+        },
+        "risk_model": {
+          "available": true,
+          "status": "ready",
+          "message": "六个风险模型已加载并校验",
+          "model": "XGBoost",
+          "model_count": 6,
+          "dataset_size": 60000
+        },
+        "pipeline_graph": {
+          "available": true,
+          "status": "ready",
+          "message": "数据库管网拓扑有效",
+          "node_count": 34,
+          "edge_count": 32,
+          "valve_count": 10,
+          "device_count": 3,
+          "validation": {
+            "nodeCount": 34,
+            "edgeCount": 32,
+            "isolatedNodes": [],
+            "invalidEdges": [],
+            "duplicateIds": [],
+            "sourceNodes": [
+              "FS-SOURCE-01",
+              "WS-SOURCE-01"
+            ],
+            "sinkNodes": [
+              "DS-OUTLET-01"
+            ]
+          },
+          "runtime_loaded": true
+        },
+        "backend": {
+          "available": true,
+          "status": "ready",
+          "message": "API 已响应",
+          "version": "1.0.0"
+        }
+      }
+    },
+    {
+      "name": "database stop/restore produces explicit 503 while realtime and UI continue",
+      "detail": {
+        "before": 2.023968554014573,
+        "after": 3.0362575260223816,
+        "recoveredAssets": 3,
+        "realtimeConnections": 1
+      }
+    },
+    {
+      "name": "real backend restart triggers browser disconnection, retained last frame and automatic single-stream reconnect",
+      "detail": {
+        "previousSession": "1df3618f-b4e4-4400-8513-45e6fb7c0412",
+        "retainedSession": "1df3618f-b4e4-4400-8513-45e6fb7c0412",
+        "newSession": "4cd40f76-c6b2-4faa-82e6-9bca087bead3",
+        "attempts": 4,
+        "realtimeConnections": 1
+      }
+    },
+    {
+      "name": "real missing model files retain physical prediction and render explicit UI fallback",
+      "detail": {
+        "riskModel": {
+          "available": false,
+          "status": "unavailable",
+          "message": "机器学习预测不可用；暴雨物理预测仍可运行",
+          "model": "XGBoost",
+          "model_count": 0,
+          "dataset_size": null
+        },
+        "anomalyModel": {
+          "available": false,
+          "status": "unavailable",
+          "message": "设备异常模型不可用；设备观测与健康规则保留",
+          "model": "Isolation Forest",
+          "version": null
+        },
+        "physicalForecastPoints": 3,
+        "mlForecastPoints": 0
+      }
+    },
+    {
+      "name": "restoring original model paths recovers readiness and preserves interrupted incident as ABORTED",
+      "detail": {
+        "ready": true,
+        "activeConnections": 1,
+        "interruptedScenario": "b0025cec-efc2-462c-91c6-d9fb9bf41af0"
+      }
+    }
+  ],
+  "errors": [],
+  "expectedOutageErrors": [
+    "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    "WebSocket connection to 'ws://127.0.0.1:15173/ws/realtime' failed: Connection closed before receiving a handshake response",
+    "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    "WebSocket connection to 'ws://127.0.0.1:15173/ws/realtime' failed: Connection closed before receiving a handshake response",
+    "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    "WebSocket connection to 'ws://127.0.0.1:15173/ws/realtime' failed: Connection closed before receiving a handshake response",
+    "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    "WebSocket connection to 'ws://127.0.0.1:15173/ws/realtime' failed: Connection closed before receiving a handshake response"
+  ],
+  "environment": {
+    "databasePort": 15433,
+    "backendPort": 18000,
+    "frontendPort": 15173,
+    "modelMutation": "separate empty temporary directory; original model files untouched"
+  },
+  "passed": true,
+  "cleanedIsolatedContainer": true
+}

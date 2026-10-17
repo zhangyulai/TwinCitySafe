@@ -1,0 +1,83 @@
+{
+  "scope": "Local deterministic Replay Store fixtures; no simulator control or fabricated historical evidence.",
+  "checks": {
+    "normal": {
+      "water": 5,
+      "risk": 20,
+      "entrance": false,
+      "pump": "standby",
+      "efficiency": 0.75,
+      "valve": "open",
+      "percentage": 100,
+      "historyAreaAbsent": true,
+      "renderArea": 1500
+    },
+    "boundary": {
+      "entrance": true,
+      "pump": "running",
+      "valve": "closed"
+    },
+    "singleRAF": 1,
+    "speed": 5,
+    "atEnd": {
+      "time": 10,
+      "playing": false,
+      "pending": 0
+    },
+    "restarted": 0,
+    "pausePending": 0,
+    "gap": {
+      "water": 2,
+      "risk": 20,
+      "active": true,
+      "originalTime": "2026-10-04T00:00:10.000Z"
+    },
+    "gapEnd": 30,
+    "switching": {
+      "count": 1,
+      "noFlood": true,
+      "time": 0,
+      "paused": true
+    },
+    "sparse": {
+      "times": [
+        0,
+        10,
+        20
+      ],
+      "explicitNull": null,
+      "deviceStatus": "standby"
+    },
+    "sparseMid": {
+      "water": 21,
+      "explicitNull": null
+    },
+    "halfSpeed": 0.5,
+    "stopAtStart": {
+      "time": 0,
+      "playing": false
+    },
+    "arrayByID": {
+      "ids": [
+        "A",
+        "B"
+      ],
+      "flows": [
+        20,
+        30
+      ],
+      "states": [
+        "normal",
+        "normal"
+      ]
+    },
+    "futureNotBorrowed": true,
+    "disposed": {
+      "snapshots": 0,
+      "playing": false,
+      "pending": 0
+    },
+    "liveUnchanged": true
+  },
+  "errors": []
+}

@@ -1,0 +1,14 @@
+import type {FloodRiskLevel} from './flood';
+export interface PredictionPoint {minute:number;waterLevel:number;riskScore:number;riskLevel:FloodRiskLevel}
+export interface ModelMetric {mae:number;rmse:number;r2:number;risk_level_accuracy?:number}
+export interface RiskModelStatus {available:boolean;model:string;version:string|null;featureVersion:string|null;trainedAt:string|null;datasetSize:number;scenarioCounts:Record<string,number>;metrics:Record<string,ModelMetric>;message:string;averageInferenceMs?:number|null;storageAvailable?:boolean;storageMessage?:string}
+export interface Comparison {minute:number;waterGap:number;riskGap:number;agreement:'high'|'medium'|'low'}
+export interface RiskPrediction {id:string;scenarioId:string|null;sessionId:string;basedOnRevision:number;simulationTime:number;generatedAt:string;current:{waterLevel:number;riskScore:number;riskLevel:FloodRiskLevel};physicalForecast:PredictionPoint[];mlForecast:PredictionPoint[];comparison:Comparison[];modelStatus:RiskModelStatus;inferenceMs:number;cacheHit:boolean;assumption:string}
+export interface PredictionExplanation {available:boolean;method:'native_tree_shap'|'importance_deviation'|'unavailable';minutes:number;scenarioId?:string;simulationTime?:number;generatedAt?:string;baseValue?:number|null;rawPrediction?:number;latencyMs?:number;message:string;otherContribution?:number;topFeatures:{feature:string;label:string;value:number;contribution:number;share:number}[]}
+export interface PredictionEvaluation {samples:number;waterMae:number|null;riskMae:number|null;physicalWaterMae:number|null;physicalRiskMae:number|null;pending:number;source:string;message:string}
+const object=(x:unknown):x is Record<string,unknown>=>!!x&&typeof x==='object'&&!Array.isArray(x);
+const finite=(x:unknown):x is number=>typeof x==='number'&&Number.isFinite(x);
+export function validPrediction(value:unknown):value is RiskPrediction {
+ if(!object(value)||!object(value.current)||!object(value.modelStatus))return false;
+ return typeof value.id==='string'&&typeof value.sessionId==='string'&&(value.scenarioId===null||typeof value.scenarioId==='string')&&finite(value.simulationTime)&&finite(value.basedOnRevision)&&finite(value.inferenceMs)&&typeof value.generatedAt==='string'&&typeof value.assumption==='string'&&typeof value.modelStatus.available==='boolean'&&finite(value.current.waterLevel)&&finite(value.current.riskScore)&&['physicalForecast','mlForecast'].every(key=>Array.isArray(value[key])&&value[key].every(p=>object(p)&&finite(p.minute)&&finite(p.waterLevel)&&finite(p.riskScore)&&['low','general','elevated','high','extreme'].includes(String(p.riskLevel))))&&Array.isArray(value.comparison)&&value.comparison.every(p=>object(p)&&finite(p.minute)&&finite(p.waterGap)&&finite(p.riskGap)&&['high','medium','low'].includes(String(p.agreement)));
+}

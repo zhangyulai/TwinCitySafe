@@ -1,0 +1,331 @@
+{
+  "checks": [
+    {
+      "name": "app connects once, REST and WebSocket share state, Dashboard renders live simulation",
+      "detail": {
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "performance": {
+          "frames": 70,
+          "averageFPS": 31.578472504172872
+        }
+      }
+    },
+    {
+      "name": "Dashboard timestamp and P03 telemetry refresh"
+    },
+    {
+      "name": "Cloudy reduces actual scene lighting",
+      "detail": {
+        "clear": {
+          "sun": 2.4,
+          "ambient": 0.8,
+          "hemisphere": 1.5
+        },
+        "cloudy": {
+          "sun": 1.979941411055376,
+          "ambient": 0.7339907931658448,
+          "hemisphere": 1.3799832603015363
+        }
+      }
+    },
+    {
+      "name": "Clear / Cloudy / Rain controls reach scene and create rain particles",
+      "detail": {
+        "earlyRainfall": 0,
+        "laterRainfall": 4.037505556595032,
+        "particles": 153,
+        "performance": {
+          "frames": 70,
+          "averageFPS": 31.58132190390255
+        }
+      }
+    },
+    {
+      "name": "P01 / P02 controls and P03 Running / Warning / Offline update UI and existing Three.js materials",
+      "detail": {
+        "running": {
+          "id": "P03",
+          "name": "P03 主排水泵",
+          "fault": "normal",
+          "runtimeHours": 4160.83690203461,
+          "analysis": {
+            "healthScore": 94.73981592759723,
+            "healthGrade": "优秀",
+            "healthTarget": 94.73981592759723,
+            "modelAvailable": true,
+            "modelVersion": "pump-if-m3-v1",
+            "evaluated": false,
+            "anomalyScore": null,
+            "rawScore": null,
+            "isAnomaly": false,
+            "level": "not_applicable",
+            "contributions": [],
+            "explanation": "设备待机、离线或启动过渡中，运行工况异常模型暂不评估。",
+            "advice": {
+              "priority": "P3",
+              "title": "计划维护",
+              "message": "建议确认设备状态，按计划检查备用泵；进入稳定运行后再评估。"
+            },
+            "activeAlarmId": null
+          },
+          "status": "running",
+          "temperature": 41.83146390565245,
+          "vibration": 1.759052808630882,
+          "current": 16.389974290182035,
+          "rpm": 1264.851374292454,
+          "efficiency": 88.19110499093875,
+          "health": 94.73981592759723,
+          "color": "#52b890",
+          "emissive": "#52b890",
+          "emissiveIntensity": 0.24,
+          "visible": false,
+          "pulseVisible": false,
+          "screen": {
+            "x": 927.4219247791744,
+            "y": 708.2544910299966
+          }
+        },
+        "warning": {
+          "id": "P03",
+          "name": "P03 主排水泵",
+          "fault": "normal",
+          "runtimeHours": 4160.83661876691,
+          "analysis": {
+            "healthScore": 94.72471973885081,
+            "healthGrade": "优秀",
+            "healthTarget": 95.83916338123309,
+            "modelAvailable": true,
+            "modelVersion": "pump-if-m3-v1",
+            "evaluated": true,
+            "anomalyScore": 0.02,
+            "rawScore": 0.3804240079430475,
+            "isAnomaly": false,
+            "level": "normal",
+            "contributions": [
+              {
+                "feature": "vibration",
+                "label": "振动",
+                "deviation": 0,
+                "contribution": 0
+              },
+              {
+                "feature": "temperature",
+                "label": "温度",
+                "deviation": 0,
+                "contribution": 0
+              },
+              {
+                "feature": "efficiency",
+                "label": "效率",
+                "deviation": 0,
+                "contribution": 0
+              },
+              {
+                "feature": "current",
+                "label": "电流",
+                "deviation": 0,
+                "contribution": 0
+              },
+              {
+                "feature": "rpm",
+                "label": "转速",
+                "deviation": 0,
+                "contribution": 0
+              }
+            ],
+            "explanation": "当前参数接近正常运行基线。贡献比例来自偏离度分析，不代表模型因果归因。",
+            "advice": {
+              "priority": "P3",
+              "title": "计划维护",
+              "message": "设备运行参数接近正常基线，建议按计划维护。"
+            },
+            "activeAlarmId": null
+          },
+          "status": "warning",
+          "temperature": 42.235224388029934,
+          "vibration": 1.8368101553681417,
+          "current": 18.123123605603492,
+          "rpm": 1456.392785404102,
+          "efficiency": 96.10434997054038,
+          "health": 94.72471973885081,
+          "color": "#d59547",
+          "emissive": "#d59547",
+          "emissiveIntensity": 0.2971029624472087,
+          "visible": false,
+          "pulseVisible": true,
+          "screen": {
+            "x": 927.4219247791744,
+            "y": 708.2544910299966
+          }
+        },
+        "offline": {
+          "id": "P03",
+          "name": "P03 主排水泵",
+          "fault": "normal",
+          "runtimeHours": 4160.83690203461,
+          "analysis": {
+            "healthScore": 94.73981592759723,
+            "healthGrade": "优秀",
+            "healthTarget": 95.02840425928085,
+            "modelAvailable": true,
+            "modelVersion": "pump-if-m3-v1",
+            "evaluated": true,
+            "anomalyScore": 0.0740764237042498,
+            "rawScore": 0.6014152596439091,
+            "isAnomaly": false,
+            "level": "normal",
+            "contributions": [
+              {
+                "feature": "vibration",
+                "label": "振动",
+                "deviation": 0,
+                "contribution": 0
+              },
+              {
+                "feature": "temperature",
+                "label": "温度",
+                "deviation": 0,
+                "contribution": 0
+              },
+              {
+                "feature": "efficiency",
+                "label": "效率",
+                "deviation": 0,
+                "contribution": 0
+              },
+              {
+                "feature": "current",
+                "label": "电流",
+                "deviation": 0,
+                "contribution": 0
+              },
+              {
+                "feature": "rpm",
+                "label": "转速",
+                "deviation": 0,
+                "contribution": 0
+              }
+            ],
+            "explanation": "当前参数接近正常运行基线。贡献比例来自偏离度分析，不代表模型因果归因。",
+            "advice": {
+              "priority": "P3",
+              "title": "计划维护",
+              "message": "设备运行参数接近正常基线，建议按计划维护。"
+            },
+            "activeAlarmId": null
+          },
+          "status": "offline",
+          "temperature": 42.690424913858436,
+          "vibration": 1.9973798447196978,
+          "current": 18.61058641449413,
+          "rpm": 1436.2210328091935,
+          "efficiency": 94.83250727229427,
+          "health": 94.73981592759723,
+          "color": "#687887",
+          "emissive": "#687887",
+          "emissiveIntensity": 0,
+          "visible": false,
+          "pulseVisible": false,
+          "screen": {
+            "x": 927.4219247791744,
+            "y": 708.2544910299966
+          }
+        }
+      }
+    },
+    {
+      "name": "water surface height follows continuous B2 water level",
+      "detail": {
+        "before": {
+          "level": 0.8148944649691062,
+          "y": -5.664851055350309
+        },
+        "after": {
+          "level": 0.8182775619653627,
+          "y": -5.6648172243803465
+        }
+      }
+    },
+    {
+      "name": "30 consecutive live updates keep geometry/texture/canvas identity stable and data continuous",
+      "detail": {
+        "states": 30,
+        "meanIntervalMs": 1002.1482758619662,
+        "geometries": 33,
+        "textures": 1
+      }
+    },
+    {
+      "name": "underground real pipeline raycast opens pressure/flow details that update live",
+      "detail": {
+        "id": "DS-001"
+      }
+    },
+    {
+      "name": "three route reentries retain one global WebSocket and one scene canvas"
+    },
+    {
+      "name": "Stop freezes, Reset restores baseline, Start resumes through UI"
+    },
+    {
+      "name": "1440 desktop, bounded developer panel, 2× speed control and default restoration",
+      "detail": {
+        "layout": {
+          "viewport": 1440,
+          "scrollWidth": 1440
+        },
+        "controls": {
+          "x": 1070,
+          "y": 230,
+          "width": 340,
+          "height": 494.375
+        },
+        "changedSpeed": 2,
+        "restoredSpeed": 1,
+        "screenshot": "/tmp/m5-m2/M2-1440.png"
+      }
+    },
+    {
+      "name": "offline retains data, disconnected indicator and delayed retries; reconnect recovers one stream",
+      "detail": {
+        "attempts": 3,
+        "firstRetryDelayMs": 1036.9000000059605,
+        "retryGapsMs": [
+          2143.7999999970198,
+          5122.29999999702
+        ]
+      }
+    }
+  ],
+  "screenshots": [
+    "/tmp/m5-m2/M2-clear.png",
+    "/tmp/m5-m2/M2-rain.png",
+    "/tmp/m5-m2/M2-underground.png",
+    "/tmp/m5-m2/M2-1440.png"
+  ],
+  "errors": [],
+  "warnings": [
+    "[.WebGL-0x26dc00cf2000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x26dc00cf2000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x26dc00cf2000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x26dc00cf2000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "expectedOutageErrors": [
+    "Failed to load resource: net::ERR_INTERNET_DISCONNECTED",
+    "WebSocket connection to 'ws://127.0.0.1:5173/ws/realtime' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED",
+    "Failed to load resource: net::ERR_INTERNET_DISCONNECTED",
+    "WebSocket connection to 'ws://127.0.0.1:5173/ws/realtime' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED",
+    "Failed to load resource: net::ERR_INTERNET_DISCONNECTED",
+    "WebSocket connection to 'ws://127.0.0.1:5173/ws/realtime' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED"
+  ],
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "clearPerformance": {
+    "frames": 70,
+    "averageFPS": 31.578472504172872
+  },
+  "rainPerformance": {
+    "frames": 70,
+    "averageFPS": 31.58132190390255
+  },
+  "performanceEnvironment": "Headless software rendering; the >45 FPS desktop GPU target is not established by this run"
+}

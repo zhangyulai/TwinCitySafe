@@ -1,0 +1,11 @@
+{
+  "scope": "Local store fixtures; physics and network are tested separately.",
+  "cap": 1800,
+  "paused": 1800,
+  "expired": 1,
+  "switched": 1,
+  "retained": 2,
+  "session": 1,
+  "reset": 0,
+  "errors": []
+}

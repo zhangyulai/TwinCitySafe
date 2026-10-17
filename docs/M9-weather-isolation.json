@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "legacy": "7e84cb63-49f4-5ebe-b26c-22f9086c1035",
+  "flood": "fdf4ffe4-caee-56c2-9769-93b4c65c6ec8",
+  "neutral": {
+    "sun": 2.4,
+    "ambient": 0.8,
+    "hemisphere": 1.5
+  },
+  "wet": {
+    "sun": 1.0272727272727282,
+    "ambient": 0.5690909090909094,
+    "hemisphere": 1.1
+  },
+  "after": {
+    "sun": 2.4,
+    "ambient": 0.8,
+    "hemisphere": 1.5
+  },
+  "errors": []
+}

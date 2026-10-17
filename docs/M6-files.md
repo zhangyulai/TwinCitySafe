@@ -1,0 +1,68 @@
+# M6 文件清单
+
+## 新增
+
+- [algorithm/risk_prediction/__init__.py](../algorithm/risk_prediction/__init__.py)
+- [algorithm/risk_prediction/benchmark.py](../algorithm/risk_prediction/benchmark.py)
+- [algorithm/risk_prediction/config.py](../algorithm/risk_prediction/config.py)
+- [algorithm/risk_prediction/data/metadata.json](../algorithm/risk_prediction/data/metadata.json)
+- [algorithm/risk_prediction/data/sample.csv](../algorithm/risk_prediction/data/sample.csv)
+- [algorithm/risk_prediction/dataset.py](../algorithm/risk_prediction/dataset.py)
+- [algorithm/risk_prediction/evaluate.py](../algorithm/risk_prediction/evaluate.py)
+- [algorithm/risk_prediction/features.py](../algorithm/risk_prediction/features.py)
+- [algorithm/risk_prediction/generate_dataset.py](../algorithm/risk_prediction/generate_dataset.py)
+- [algorithm/risk_prediction/inference.py](../algorithm/risk_prediction/inference.py)
+- [algorithm/risk_prediction/models/metadata.json](../algorithm/risk_prediction/models/metadata.json)
+- [algorithm/risk_prediction/models/risk_10m.json](../algorithm/risk_prediction/models/risk_10m.json)
+- [algorithm/risk_prediction/models/risk_20m.json](../algorithm/risk_prediction/models/risk_20m.json)
+- [algorithm/risk_prediction/models/risk_30m.json](../algorithm/risk_prediction/models/risk_30m.json)
+- [algorithm/risk_prediction/models/water_10m.json](../algorithm/risk_prediction/models/water_10m.json)
+- [algorithm/risk_prediction/models/water_20m.json](../algorithm/risk_prediction/models/water_20m.json)
+- [algorithm/risk_prediction/models/water_30m.json](../algorithm/risk_prediction/models/water_30m.json)
+- [algorithm/risk_prediction/reports/dataset_report.json](../algorithm/risk_prediction/reports/dataset_report.json)
+- [algorithm/risk_prediction/reports/feature_importance.json](../algorithm/risk_prediction/reports/feature_importance.json)
+- [algorithm/risk_prediction/reports/metrics.json](../algorithm/risk_prediction/reports/metrics.json)
+- [algorithm/risk_prediction/reports/performance.json](../algorithm/risk_prediction/reports/performance.json)
+- [algorithm/risk_prediction/reports/training_trials.json](../algorithm/risk_prediction/reports/training_trials.json)
+- [algorithm/risk_prediction/simulation.py](../algorithm/risk_prediction/simulation.py)
+- [algorithm/risk_prediction/train.py](../algorithm/risk_prediction/train.py)
+- [backend/app/api/risk.py](../backend/app/api/risk.py)
+- [backend/app/models/risk_prediction.py](../backend/app/models/risk_prediction.py)
+- [backend/app/services/prediction_evaluation_service.py](../backend/app/services/prediction_evaluation_service.py)
+- [backend/app/services/risk_prediction_service.py](../backend/app/services/risk_prediction_service.py)
+- [backend/migrations/versions/b655e1756d27_risk_prediction.py](../backend/migrations/versions/b655e1756d27_risk_prediction.py)
+- [backend/tests/test_risk.py](../backend/tests/test_risk.py)
+- [frontend/scripts/verify-risk.cjs](../frontend/scripts/verify-risk.cjs)
+- [frontend/src/api/risk.ts](../frontend/src/api/risk.ts)
+- [frontend/src/composables/useRiskPrediction.ts](../frontend/src/composables/useRiskPrediction.ts)
+- [frontend/src/types/risk.ts](../frontend/src/types/risk.ts)
+- [frontend/src/views/Risk/components/PredictionCharts.vue](../frontend/src/views/Risk/components/PredictionCharts.vue)
+- [frontend/src/views/Risk/risk.css](../frontend/src/views/Risk/risk.css)
+
+## 修改
+
+- [.gitignore](../.gitignore)
+- [README.md](../README.md)
+- [backend/requirements.txt](../backend/requirements.txt)
+- [backend/requirements.lock.txt](../backend/requirements.lock.txt)
+- [backend/app/main.py](../backend/app/main.py)
+- [backend/app/models/__init__.py](../backend/app/models/__init__.py)
+- [backend/app/services/realtime_service.py](../backend/app/services/realtime_service.py)
+- [frontend/src/views/Risk/index.vue](../frontend/src/views/Risk/index.vue)
+- [frontend/src/views/Dashboard/index.vue](../frontend/src/views/Dashboard/index.vue)
+- [frontend/src/components/digital-twin/DigitalTwinScene.vue](../frontend/src/components/digital-twin/DigitalTwinScene.vue)
+- [frontend/src/three/index.ts](../frontend/src/three/index.ts)
+- [frontend/src/views/Operation/components/ChartCanvas.vue](../frontend/src/views/Operation/components/ChartCanvas.vue)
+- [frontend/src/App.vue](../frontend/src/App.vue)
+- [frontend/package.json](../frontend/package.json)
+- [frontend/scripts/verify-web3d.cjs](../frontend/scripts/verify-web3d.cjs)
+- [frontend/scripts/verify-realtime.cjs](../frontend/scripts/verify-realtime.cjs)
+- [frontend/scripts/verify-operation.cjs](../frontend/scripts/verify-operation.cjs)
+- [frontend/scripts/verify-pipeline.cjs](../frontend/scripts/verify-pipeline.cjs)
+- [frontend/scripts/verify-flood.cjs](../frontend/scripts/verify-flood.cjs)
+
+- [frontend/scripts/verify-flood-state.cjs](../frontend/scripts/verify-flood-state.cjs)
+
+## 生成物
+
+完整 training.npz 已生成、纳入 .gitignore，不作为必须提交的大数据文件。M6架构、模型报告、验收、截图和回归JSON位于本目录，旧M1–M5验收记录保留。

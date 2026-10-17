@@ -1,0 +1,153 @@
+{
+  "voice": "zh-CN-XiaoxiaoNeural (standard synthetic voice)",
+  "timing": "TTS word boundaries aligned to actual recorded UI events",
+  "subtitleCount": 66,
+  "cues": [
+    {
+      "id": "intro",
+      "start": 0.001,
+      "end": 12.939666666666666,
+      "tempo": 1.0,
+      "text": "欢迎体验孪城智安。接下来，通过真实页面操作，展示从监测、预测，到推演、处置和历史复盘的安全闭环。请跟随画面中的黄色鼠标。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "flood",
+      "start": 15.002,
+      "end": 29.71666666666667,
+      "tempo": 1.0,
+      "text": "首先，选择暴雨内涝，点击启动演示。系统以十倍仿真速度运行，降雨、水位和设备状态持续更新。拖动三维场景，可以从不同角度观察园区和地下车库。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "operation",
+      "start": 40,
+      "end": 53.970666666666666,
+      "tempo": 1.0,
+      "text": "现在点击智慧运维，查看三号排水泵。随着轴承退化，温度、振动和效率发生变化。右侧展示健康与异常判断，下方趋势记录设备实际运行过程。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "risk",
+      "start": 65.001,
+      "end": 77.41166666666668,
+      "tempo": 1.0,
+      "text": "进入风险研判。右侧分别展示未来十分钟、二十分钟和三十分钟的水位与风险预测。下方因素解释，说明模型主要参考了哪些输入。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "risk_compare",
+      "start": 84,
+      "end": 92.71466666666666,
+      "tempo": 1.0,
+      "text": "这里对照物理模型和机器学习预测。预测差异会明确展示，模型一致度不代表统计置信度。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "risk_charts",
+      "start": 94.002,
+      "end": 105.14066666666666,
+      "tempo": 1.0,
+      "text": "向下滚动，两张图分别展示水位与风险。实线记录已发生的变化，虚线和点线表示未来预测，避免混淆观测与推测。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "emergency",
+      "start": 109.001,
+      "end": 120.09166666666667,
+      "tempo": 1.0,
+      "text": "回到应急推演，先暂停时钟，再点击方案比较。基线与三个候选方案从同一状态出发，比较未来水位、风险和资源需求。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "executed",
+      "start": 134.9,
+      "end": 142.46266666666668,
+      "tempo": 1.0,
+      "text": "选择并确认方案乙后，备用泵逐步启动。排水增强，并不表示积水立即消失。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "switch",
+      "start": 150.001,
+      "end": 155.69166666666666,
+      "tempo": 1.0,
+      "text": "现在重置演示，切换到泄漏场景。本次演练记录会保留。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "leak",
+      "start": 158.001,
+      "end": 170.38766666666666,
+      "tempo": 1.0,
+      "text": "选择管网泄漏并启动。地下视图展示管段和阀门，压力与流量持续变化。系统结合观测和拓扑关系，逐步形成疑似泄漏管段排名。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "leak_details",
+      "start": 181,
+      "end": 190.09866666666667,
+      "tempo": 1.0,
+      "text": "左侧给出疑似位置和受影响建筑，右侧显示观测值与规则风险。定位排名会随当前数据更新。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "isolate",
+      "start": 197.009,
+      "end": 207.66766666666666,
+      "tempo": 1.0,
+      "text": "异常确认后，先暂停，再比较阀门隔离候选。选择三号阀门对应的方案，确认执行，然后继续时钟，观察真实响应。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "isolated",
+      "start": 212.85,
+      "end": 221.97266666666667,
+      "tempo": 1.0,
+      "text": "隔离后，泄漏流量逐步衰减。科研楼和实验楼的供水影响仍然保留，泄漏受控并不等于恢复供水。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "archive",
+      "start": 238.007,
+      "end": 243.43366666666668,
+      "tempo": 1.0,
+      "text": "重置恢复正常监测。下面查看已关闭事故的历史档案。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "review_flood",
+      "start": 245,
+      "end": 258.77866666666665,
+      "tempo": 1.0,
+      "text": "进入事件复盘，选择已关闭的暴雨档案。点击峰值节点，并以五倍速度播放。三维水位、历史风险和时间轴同步变化，回放不会改变当前实时状态。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "review_chart",
+      "start": 266.592,
+      "end": 270.74666666666667,
+      "tempo": 1.0,
+      "text": "历史曲线支持追溯事故变化和处置节点。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "review_leak",
+      "start": 272.001,
+      "end": 284.0516666666666,
+      "tempo": 1.0,
+      "text": "切换到已关闭的泄漏档案，回放隔离过程。历史阀门状态与供水影响一并保留。继续向下，可以查看工单、关闭说明和事故报告。",
+      "subtitlesExactlyMatch": true
+    },
+    {
+      "id": "ending",
+      "start": 293.001,
+      "end": 299.0996666666666,
+      "tempo": 1.0,
+      "text": "孪城智安，让安全状态可视、风险趋势可判、处置过程可追溯。",
+      "subtitlesExactlyMatch": true
+    }
+  ],
+  "pointerSamples": 100,
+  "allPointerSamplesVisible": true
+}

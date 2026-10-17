@@ -1,0 +1,20 @@
+[
+  {
+    "max_depth": 4,
+    "water_30m_validation_rmse": 0.8576746582984924,
+    "risk_30m_validation_rmse": 1.7191182374954224,
+    "selection_score": 0.06374718226809496
+  },
+  {
+    "max_depth": 6,
+    "water_30m_validation_rmse": 0.8964669108390808,
+    "risk_30m_validation_rmse": 2.4140408039093018,
+    "selection_score": 0.08095005134835256
+  },
+  {
+    "max_depth": 8,
+    "water_30m_validation_rmse": 0.9495739340782166,
+    "risk_30m_validation_rmse": 2.8330605030059814,
+    "selection_score": 0.0921496098750739
+  }
+]

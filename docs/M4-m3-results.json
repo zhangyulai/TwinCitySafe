@@ -1,0 +1,62 @@
+{
+  "checks": [
+    {
+      "name": "default P03, one reused scene, one socket, Health and live model",
+      "detail": {
+        "fps": 60.00180456555085
+      }
+    },
+    {
+      "name": "asset search, type/status filters, P01 standby exclusion and list-to-camera focus"
+    },
+    {
+      "name": "all four trend tabs, real 1h/6h/24h storage queries, bounded history and persistent chart canvas"
+    },
+    {
+      "name": "bearing deterioration drives real IF score, lower HI, red pulse, P0 advice and one stable scene",
+      "detail": {
+        "temperature": 66.11848204431249,
+        "vibration": 5.181273096284358,
+        "health": 57.63794602346073,
+        "score": 0.9118174668771567,
+        "geometries": 62,
+        "textures": 0,
+        "fps": 60.00451161741484
+      }
+    },
+    {
+      "name": "Dashboard warning/count and deep link, shared socket, repeated samples deduplicate active alarm"
+    },
+    {
+      "name": "Normal recovers progressively, clears the SAME persisted alarm and stops pulse",
+      "detail": {
+        "health": 95.59954140555324,
+        "score": 0.023636911133567605
+      }
+    },
+    {
+      "name": "1440 layout and developer controls fit; reset restores baseline"
+    },
+    {
+      "name": "operation unmount disposes all charts/scene; repeated entry retains one realtime connection"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "[.WebGL-0x3b34000f8400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x3b34000f8400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x3b34000f8400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x3b34000f8400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "screenshots": [
+    "/tmp/m4-m3/M3-operation-normal.png",
+    "/tmp/m4-m3/M3-operation-fault.png",
+    "/tmp/m4-m3/M3-dashboard-alarm.png",
+    "/tmp/m4-m3/M3-operation-1440.png"
+  ],
+  "performance": {
+    "normalFPS": 60.00180456555085,
+    "faultFPS": 60.00451161741484
+  },
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+}

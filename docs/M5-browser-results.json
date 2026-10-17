@@ -1,0 +1,84 @@
+{
+  "checks": [
+    {
+      "name": "software confirmation, one realtime source, demo start and B2 camera guidance",
+      "detail": {
+        "initialWater": 0.7929473540979775,
+        "initialRain": 8.774460022617259,
+        "initialRisk": 11.458324743506367
+      }
+    },
+    {
+      "name": "ramped weather, real P03 fault, coupled water balance and expanding surface",
+      "detail": {
+        "rainfall": 65.12207753850603,
+        "efficiency": 76.00522248637053,
+        "water": 2.7952554988739315,
+        "risk": 38.06878339421829
+      }
+    },
+    {
+      "name": "high-risk heatmap/pulse, one escalating alarm and stable resources over >10 simulated minutes",
+      "detail": {
+        "water": 12.312879361249255,
+        "risk": 65.84752259523722,
+        "resources": {
+          "geometry": 100,
+          "material": 95,
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "30-minute completion freezes evolution without recovery; 10/20/30 forecast changes without state mutation",
+      "detail": {
+        "water": 25.88764057926071,
+        "risk": 82.79999999999986,
+        "forecast": [
+          {
+            "minute": 10,
+            "waterLevel": 36.147640579260916,
+            "waterArea": 1500,
+            "riskScore": 82.8,
+            "riskLevel": "extreme"
+          },
+          {
+            "minute": 20,
+            "waterLevel": 46.407640579261134,
+            "waterArea": 1500,
+            "riskScore": 82.8,
+            "riskLevel": "extreme"
+          },
+          {
+            "minute": 30,
+            "waterLevel": 56.667640579261345,
+            "waterArea": 1500,
+            "riskScore": 82.8,
+            "riskLevel": "extreme"
+          }
+        ],
+        "fps": 30
+      }
+    },
+    {
+      "name": "four trend tabs, Dashboard scenario risk, actual database snapshots, 1440 layout and one socket",
+      "detail": {
+        "snapshots": 39
+      }
+    },
+    {
+      "name": "reset clears live incident/history and restores normal pumps while retaining snapshots and 32 pipeline assets"
+    }
+  ],
+  "errors": [],
+  "performance": {
+    "floodFPS": 30
+  },
+  "screenshots": [
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M5-simulation-normal.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M5-flood-developing.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M5-flood-extreme.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M5-dashboard-flood.png",
+    "/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/docs/M5-flood-1440.png"
+  ]
+}

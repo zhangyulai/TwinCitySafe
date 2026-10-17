@@ -1,0 +1,8 @@
+{
+  "buffered": 300,
+  "expired": 0,
+  "retainedDevice": "P03",
+  "modelMissingUI": true,
+  "errors": [],
+  "scope": "Local valid state fixtures; actual missing-file inference is tested in pytest."
+}

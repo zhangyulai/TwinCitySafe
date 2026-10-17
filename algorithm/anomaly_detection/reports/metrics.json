@@ -1,0 +1,43 @@
+{
+  "model_version": "pump-if-m3-v1",
+  "sklearn_version": "1.9.1",
+  "training_samples": 10000,
+  "training_seed": 42,
+  "evaluation_seed": 20261002,
+  "evaluation_samples": 3564,
+  "precision": 0.9676357652221613,
+  "recall": 1.0,
+  "f1": 0.9835517145246724,
+  "confusion_matrix": [
+    [
+      1741,
+      59
+    ],
+    [
+      0,
+      1764
+    ]
+  ],
+  "normal_false_positive_rate": 0.03277777777777778,
+  "per_fault": {
+    "bearing_degradation": {
+      "samples": 588,
+      "recall": 1.0
+    },
+    "overheat": {
+      "samples": 588,
+      "recall": 1.0
+    },
+    "low_efficiency": {
+      "samples": 588,
+      "recall": 1.0
+    }
+  },
+  "threshold": 0.6,
+  "calibration": {
+    "median": 0.44337252270160266,
+    "cutoff": 0.5490641694958277
+  },
+  "scope": "Synthetic held-out trajectories with independent seeds; fault labels start at 45 simulated seconds. Not production generalization.",
+  "score_semantics": "Monotone normalized Isolation Forest score; not failure probability. UI additionally smooths over time."
+}

@@ -1,0 +1,10 @@
+{
+  "checks": [],
+  "cycles": [],
+  "layouts": [],
+  "screenshots": [],
+  "errors": [],
+  "warnings": [],
+  "currentRoute": "dashboard",
+  "failure": "page.waitForFunction: Timeout 30000ms exceeded.\n    at visit (/home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/frontend/scripts/verify-navigation.cjs:41:18)\n    at async /home/zyl/11-第十二届中国研究生智慧城市技术与创意设计大赛/TwinCitySafe/frontend/scripts/verify-navigation.cjs:54:7"
+}

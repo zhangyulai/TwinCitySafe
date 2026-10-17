@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "name": "32 assets, automatic underground, one socket, live detail and shader flow"
+    },
+    {
+      "name": "type/search filters, upstream/downstream/building impact, three computed isolation candidates"
+    },
+    {
+      "name": "real 2D edge/node clicks focus 3D; real 3D pipe click selects 2D"
+    },
+    {
+      "name": "valve close yields isolated geometry and smooth flow decline; reopening recovers",
+      "detail": {
+        "before": 28.090284777020138,
+        "first": 28.090284777020138,
+        "later": 4.699162891720409,
+        "recovered": 26.716373413931496
+      }
+    },
+    {
+      "name": "50 pipe selections preserve geometry/material/texture counts",
+      "detail": {
+        "before": {
+          "geometry": 67,
+          "material": 95,
+          "texture": 0
+        },
+        "after": {
+          "geometry": 67,
+          "material": 95,
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "1440 layout has no overflow; navigation disposes scenes/charts and retains one realtime socket"
+    }
+  ],
+  "errors": [],
+  "performance": {
+    "pipelineFPS": 34
+  },
+  "screenshots": [
+    "/tmp/m6-m4/M4-pipeline-options.png",
+    "/tmp/m6-m4/M4-valve-closed.png",
+    "/tmp/m6-m4/M4-pipeline-normal.png",
+    "/tmp/m6-m4/M4-pipeline-1440.png"
+  ]
+}

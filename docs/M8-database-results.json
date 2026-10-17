@@ -1,0 +1,70 @@
+{
+  "head": "f6f65d1e093a",
+  "scenarioId": "afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+  "eventId": "74e2dafe-7453-467c-a8a6-9976df9c6742",
+  "eventCount": 1,
+  "status": "reset",
+  "alarm": {
+    "id": "LEAK-afd0ab46-9e84-40a3-bee6-bb0c5f4f23f8",
+    "type": "PIPELINE_LEAK_CONFIRMED",
+    "status": "active",
+    "level": "low",
+    "peakDetectionScore": 0.8126950919020196,
+    "peakRisk": 63.570000974199665
+  },
+  "snapshots": 27,
+  "firstTime": 0.0,
+  "lastTime": 1167.3991553740295,
+  "comparisons": [
+    {
+      "id": "52e9f6fc-bc47-4f30-a7f3-3a6c903e66f8",
+      "stateHash": "da886cc41288c970766a5da6a83d92cd5939681e7c7c0b39c314d7d9d4950f89",
+      "execution": null
+    },
+    {
+      "id": "a69fd5f9-2ce7-4eda-be53-16a3abf2f80a",
+      "stateHash": "da886cc41288c970766a5da6a83d92cd5939681e7c7c0b39c314d7d9d4950f89",
+      "execution": null
+    },
+    {
+      "id": "7dae029b-f2df-47ad-88ee-5e2bcda7f1df",
+      "stateHash": "da886cc41288c970766a5da6a83d92cd5939681e7c7c0b39c314d7d9d4950f89",
+      "execution": {
+        "id": "8ca5cb16-ef6a-4952-b98c-eed7e455adfa",
+        "comparisonId": "7dae029b-f2df-47ad-88ee-5e2bcda7f1df",
+        "optionId": "option-1",
+        "valves": [
+          "V-W-03"
+        ],
+        "status": "applied",
+        "operator": "demo-user",
+        "timestamp": "2026-10-03T16:37:23.234244+00:00",
+        "affectedBuildings": [
+          {
+            "buildingId": "B-RESEARCH",
+            "buildingName": "科研楼 B",
+            "connectionNode": "WS-BC-02",
+            "criticality": "normal"
+          },
+          {
+            "buildingId": "C-LAB",
+            "buildingName": "实验楼 C",
+            "connectionNode": "WS-BC-03",
+            "criticality": "high"
+          }
+        ]
+      }
+    }
+  ],
+  "assets": {
+    "nodes": 34,
+    "edges": 32,
+    "valves": 10,
+    "emergencyTemplates": 3
+  },
+  "pumpRatings": {
+    "P01": 120.0,
+    "P02": 120.0,
+    "P03": 120.0
+  }
+}

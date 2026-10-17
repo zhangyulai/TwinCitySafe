@@ -1,0 +1,17 @@
+// Read-only real archived Flood -> sparse legacy Leak check. No simulation controls.
+const {chromium}=require('playwright');const assert=require('node:assert/strict');
+(async()=>{const browser=await chromium.launch({headless:true,executablePath:process.env.CHROME_PATH||'/opt/google/chrome/chrome'});try{
+ const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));const base=process.env.M9_BASE_URL||'http://127.0.0.1:5173';
+ const get=async url=>{const response=await page.request.get(base+'/api/v1/'+url);assert(response.ok());return response.json();};
+ const leaks=(await get('incidents?type=PIPELINE_LEAK&limit=100')).items;let legacy;
+ for(const row of leaks){const dto=await get(`incidents/${row.id}/replay`);if(dto.snapshots.length&&dto.snapshots.every(s=>!s.scene_state.weather)){legacy={incident:row,replay:dto};break;}}
+ assert(legacy,'Expected at least one factual legacy Leak archive with weather unrecorded');
+ const floods=(await get('incidents?type=FLOOD&limit=100')).items;let rainy;
+ for(const row of floods){const dto=await get(`incidents/${row.id}/replay`);const peak=dto.snapshots.reduce((best,s)=>(s.scene_state.weather?.rainfall??s.scene_state.flood?.rainfall??0)>(best?.scene_state.weather?.rainfall??best?.scene_state.flood?.rainfall??0)?s:best,null);if((peak?.scene_state.weather?.rainfall??peak?.scene_state.flood?.rainfall??0)>50){rainy={incident:row,peak};break;}}
+ assert(rainy,'Expected a stored high-rainfall Flood point');
+ await page.goto(base+'/review?incident='+legacy.incident.id);const ready=async id=>{await page.evaluate(async()=>{window.__legacyStore=(await import('/src/store/useReplayStore.ts')).useReplayStore()});await page.waitForFunction(id=>{const s=window.__legacyStore;return !s.loading&&s.incident?.id===id&&s.snapshots.length&&document.querySelector('[data-testid=twin-scene]')?.__twinDebug?.replay?.incidentId===id;},id)};
+ const debug=()=>page.getByTestId('twin-scene').evaluate(e=>e.__twinDebug);await ready(legacy.incident.id);const neutral=(await debug()).live.lighting;await page.getByTestId('twin-scene').evaluate(e=>window.__weatherAuditCanvas=e.querySelector('canvas'));
+ await page.evaluate(async id=>{await (await import('/src/store/useReplayStore.ts')).useReplayStore().select(id)},rainy.incident.id);await ready(rainy.incident.id);await page.getByTestId('replay-scrubber').evaluate((el,time)=>{el.value=String(time);el.dispatchEvent(new Event('input',{bubbles:true}));},rainy.peak.simulation_time);const wet=(await debug()).live.lighting;assert(wet.sun<neutral.sun);assert((await debug()).live.rainVisible);
+ await page.evaluate(async id=>{await (await import('/src/store/useReplayStore.ts')).useReplayStore().select(id)},legacy.incident.id);await ready(legacy.incident.id);const sparse=await debug();assert.equal(sparse.replay.state.weather,undefined);assert.equal(sparse.live.rainVisible,false);assert.equal(sparse.live.waterVisible,false);assert.deepEqual(sparse.live.lighting,neutral);assert(await page.getByTestId('twin-scene').evaluate(e=>e.querySelector('canvas')===window.__weatherAuditCanvas));assert.deepEqual(errors,[]);
+ console.log(JSON.stringify({pass:true,legacy:legacy.incident.id,flood:rainy.incident.id,neutral,wet,after:sparse.live.lighting,errors},null,2));
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1});

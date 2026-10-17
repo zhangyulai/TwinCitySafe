@@ -1,0 +1,68 @@
+[
+  {
+    "test": "web3d",
+    "exit_code": 0,
+    "seconds": 64.6,
+    "log": "/home/zyl/11-\u7b2c\u5341\u4e8c\u5c4a\u4e2d\u56fd\u7814\u7a76\u751f\u667a\u6167\u57ce\u5e02\u6280\u672f\u4e0e\u521b\u610f\u8bbe\u8ba1\u5927\u8d5b/TwinCitySafe/docs/M9-web3d-regression.log"
+  },
+  {
+    "test": "realtime",
+    "exit_code": 0,
+    "seconds": 76.47,
+    "log": "/home/zyl/11-\u7b2c\u5341\u4e8c\u5c4a\u4e2d\u56fd\u7814\u7a76\u751f\u667a\u6167\u57ce\u5e02\u6280\u672f\u4e0e\u521b\u610f\u8bbe\u8ba1\u5927\u8d5b/TwinCitySafe/docs/M9-realtime-regression.log"
+  },
+  {
+    "test": "operation",
+    "exit_code": 0,
+    "seconds": 40.67,
+    "log": "/home/zyl/11-\u7b2c\u5341\u4e8c\u5c4a\u4e2d\u56fd\u7814\u7a76\u751f\u667a\u6167\u57ce\u5e02\u6280\u672f\u4e0e\u521b\u610f\u8bbe\u8ba1\u5927\u8d5b/TwinCitySafe/docs/M9-operation-regression.log"
+  },
+  {
+    "test": "operation-state",
+    "exit_code": 0,
+    "seconds": 1.8,
+    "log": "/home/zyl/11-\u7b2c\u5341\u4e8c\u5c4a\u4e2d\u56fd\u7814\u7a76\u751f\u667a\u6167\u57ce\u5e02\u6280\u672f\u4e0e\u521b\u610f\u8bbe\u8ba1\u5927\u8d5b/TwinCitySafe/docs/M9-operation-state-regression.log"
+  },
+  {
+    "test": "pipeline",
+    "exit_code": 0,
+    "seconds": 52.09,
+    "log": "/home/zyl/11-\u7b2c\u5341\u4e8c\u5c4a\u4e2d\u56fd\u7814\u7a76\u751f\u667a\u6167\u57ce\u5e02\u6280\u672f\u4e0e\u521b\u610f\u8bbe\u8ba1\u5927\u8d5b/TwinCitySafe/docs/M9-pipeline-regression.log"
+  },
+  {
+    "test": "flood",
+    "exit_code": 0,
+    "seconds": 196.6,
+    "log": "/home/zyl/11-\u7b2c\u5341\u4e8c\u5c4a\u4e2d\u56fd\u7814\u7a76\u751f\u667a\u6167\u57ce\u5e02\u6280\u672f\u4e0e\u521b\u610f\u8bbe\u8ba1\u5927\u8d5b/TwinCitySafe/docs/M9-flood-regression.log"
+  },
+  {
+    "test": "flood-state",
+    "exit_code": 0,
+    "seconds": 2.17,
+    "log": "/home/zyl/11-\u7b2c\u5341\u4e8c\u5c4a\u4e2d\u56fd\u7814\u7a76\u751f\u667a\u6167\u57ce\u5e02\u6280\u672f\u4e0e\u521b\u610f\u8bbe\u8ba1\u5927\u8d5b/TwinCitySafe/docs/M9-flood-state-regression.log"
+  },
+  {
+    "test": "risk",
+    "exit_code": 0,
+    "seconds": 118.18,
+    "log": "/home/zyl/11-\u7b2c\u5341\u4e8c\u5c4a\u4e2d\u56fd\u7814\u7a76\u751f\u667a\u6167\u57ce\u5e02\u6280\u672f\u4e0e\u521b\u610f\u8bbe\u8ba1\u5927\u8d5b/TwinCitySafe/docs/M9-risk-regression.log"
+  },
+  {
+    "test": "emergency",
+    "exit_code": 0,
+    "seconds": 288.28,
+    "log": "/home/zyl/11-\u7b2c\u5341\u4e8c\u5c4a\u4e2d\u56fd\u7814\u7a76\u751f\u667a\u6167\u57ce\u5e02\u6280\u672f\u4e0e\u521b\u610f\u8bbe\u8ba1\u5927\u8d5b/TwinCitySafe/docs/M9-emergency-regression.log"
+  },
+  {
+    "test": "leak",
+    "exit_code": 0,
+    "seconds": 138.4,
+    "log": "/home/zyl/11-\u7b2c\u5341\u4e8c\u5c4a\u4e2d\u56fd\u7814\u7a76\u751f\u667a\u6167\u57ce\u5e02\u6280\u672f\u4e0e\u521b\u610f\u8bbe\u8ba1\u5927\u8d5b/TwinCitySafe/docs/M9-leak-regression.log"
+  },
+  {
+    "test": "leak-state",
+    "exit_code": 0,
+    "seconds": 2.58,
+    "log": "/home/zyl/11-\u7b2c\u5341\u4e8c\u5c4a\u4e2d\u56fd\u7814\u7a76\u751f\u667a\u6167\u57ce\u5e02\u6280\u672f\u4e0e\u521b\u610f\u8bbe\u8ba1\u5927\u8d5b/TwinCitySafe/docs/M9-leak-state-regression.log"
+  }
+]
